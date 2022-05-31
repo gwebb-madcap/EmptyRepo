@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Post freight</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Videos</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>After receiving freight, the next step is to  add  quantities to your on-hand inventory. As the store manager, </p>
+            <ul>
+                <li>
+                    <p>Confirm the received quantities are correct, </p>
+                </li>
+                <li>
+                    <p>Make final adjustments for overages, shortages, or damaged parts,</p>
+                </li>
+                <li>
+                    <p> Flag parts as Partial ship when needed</p>
+                </li>
+                <li>
+                    <p> Post inventory which updates on-hand quantities with the received quantity.</p>
+                </li>
+            </ul>
+            <p class="authorNote">Overnight orders from the distribution center (<MadCap:variable name="products.Napa" /> daily orders) and factory direct orders (drop-ship orders)  typically contain parts from multiple purchase orders. These orders are automatically assigned to one check-in group so you can quickly receive all parts at a time. The check-in group is the <span class="ui">Shipment number</span> on the <MadCap:xref href="../reports/com150-shipment-advise-report.htm" target="_blank">COM150 Shipment advise report</MadCap:xref></p>
+            <p>Because there are different options for receiving and posting freight, use the below table to decide which method we recommend based on the type of order arrive at your store:</p>
+            <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                <col class="TableStyle-blue-header-Column-Column1" />
+                <col class="TableStyle-blue-header-Column-Column2" />
+                <col class="TableStyle-blue-header-Column-Column1" />
+                <col class="TableStyle-blue-header-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-blue-header-Head-Header1">
+                        <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                            <p class="table-header-white">Type of shipment</p>
+                        </th>
+                        <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                            <p class="table-header-white">What you need </p>
+                        </th>
+                        <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                            <p class="table-header-white">Menu </p>
+                        </th>
+                        <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                            <p class="table-header-white">Screen</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Special or interstore transfer orders not included in a check-in group.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                            <p class="table-text">Purchase order number.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Purchase order &gt; Edit order</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">Edit order screen</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p class="table-text">Special or interstore transfer orders not included in a check-in group.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                            <p class="table-text">Purchase order number.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p>Purchase orders &gt; Received goods</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                            <p class="table-text">Open purchase order </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Overnight shipment and purchase orders are assigned to a check-in group.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                            <p class="table-text"> Shipment number (or check-in group).</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Purchase orders &gt; Received goods &gt;Edit and post</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p>Edit &amp; post by check-in group</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                            <p class="table-text">Overnight shipment and purchase orders are not assigned to a check-in group.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                            <p class="table-text">Purchase order number.</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                            <p class="table-text">Purchase orders &gt; Received goods &gt; Edit and post</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                            <p class="table-text">Edit &amp; post by purchase order</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="note">
+                <p><![CDATA[  ]]><span class="ui">Include interstore receipts with dc shipments</span> determines if special  or interstore transfer orders are assigned a <span class="ui">Shipment number</span> (or check-in group number). If  selected, these purchase orders are assigned a Shipment number.   <MadCap:expanding><MadCap:expandingHead>Where isit?&#160;</MadCap:expandingHead><MadCap:expandingBody>Go to <span class="ui">System mgmt</span>&#160;&gt; <span class="ui">Inventory</span> &gt; <span class="ui">Inventory management controls</span>.</MadCap:expandingBody></MadCap:expanding></p>
+            </div>
+            <div class="best-practice">
+                <ul>
+                    <li>
+                        <p>If you received freight using the check-in group, (like scanning overnight freight), post  the check-in group using <span class="ui">Edit &amp; post by check-in group</span>. </p>
+                    </li>
+                    <li>
+                        <p>If  posting purchase orders  not assigned to a check-in group, (like special or interstore transfer orders)&#160;use the PO log to determine&#160;if the purchase order has been posted. Post the open purchase orders from the <span class="ui">Edit order</span> screen or <span class="ui">Edit &amp; post by purchase order</span> on the <span class="ui">Edit and post</span> screen.</p>
+                    </li>
+                    <li>
+                        <p>Post interstore transfer, special and midday orders   by the open purchase order  as soon as they arrive. </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pre-requisites">
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:xref href="receive-freight-using-rf-scanner.htm" target="_blank">Receive freight using an RF scanner </MadCap:xref> or <MadCap:xref href="receive-freight-manually.htm" target="_blank">Receive freight manually</MadCap:xref>.</p>
+                    </li>
+                    <li>
+                        <p>Log all users out of RF scanners.</p>
+                    </li>
+                    <li>
+                        <p>Have the check-in group for overnight shipments that were received using the check-in group.</p>
+                    </li>
+                    <li>
+                        <p>Have the transfer document for special or interstore transfer orders for which you have not received a stock receipt.</p>
+                    </li>
+                </ul>
+            </div>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Post freight from overnight shipments</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>If you received overnight shipments using the check-in group number, post the purchase orders using the check-in group number. </p>
+                    <ol>
+                        <li>
+                            <p>Get the <span class="ui">Shipment number</span> from the <MadCap:variable name="reports.COM150" /> to confirm which check-in group to post.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/com-150-shipment-no.png" class="large-screen" alt="Shipment number on com one fifty report " />
+                            </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Received goods</span> &gt; <span class="ui">Edit and post</span>. </p>
+                            <p>The <span class="bold">Receive goods select check-in group</span> screen shows open purchase orders for the selected check-in group. </p>
+                            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Which environment has the most realistic example for overnight shipments?</span>
+                            </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/receive-purchase-order.png" class="large-screen" alt="Image of receive goods select check in group screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>In the <span class="bold">Check-in group</span> dropdown menu, select the check-in group number. </p>
+                            <p>The screen shows all purchase orders assigned to the check-in group.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select a purchase order to post, and then select  <span class="ui">Edit and post by check-in group</span>. </p>
+                            <p>The <span class="bold">Receive goods edit and post by check in group</span> screen shows parts from the purchase order.</p>
+                            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Retake all screens with a realistic set up</span>
+                            </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/receive-purchase-order-receive-goods.png" class="large-screen" alt="Image of receive goods edit and post by purchase order screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <div class="what-if">
+                        <p>I want to change which parts show in the list?&#160; By default, parts display by <span class="ui">Exceptions</span> showing parts with a different <span class="ui">Quantity shipped</span> and <span class="bold">Quantity rec</span> total. This button switches the view between <span class="ui">Exceptions</span> and <span class="ui">View all</span>.</p>
+                    </div>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Confirm the following quantities are correct and change as needed. To change a quantity, select one the following fields, and then enter the correct value.</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Quantity rec</span> <MadCap:snippetText src="../Resources/snippets/inventory/quantity-received.flsnp" /> Required.</p>
+                            <div class="what-if">
+                                <p>I have not received all parts on a purchase order? Occasionally,   factory-direct orders ship from multiple locations and different times. These purchase orders may be flagged as Partial ship. You can complete the process and  <MadCap:xref href="#Post">Post  freight using the partial ship flag</MadCap:xref>.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Quantity dmg</span>   Enter the total quantity received and the total quantity damaged. For example, you received 10 air filters and 2 are damaged. Enter <span class="italics">10</span> for <span class="ui">Quantity rec</span>,   and  <span class="italics">2</span> for <span class="ui">Quantity dmg</span>.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Quantity B/O</span><![CDATA[  ]]><MadCap:snippetText src="../Resources/snippets/inventory/backorder.flsnp" /> </p>
+                        </li>
+                    </ul>
+                    <div class="what-if">
+                        <p>I have quantities in <span class="ui">OSB</span>?</p>
+                        <MadCap:snippetBlock src="../Resources/snippets/inventory/what-if-osb.flsnp" />
+                    </div>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="bold">Post to inventory</span>. On-hand quantities  are updated with the <span class="ui">Quantity rec</span>.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="bold">Post to inventory</span>. </p>
+                            <ul>
+                                <li>
+                                    <p>A message lets you know if any parts have a <span class="bold">Quantity rec</span> of 0. Select <span class="ui">Continue</span> if you want to update on-hand quantities to 0. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Does the purchase order stay open when Rec qty is posted as 0?</span></p>
+                                    <p>
+                                        <img src="../Resources/Images/inventory/partial-ship-post-0-qty-msg.png" class="small-screen" alt="Message when items have no received quantity" />
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>If you select <span class="ui">Continue</span>, a&#160;final message asks you to confirm. Select <span class="ui">OK</span> to make the change or <span class="ui">Cancel</span> to edit the <span class="ui">Quantity rec</span>.</p>
+                                    <p>
+                                        <img src="../Resources/Images/inventory/partial-ship-post-update-msg.png" class="small-screen" alt="Message to confirm you want to update inventory" />
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p> To print purchase order reports, enter the number of copies, and then select <span class="ui">OK</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-print-po.png" class="small-screen" alt="Print purchase order reports screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <div class="what-if">
+                        <p>I flagged parts  as <span class="ui">Partial ship</span>? Select <span class="ui">No</span> to keep those purchase orders open to post remaining quantities when they arrive.</p>
+                        <p>
+                            <img src="../Resources/Images/inventory/partial-ship-keep-po-open.png" class="small-screen" alt="Image of backorder quantities message" />
+                        </p>
+                    </div>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Repeat until all purchase orders are posted.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="Post2"></a>Post freight from special or interstore transfer orders</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p> When parts arrive for special orders, interstore orders, or midday orders, post the received quantities when they arrive using the transfer document even if you did not receive the stock receipt.</p>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Received goods</span> &gt; <span class="ui">Open purchase orders</span>.
+ </p>
+                        </li>
+                    </ol>
+                    <ol start="2">
+                        <li>
+                            <p>Select the <span class="bold">Order type column</span>  to sort by order type.  </p>
+                        </li>
+                        <li>
+                            <p> Select the interstore purchase order.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p> Enter <span class="ui">Quantity rec</span>. </p>
+                            <div class="note">
+                                <p>Use <span class="ui">Receive all</span> if <span class="ui">Quanitty shipped</span> matches <span class="ui">Quantity rec</span>.  </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Select <span class="bold">Post to inventory</span>. </p>
+                        </li>
+                        <li>
+                            <p> Repeat for all interstore orders received the previous day.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="Post"></a>Post  freight using the partial ship flag</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>When the quantity of shipped parts is more than the quantity you received, it may be due to parts on the purchase order being partially shipped. This happens when the distribution center ships parts at different times or factory direct orders ship from multiple locations and at different times. </p>
+                    <p>Enter the quantity of parts you received and flag the parts with quantities you expect to receive later with the <span class="ui">Partial ship flag</span>. This keeps those purchase orders open so you can receive and update the quantities when they arrive.</p>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Received goods</span> &gt; <span class="ui">Edit and post</span>. </p>
+                        </li>
+                        <li>
+                            <p>Select the purchase order to post, select <span class="ui">Edit and post by purchase order</span>. &#160;</p>
+                            <p>The <span class="bold">Received goods</span> screen shows  parts from the purchase order. The <span class="ui">Quantity shipped</span> and <span class="ui">Quantity rec</span> are different when parts  are shipped but have not  arrived at your store.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-post.png" class="large-screen" alt="Receive goods screen with parts flagged with partial ship" />
+                            </p>
+                        </li>
+                    </ol>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">To Do retake with correct screen shot - this is showing parts marked partial ship during receiving&#160;</span>
+                    </p>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p> Confirm the <span class="ui">Quantity rec</span> is correct. Change <span class="ui">Quantity rec</span> as needed. </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>If parts were not flagged as <span class="ui">Partial ship</span> during the receiving process:</p>
+                        </li>
+                    </ol>
+                    <MadCap:snippetBlock src="../Resources/snippets/inventory/partial-ship-flag.flsnp" />
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="bold">Post to inventory</span>. </p>
+                            <p>A message lets you know if any parts have a <span class="bold">Quantity rec</span> of 0. To continue to posting inventory with 0 quantity parts, select <span class="ui">Continue</span>. Or, select <span class="ui">Cancel</span>, and correct the <span class="ui">Quantity rec</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-post-0-qty-msg.png" class="small-screen" alt="Message when items have no received quantity" />
+                            </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>When the below message displays, select <span class="ui">OK</span>&#160;to confirm you want to post quantities to on-hand inventory. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-post-update-msg.png" class="small-screen" alt="Message that inventory will be updated" />
+                            </p>
+                            <p>After selecting <span class="ui">OK</span>:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="italics">Parts flagged as Partial ship with 0 <span class="ui">Quantity rec</span></span> remain on the purchase order, and on-hand quantities are not updated for these parts but remain in  <span class="ui">Quantity rec</span>  for later reference.</p>
+                        </li>
+                        <li>
+                            <p><span class="italics">Parts not flagged as Partial ship with 0 <span class="ui">Quantity rec</span></span>  post as 0 to your on-hand quantity.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>To print purchase order reports, enter the number of copies, and then select <span class="ui">OK</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-print-po.png" class="small-screen" alt="Print purchase order reports screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>To keep the purchase order open for updates when the remaining shipment arrives, select <span class="ui">No</span>, and then select <span class="ui">OK</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-keep-po-open.png" class="small-screen" alt="Backorder quantities message" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>  When the remaining parts arrive:</p>
+                            <ul>
+                                <li>
+                                    <p>Open this purchase order.</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <p>Update the <span class="ui">Quantity rec</span> with the total quantity of parts you received (parts from first shipment and parts from current shipment).</p>
+                                </li>
+                                <MadCap:snippetBlock src="../Resources/snippets/inventory/partial-ship-update-qty-ex.flsnp" />
+                            </ul>
+                            <MadCap:snippetBlock src="../Resources/snippets/inventory/rf-scan-rec-update-part-ship.flsnp" />
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h3>Related topics</h3>
+            <p>
+                <MadCap:xref href="receive-freight-using-rf-scanner.htm">Receive freight using an RF scanner </MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="receive-freight-manually.htm">Receive freight manually</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="manage-check-in-groups.htm">Manage check-in groups</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="adjust-inventory-quantities.htm">Adjust inventory quantities</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="../reports/com150-shipment-advise-report.htm">COM150 Shipment advise report</MadCap:xref>
+            </p>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <ul>
+                <li>
+                    <p><a href="../pdf/How To Receive Partial Shipments.pdf" target="_blank">How to receive partial shipments</a> </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="tab-3">
+            <p class="VideoNameCaption"><span class="HideGlossary">How to post partially received orders</span>
+            </p>
+            <p>Learn how to receive and post freight when  some parts arrive as a partial shipment and you expect the remaining parts to arrive later.</p>
+            <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">How to post partially received orders</span>
+                </p>
+                <p>Learn how to receive and post freight when  some parts arrive as a partial shipment and you expect the remaining parts to arrive later.</p>
+                <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

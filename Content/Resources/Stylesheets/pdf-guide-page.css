@@ -1,0 +1,203 @@
+/*<meta />*/
+
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+div.info-Train1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-Train1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-Train1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-Train1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-Train1 > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.info-Train1 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.info-Train1 > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.pdf-guide-page-3	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.pdf-guide-page-3::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.pdf-guide-page-3::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.pdf-guide-page-3 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.pdf-guide-page-3 > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 8.3333%;
+}
+
+div.pdf-guide-page-3 > div:nth-child(2)
+{
+	width: 25%;
+	margin-left: 8.3333%;
+}
+
+div.pdf-guide-page-3 > div:nth-child(3)
+{
+	width: 25%;
+	margin-left: 8.3333%;
+}
+
+@media tablet
+{
+	div.info-Train1 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.info-Train1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.info-Train1 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 8.3333%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(2)
+	{
+		width: 25%;
+		margin-left: 8.3333%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 8.3333%;
+	}
+
+	img.guides
+	{
+		width: 35%;
+	}
+}
+
+@media mobile
+{
+	div.info-Train1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.info-Train1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.info-Train1 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.pdf-guide-page-3 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	img.guides
+	{
+		width: 35%;
+	}
+}
+
+img.guides
+{
+	width: 100%;
+	border: solid 1px #cdcdcd;
+}
+

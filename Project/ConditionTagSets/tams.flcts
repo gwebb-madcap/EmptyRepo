@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment="prod only"
+    Name="production"
+    BackgroundColor="#ffc72c" />
+  <ConditionTag
+    BackgroundColor="#fcfc0f"
+    Name="non-prod"
+    Comment="internal nonProd only" />
+  <ConditionTag
+    BackgroundColor="#000000"
+    Name="guidelines"
+    Comment="reusableGuidelines noTarget" />
+  <ConditionTag
+    BackgroundColor="#f61010"
+    Name="DoNotDistribute"
+    Comment="writer and future notes noTarget" />
+  <ConditionTag
+    BackgroundColor="#00ff2a"
+    Name="inProgress"
+    Comment="content being developed nonProd only" />
+</CatapultConditionTagSet>

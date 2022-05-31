@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.Web or tams.inProgress or tams.non-prod], exclude[Default.PrintOnly or tams.DoNotDistribute or tams.guidelines]"
+  ResolveCssVariables="false"
+  DefaultUrl="/Content/Home.htm"
+  TopicToolbarSkin="/Project/Skins/Topic Toolbar.flskn"
+  Skin="/Project/Skins/HTML5-Side Navigation.flskn"
+  MoveOutputContentToRoot="false"
+  MasterToc="/Project/TOCs/TOC.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+  <Destinations></Destinations>
+</CatapultTarget>

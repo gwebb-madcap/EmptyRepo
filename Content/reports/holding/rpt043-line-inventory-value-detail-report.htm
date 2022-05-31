@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+    </head>
+    <body>
+        <h1>RPT043 Line inventory value detail report</h1>
+        <p><span class="SMEQuestion">Do we need to cover this report in v1?</span>&#160;</p>
+        <p>Optional report</p>
+        <p><MadCap:variable name="reports.RPT043" />  provides detailed information for each line in the inventory along with month-to-date and year-to-date price changes and inventory adjustments.</p>
+        <div class="note">
+            <p> Oversold parts are not included in the total inventory value.  They are only listed in the value of oversold parts.</p>
+        </div>
+        <p>Report Layout</p>
+        <p>This report provides the following detailed information for each line in the inventory: </p>
+        <p class="authorNote">Need to define each</p>
+        <ul>
+            <li>
+                <p>Line Abbreviation Group Code</p>
+            </li>
+            <li>
+                <p>Description Class</p>
+            </li>
+            <li>
+                <p>Stocking Depth Return Standard Package (Y/N)</p>
+            </li>
+            <li>
+                <p>Minimum Gross Profit %</p>
+            </li>
+            <li>
+                <p>Date of Last Physical Inventory</p>
+            </li>
+            <li>
+                <p>Date of Last Classification</p>
+            </li>
+            <li>
+                <p>Date of Last Price Change</p>
+            </li>
+            <li>
+                <p>Date of Next Price Change</p>
+            </li>
+            <li>
+                <p>MTD Price Change amount</p>
+            </li>
+            <li>
+                <p>YTD Price Change amount</p>
+            </li>
+            <li>
+                <p>MTD Price Adjustments</p>
+            </li>
+            <li>
+                <p>YTD Price Adjustments</p>
+            </li>
+            <li>
+                <p>Total Number of Part Numbers</p>
+            </li>
+            <li>
+                <p>Total Replacement Value</p>
+            </li>
+            <li>
+                <p>Value of New Cores</p>
+            </li>
+            <li>
+                <p>Value of Returned Cores</p>
+            </li>
+            <li>
+                <p>Value of Returned Defectives</p>
+            </li>
+            <li>
+                <p>Total Average Cost Value</p>
+            </li>
+        </ul>
+        <p>Within each product line, parts that have been oversold, have no cost, or whose value exceeds the report high value are listed.  A memo section prints the month-to-date and year-to-date price changes and inventory adjustments.  The last page of this report provides a recap of the following information for NAPA parts, non-NAPA parts, and all parts in the inventory:</p>
+        <ul>
+            <li>
+                <p>Total replacement and average value of stocked inventory</p>
+            </li>
+            <li>
+                <p>Total replacement and average value of items with zero minimum stocking level</p>
+            </li>
+            <li>
+                <p>Total replacement and average value of new parts</p>
+            </li>
+            <li>
+                <p>Total value of new cores</p>
+            </li>
+            <li>
+                <p>Total value of returned cores</p>
+            </li>
+            <li>
+                <p>Total replacement and average value of defective parts</p>
+            </li>
+            <li>
+                <p>Total number of parts</p>
+            </li>
+            <li>
+                <p>Total number of stocked parts</p>
+            </li>
+            <li>
+                <p>Total number of items with zero minimum stocking level</p>
+            </li>
+            <li>
+                <p>Total month-to-date and year-to-date price changes and inventory adjustments</p>
+            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to use This Report</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This report can be used to investigate an inventory value discrepancy.  When reviewing multiple reports at the same time, you may be able to identify specific areas of inventory value rise or fall.</p>
+                <p>You can also use this report to justify your inventory investments by monitoring the inventory of a specific line code. You note what section of the line code the change is in, and then run RPT111 to complete your research.</p>
+                <p><span class="ui">Selection Criteria</span> You can sort this report by High Value.  To do so, enter the high value dollar amount.  High value is compared to part cost multiplied by quantity on hand.  If the dollar amount is greater than the high value, that part is listed on the report as exceeding the high value.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

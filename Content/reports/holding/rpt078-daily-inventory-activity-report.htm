@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+        <link href="../../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>RPT078 Daily inventory activity report</h1>
+        <p>The <MadCap:variable name="reports.RPT078" /> shows  quantity adjustments  made to on-hand inventory.  You can schedule to generate it as part of your <span class="ui">End of day</span> process or generate as needed for any day.</p>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Need help generating; help with column descriptions</span>
+        </p>
+        <p class="authorNote">Report screen shot pointing out main 3 sections: unnecessary</p>
+        <ul>
+            <li>
+                <p class="authorNote">Shows details of all changes made to inventory-related records.</p>
+            </li>
+            <li>
+                <p class="authorNote">Shows change made to product line records.</p>
+            </li>
+            <li>
+                <p class="authorNote">Shows the adjustments made to on-hand values for inventory, which includes on-hand cores and defectives. The top portion of this section displays an adjustment summary, and the bottom portion displays an on-hand adjustment recap.</p>
+            </li>
+        </ul>
+        <div class="best-practice">
+            <p>
+                <p>Generate daily to verify on-hand quantity adjustments are correct.</p>
+            </p>
+        </div>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with getting img of report; please help with 278, I can't find it</span>
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Inventory detail and product line detail</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="mc-table-style: url('../../Resources/TableStyles/blue-header.css');margin-left: auto;margin-right: auto;width: 100%;" class="TableStyle-blue-header" cellspacing="0">
+                    <col class="TableStyle-blue-header-Column-Column1" />
+                    <col class="TableStyle-blue-header-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-blue-header-Head-Header1">
+                            <th class="TableStyle-blue-header-HeadE-Column1-Header1">Column</th>
+                            <th class="TableStyle-blue-header-HeadD-Column2-Header1">What it shows</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Line</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p>Cash for the office.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Part</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>Part number. This column is blank under the Product Line Detail section.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Group code</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> Group code number. This will print in the Part column, under the Product Line Detail section.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>CLS</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>Classification code. This column is blank under the Product Line Detail section.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Action</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Emp</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>Employee's number who is associated with the record being printed.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Field affected </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p>The field name that is affected by the action made to the record.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Before </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>The original value of the part, before any changes were done</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>After </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> The current value of the part, after changes were applied</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                <p>On-Hand</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                                <p> Quantity Adjustment Summary</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>On-hand quantity adjustment summary</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/blue-header.css');" class="TableStyle-blue-header" cellspacing="0">
+                    <col class="TableStyle-blue-header-Column-Column1" />
+                    <col class="TableStyle-blue-header-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-blue-header-Head-Header1">
+                            <th class="TableStyle-blue-header-HeadE-Column1-Header1">Column</th>
+                            <th class="TableStyle-blue-header-HeadD-Column2-Header1">What it shows</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Line</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> Cash sales for the office.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Part</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p> Part number.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Description</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> Name of part.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Cls</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>Classification code.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Emp</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> Employee's number who is associated with the record being printed.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Change Made By</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>The name of the TAMS II internal process where the adjustment was made. For example: FrmCLS_Finalize = Finalized classification.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>On-Hand Before</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> The original on-hand value of the part, before any changes were applied.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>On-Hand After</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p> The current on-hand value of the part, after changes were applied.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>On-Hand Adjusted</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p> On-Hand Before minus On-Hand After values.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Cost</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p> Inventory Cost + Inventory Core Cost. For returned cores on-hand, the printed cost is only core cost.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Amount </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p>Sum of adjustment amount x cost.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                <p>Total for Line</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                                <p> Sum of all Amount fields for a product line.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>On-Hand Quantity Adjustment Recap</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/blue-header.css');" class="TableStyle-blue-header" cellspacing="0">
+                    <col class="TableStyle-blue-header-Column-Column1" />
+                    <col class="TableStyle-blue-header-Column-Column2" />
+                    <col class="TableStyle-blue-header-Column-Column1" />
+                    <thead>
+                        <tr class="TableStyle-blue-header-Head-Header1">
+                            <th class="TableStyle-blue-header-HeadE-Column1-Header1">Column</th>
+                            <th class="TableStyle-blue-header-HeadE-Column2-Header1">What it shows</th>
+                            <th class="TableStyle-blue-header-HeadD-Column1-Header1">&#160;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Change Made By </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                <p>The name of the TAMS II internal process where the adjustment was made. For example, FrmCLS_Finalize = Finalized classification.</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column1-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p>Recap - Amount </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                <p>Sum of the extended adjustment amount for each on-hand adjustment.</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column1-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p>Recap - Total Adjusted  </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                <p>Sum of all Recap- Amount values, which equals the Total Inventory Adjustment value.</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column1-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                <p>Landed Text</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                                <p>Sum for all cash payments received for all employees.</p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyA-Column1-Body2">&#160;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

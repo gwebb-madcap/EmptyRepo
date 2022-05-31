@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Number &#160;assigned to the purchase order. Purchase order numbers can indicate where the order originates. For example, a <MadCap:variable name="products.NXP" /> order may have a po number like, <span class="italics">PO_NXP_00123456_123</span>. </p>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Legacy help uses the term the "system", where are PO numbers assigned?</span> </p>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Revised from legacy help, is this correct:&#160;"Multiple POs indicates the part is on more than one purchase order in the Check-in group?" On some screens does Purchase order number indicate the number of Purchase orders the part is associated with?&#160;Or is PO&#160;number global in TAMS?&#160;</span>
+        </p>
+    </body>
+</html>

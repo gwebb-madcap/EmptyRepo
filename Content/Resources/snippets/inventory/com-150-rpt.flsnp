@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p>If the report is not on your printer, go to <span class="ui">Communications</span> &gt; <span class="ui">Process received transmission</span>.</p>
+            </li>
+            <li>
+                <p>Select <span class="ui">Receipts</span>, and then select <span class="ui">Process</span> to process the communication and reprint the report. </p>
+            </li>
+            <li>
+                <p>If there are no <span class="ui">Receipts</span>, call <MadCap:variable name="products.TAMS" /> Store Support. Select the option to request stock receipts and then process the transmission again. Receipts may take a few hours before they are available for you to receive them through the transmission. </p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.PrintOnly or tams.inProgress or tams.non-prod or tams.production], exclude[Default.Mobile or Default.ScreenOnly or Default.Tablet or Default.Web or tams.DoNotDistribute or tams.guidelines]"
+  MasterToc="/Project/TOCs/Inventory management.fltoc"
+  conditions="Default.PrintOnly"
+  InjectEmptyPages="true"
+  GetLatestBeforeCompile="true"
+  OutputFile="Inventory management v0a"
+  OutputFolder="C:\tams\Output">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="docx"
+    ExpandingTextConversion="expand"
+    PopupConversion="expand" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

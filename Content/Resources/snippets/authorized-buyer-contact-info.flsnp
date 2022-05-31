@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p>Enter the name, address, and phone numbers as needed.</p>
+            </li>
+            <li>
+                <p>Add the <span class="ui">E-mail address</span>. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What does TAMS&#160;use this for?&#160;Are any emails sent to these email address?</span> </p>
+            </li>
+            <li>
+                <p>Select <span class="ui">Authorized buyer</span>. </p>
+                <p>
+                    <img src="../Images/customer-mgt/contacts-auth-buyer-checked.png" class="large-screen" alt="Contact tab on customer information screen" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

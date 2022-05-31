@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="what-if">
+            <p>I do not know the customer number?</p>
+            <p><span class="bold">Search</span> by name. In the <span class="bold">Customer search</span> screen, enter the customer's full name or part of it. To refine the search, use one of the filters, like  <span class="ui">Begins with</span>, <span class="bold">Ends with</span>, or <span class="bold">Contains</span>. Select <span class="bold">Search</span> to see a list of matching customer names. </p>
+            <p>
+                <img src="../../Images/customer-sales/customer-name-search.png" class="popup" />
+            </p>
+        </div>
+    </body>
+</html>

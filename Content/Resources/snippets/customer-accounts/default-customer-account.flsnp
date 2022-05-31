@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p> A customer account number is required to create an invoice. When you need to sell and invoice a customer without saving customer information,  use the <span class="italics">Default customer account</span> that is not associated with a specific customer. In some stores, <span class="italics">Default customer account</span> is also called <span class="italics">Cash customer</span> or <span class="italics">Customer 0</span>.</p>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <div>
+            <p>&#160;</p>
+            <table class="TableStyle-blue-header" style="mc-table-style: url('../../TableStyles/blue-header.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                <col class="TableStyle-blue-header-Column-Column1" />
+                <col class="TableStyle-blue-header-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-blue-header-Head-Header1">
+                        <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                            <p class="table-header-white">Button</p>
+                        </th>
+                        <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                            <p class="table-header-white">What it does</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Receive All </p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">Updates the value in the <span class="ui">Received qty</span> field with the value in the <span class="ui">Shipped qty</span> field for all parts. Use <span class="ui">Receive all</span> when scanning parts to receive them.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p class="table-text">Discount % change</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                            <p class="table-text"> Changes the discount amount for the selected part. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Post to inventory</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">Updates on-hand quantities with the <span class="ui">Received quantity</span> for all parts.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p class="table-text">Cancel po</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                            <p class="table-text">Removes the purchase order <span class="SMEQuestion">Is this correct to say instead of cancel's po?</span> Only available when no quantities are shipped.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">View all/Exceptions</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">Changes the list to show all or only purchase orders with discrepancies between <span class="ui">Shipped quantity</span>and <span class="ui">Received quantity</span>.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p class="table-text">Cancel selected items</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                            <p class="table-text"> Posts the part with a  of  0.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                            <p class="table-text">Notes </p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyA-Column2-Body1">
+                            <p class="table-text">Shows comments added to a purchase order when it was posted.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

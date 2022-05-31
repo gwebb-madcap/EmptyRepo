@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Receive freight manually</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3">Videos</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>Updating on-hand inventory manually is a 2-step process that requires you to:&#160;</p>
+            <MadCap:snippetBlock src="../Resources/snippets/inventory/about-receive-post.flsnp" />
+            <p>The quickest way to receive parts from the overnight shipment or factory-direct orders, is using a <a href="manage-check-in-groups.htm">check-in group</a> to receive all the parts from all the purchase orders arriving in the shipment at a time. After receiving, continue to post inventory so your on-hand quantities are up-to-date. </p>
+            <div class="best-practice">
+                <p>To keep track of parts while receiving:</p>
+                <ul>
+                    <li>
+                        <p>Arrange and label staging areas of floor space or empty totes, like <span class="italics">sales area</span>, <span class="italics">stocking area</span>, or by <span class="italics">part type</span>.</p>
+                    </li>
+                    <li>
+                        <p>Separate parts as you enter received quantities to keep track of what you have  received.</p>
+                    </li>
+                    <li>
+                        <p>Separate parts you received that are not part of the check-in group to determine their correct purchase order. </p>
+                    </li>
+                    <li>
+                        <p> Keep parts you have not entered received quantities for on or near the shipping pallet.</p>
+                    </li>
+                    <li>
+                        <p>Place parts you have entered received quantities for in the corresponding floor space or tote.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pre-requisites">
+                <p>
+                    <MadCap:xref href="manage-check-in-groups.htm#Create">Create a check-in group</MadCap:xref> of all purchase orders from the overnight shipment before receiving parts. </p>
+            </div>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Receive freight from overnight shipments</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ol>
+                        <li>
+                            <p>Get the  <MadCap:variable name="reports.COM150" /> from your printer to verify  quantities.</p>
+                            <div class="what-if">
+                                <p>I don't have a <MadCap:variable name="reports.COM150" /> report?</p>
+                                <MadCap:snippetBlock src="../Resources/snippets/com-150-rpt.flsnp" />
+                            </div>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p>Go to the <span class="ui">Line part summary</span> (last section in the report) for a list of all parts in the shipment.</p>
+                        </li>
+                    </ul>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can you set up orders for an overnight shipment that is realistic for screen retakes?</span>
+                    </p>
+                    <ul>
+                        <li>
+                            <p>Use the <span class="ui">Part number</span> column to find each part. The <span class="ui">Ship</span> column lists the quantity shipped. </p>
+                        </li>
+                        <li>
+                            <p>Count the parts received and  note  quantities for each part in the <span class="ui">Quantity received</span> column.</p>
+                        </li>
+                        <li>
+                            <p>Circle discrepancies for easy identification during posting. </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Enter received quantities  in <MadCap:variable name="products.TAMS" />.</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p>Go to <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Received goods</span> &gt; <span class="ui">Edit and post</span>. </p>
+                        </li>
+                        <li>
+                            <p>In the <span class="bold">Check-in group</span> dropdown menu, select the check-in group that contains the <span class="ui">Shipment number</span> from the <MadCap:variable name="reports.COM150" />. </p>
+                            <p>The <span class="bold">Receive goods select check-in group</span> screen shows open purchase orders from the check-in group. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/receive-purchase-order.png" class="large-screen" alt="Receive goods select check in group screen" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select a purchase order to post, and then select <span class="bold">Edit &amp; post by check-in group</span>. The <span class="bold">Received goods edit and post by purchase order</span> screen shows  parts from the all the purchase orders in the shipment.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/receive-purchase-order-receive-goods.png" class="large-screen" alt="Receive goods edit and post by purchase order screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select a part. To change a quantity, select the field, and then enter the correct value. </p>
+                        </li>
+                    </ol>
+                    <div class="what-if">
+                        <p>I&#160;have quantities in <span class="ui">OSB</span>?</p>
+                        <MadCap:snippetBlock src="../Resources/snippets/inventory/what-if-osb.flsnp" />
+                    </div>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Quantity rec</span> Enter the quantity from the <MadCap:variable name="reports.COM150" />.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/receive-purchase-order-qty-rec.png" class="large-screen" alt="Image of quantity received field " />
+                            </p>
+                            <div class="note">
+                                <p> Occasionally,   factory-direct orders ship from multiple locations and different times. When this happens,  <MadCap:xref href="#Receive">Receive freight from partial shipments</MadCap:xref>. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Quantity dmg</span> <MadCap:snippetText src="../Resources/snippets/inventory/quantity-damaged.flsnp" />  Enter the total quantity received and  total quantity damaged. For example,  10 parts arrive and 2 are damaged. Enter <span class="italics">10</span> for <span class="ui">Quantity rec</span>,   and <span class="italics">2</span> for <span class="ui">Quantity dmg</span>.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Quantity B/O</span><![CDATA[  ]]><MadCap:snippetText src="../Resources/snippets/inventory/backorder.flsnp" /> </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Repeat to enter quantities for all parts on all purchase orders.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span><img src="../Resources/Images/icons/save.png" class="" />. You are ready to <MadCap:xref href="post-freight.htm">Post freight</MadCap:xref>.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="Receive"></a>Receive freight from partial shipments</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>When the quantity of shipped parts is more than the quantity you received, it may due to the parts on the purchase order being partially shipped. This happens when  factory direct orders ship from multiple locations and at different times. </p>
+                    <p>Enter the quantity of parts you received and flag the parts  with quantities you expect to receive later with the <span class="ui">Partial ship flag</span>. This keeps those purchase orders open so you can receive and update the quantities when parts arrive.</p>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>From <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory </span>&gt; <span class="ui">Purchase orders </span>&gt; <span class="ui">Received goods</span> &gt; <span class="ui">Edit and post</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select the purchase order to receive, and then select <span class="ui">Edit and post by purchase order</span>. </p>
+                            <p>The <span class="bold">Received goods</span> screen shows  parts from the purchase order. The <span class="ui">Quantity shipped</span> and <span class="ui">Quantity rec</span> are different because all parts have not yet arrived.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/partial-ship-qty-shp-rec.png" class="large-screen" alt="Receive goods screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Update the <span class="bold">Qty rec</span> for parts that have arrived.</p>
+                        </li>
+                        <li>
+                            <p>To flag parts that have not arrived as <span class="bold">Partial ship</span>:</p>
+                        </li>
+                    </ol>
+                    <MadCap:snippetBlock src="../Resources/snippets/inventory/partial-ship-flag.flsnp" />
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span>, and then <MadCap:xref href="post-freight.htm" target="_blank">Post freight</MadCap:xref> as normal.</p>
+                        </li>
+                        <li>
+                            <p>When the remaining shipment arrives, open the same purchase order.  In <span class="ui">Quantity rec</span>, add the quantity that has arrived to the original quantity.</p>
+                            <MadCap:snippetBlock src="../Resources/snippets/inventory/partial-ship-update-qty-ex.flsnp" />
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h3>Related topics</h3>
+            <p>
+                <MadCap:xref href="receive-freight-using-rf-scanner.htm">Receive freight using an RF scanner </MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="post-freight.htm" target="_blank">Post freight</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="manage-check-in-groups.htm">Manage check-in groups</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="../reports/com150-shipment-advise-report.htm">COM150 Shipment advise report</MadCap:xref>
+            </p>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <ul>
+                <li>
+                    <p><a href="../pdf/Best Practices for Receiving Freight.pdf" target="_blank">Best practices for receiving freight </a> </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="tab-3">
+            <p class="VideoNameCaption"><span class="HideGlossary">How to post partially received orders</span>
+            </p>
+            <p>Learn how to receive and post freight when  some parts arrive as a partial shipment and you expect the remaining parts to arrive later.</p>
+            <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Tab 4</span>
+                </p>
+                <p>Learn how to receive and post freight when  some parts arrive as a partial shipment and you expect the remaining parts to arrive later.</p>
+                <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Type of order Factory direct, interstore, JOEI, <MadCap:variable name="products.Napa" />, non-<MadCap:variable name="products.Napa" />, or special order.</p>
+    </body>
+</html>

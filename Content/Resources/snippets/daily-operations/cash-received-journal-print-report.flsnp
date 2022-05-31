@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Select <span class="bold">Print</span> <img src="../../Images/icons/printer.png" class="" /> . </p>
+            </li>
+        </ol>
+        <p>
+            <img src="../../Images/daily-ops/crj-print-reports.PNG" class="small-screen" alt="Report options screen" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select <span class="bold">Finalize</span> and <span class="bold">Daily report</span>. If it is the end of the month, select <span class="bold">Monthly report</span>. Select <span class="bold">OK</span>.</p>
+            </li>
+        </ol>
+        <div class="note">
+            <p><span class="ui">Cash received journal</span> must be in balance to select <span class="ui">Finalize</span>.</p>
+        </div>
+        <ol MadCap:continue="true">
+            <li>
+                <p>The <span class="bold">Report viewer</span> shows the finalized <span class="bold">Cash received journal</span>.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../../Images/daily-ops/crj-displays.PNG" class="large-screen" alt="Finalized cash received journa in report viewer screen" /> &#160;</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select <span class="bold">Print</span>. </p>
+            </li>
+        </ol>
+        <p>
+            <MadCap:snippetText src="../store-company-icon.flsnp" /> Required to print 2 copies. Once the <span class="ui">Cash received journal</span> is approved, store manager must sign in the<span class="ui"> Approved by</span> section on the finalized version.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select the printer, and then select <span class="bold">OK</span>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

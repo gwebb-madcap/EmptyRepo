@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Manage customer accounts</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Video</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>
+                <MadCap:toggler targets="custAcctCOS">Company stores</MadCap:toggler>
+            </p>
+            <p MadCap:targetName="custAcctCOS">APAR creates customer accounts for you; however, you can add or make changes when needed. </p>
+            <p>
+                <MadCap:toggler targets="custAcctIOS">Independent stores</MadCap:toggler>
+            </p>
+            <p MadCap:targetName="custAcctIOS"> Create and maintain  customer accounts as needed. </p>
+            <p class="authorNote">Answer Customer accounts cannot be deleted if the account has a sales history </p>
+            <p class="authorNote"> Main A/R stores with A/R Branch stores are set up After making changes to customer accounts and close the Customer information screen, you'll get this prompt asking if you want to send updates to your branch stores </p>
+            <p>To keep accurate billing, pricing, and contact information for your customers, maintain customer accounts in <span class="ui">Customer information</span>. </p>
+            <div class="best-practice">
+                <ul>
+                    <li>
+                        <p>Customer numbers reserved for <MadCap:variable name="products.Napa" /> that you cannot use when creating a number customer account </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pre-requisites">
+                <ul>
+                    <li>
+                        <p> Create notes to assign comments or instructions that display when creating invoices. </p>
+                    </li>
+                    <li>
+                        <p>Confirm you have a valid email address to enroll customer in invoice and statement emails.  </p>
+                    </li>
+                    <li>
+                        <p>Confirm you hve a token number for customers who want a credit card on file. Customers can go to SafePay for a a token number. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Should we provide a &#160;link, is it safepayservices.com?</span></p>
+                    </li>
+                    <li>
+                        <p>Government certificate added in <MadCap:variable name="products.TAMS" />.</p>
+                    </li>
+                    <li>
+                        <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Create tax tables when customers require taxes different from the default taxes. For example, customers located in a different area than the store may have different taxes. How to add govt certificate</p>
+                    </li>
+                </ul>
+            </div>
+            <h3>Create and modify a  customer information</h3>
+            <ol>
+                <li>
+                    <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="bold">Accounts receivable</span> &gt; <span class="bold">Customer information</span>. </p>
+                </li>
+            </ol>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>To create a new customer account, select <span class="ui">New</span> <img src="../Resources/Images/icons/new.png" class="button" />. </p>
+                    <p>To change existing customer information, use <span class="ui">Search</span> to find the customer by account number of name, and then select <span class="ui">Edit </span><img src="../Resources/Images/icons/edit.png" class="button" />. </p>
+                </li>
+                <li>
+                    <p>Continue to the below sections to add or modify recommended customer information.</p>
+                </li>
+                <li>
+                    <p>As you move through <span class="ui">Customer information</span> tabs, select <span class="ui">Yes</span> when asked to save changes. </p>
+                </li>
+            </ol>
+            <h4>Multi store and store ownership groups</h4>
+            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What do we want to say about Multi store vs branch stores and how customer info is sent to those stores? Repeat info from Customer account topic?</span>
+            </p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>General customer information</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>The <span class="ui">Account info</span> tab is where you store basic information like customer number, assign customer account to a rebate program, and assign a general note to add to all invoices. </p>
+                    <ol>
+                        <li>
+                            <p>For new customers, complete the following required fields:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Customer number</span> is required. Enter a unique 9-digit number assigned to the account and used throughout <MadCap:variable name="products.TAMS" />. You cannot change the <span class="ui">Customer number</span>.</p>
+                            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What are tips we want to provide for choosing customer numbers?&#160;Which number are pre set?&#160;Do we want to mention 0 is reserved for Default Cash Customer? Should a regular acct number be different than a retail acct number?</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Customer type</span> Available when creating a new customer account from <span class="ui">Accounts receivable</span> menu. Regular (typically used for commercial customers) or Retail. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">When can they change this?&#160;</span></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p> <span class="ui">Alpha key</span> Required.  <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">is this required, what should they enter here?&#160;a short business name or abbreviation?</span></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Name</span>, <span class="ui">Address</span><span class="ui">Phone number</span> Business name, mailing address, and primary phone number.</p>
+                            <div class="note">
+                                <p><span class="ui">E-mail address</span> is used for keeping an email address on file. Customers do not receive invoice or statement emails from your store at this address.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>For customers eligible for a rebate discount program, select the appropriate <span class="ui"><MadCap:xref href="napa-categories.htm">NAPA categories.</MadCap:xref></span></p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>To assign a note to display on invoices, select a <span class="ui"><a href="create-maintain-customer-notes.htm">Customer note</a></span>. </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select the <span class="ui">Billing type</span> to set the payment method required when tendering invoices. Available options are <span class="italics">Cash only</span>, <span class="italics">Cash or charge</span>, <span class="italics">Charge only</span>, and <span class="italics">Locked</span> <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">what does locked mean?</span></p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>For customers who want to set a total invoice amount  without requiring a purchase order, enter a  <span class="ui">PO&#160;required for purchases over</span> amount.  For example, Invoices with a total amount less than the amount entered here require a purchase order. If set to $500,  a purchase order number is required for invoices totaling over $500.</p>
+                        </li>
+                        <li>
+                            <p>To require specific contacts to make purchases on the account, select <span class="ui">Allow purchases by authorized buyers only</span>. </p>
+                            <p>
+                                <img src="../Resources/Images/customer-mgt/account-info.png" alt="Account information tab on customer information screen" class="large-screen" />
+                            </p>
+                            <div class="note">
+                                <p>When <span class="ui">Allow purchases by authorized buyers only</span> is selected, <a href="authorized-buyers.htm">add authorized buyers</a> as contacts.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <p>&#160;</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Customer invoice information </MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Information on the <span class="ui">Invoicing</span> tab determines what you can add to the customer's invoice.</p>
+                    <ol>
+                        <li>
+                            <p>Enter the following recommended tax information:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Delivery tax table</span> Select a tax table to assign a tax for deliveries on invoices, like a delivery fee charge.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Default tax table</span> Select a  default tax table for this customer. This is commonly used when customers are in a different geographical location than the store, and the customer's location requires a different tax. </p>
+                            <div class="note">
+                                <p>Use <span class="ui">Not assigned</span> to use the  default tax table for this customer. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select a <span class="ui">Primary tax status</span> to determine when taxes are applied to  invoices. </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p> <span class="italics">Always</span> Taxes always applied.</p>
+                        </li>
+                        <li>
+                            <p> <span class="italics">Never</span> Taxes never applied.</p>
+                        </li>
+                        <li>
+                            <p><![CDATA[  ]]><span class="italics">Optional</span> Taxes can be added.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>For customers exempt from taxes, enter the following required fields:<br />Optional Enter the customer's</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p> <span class="ui">Tax exempt number</span> Numeric tax number.<span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> Are there any requirements?&#160;. </span></p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Tax expiration date</span> Enter using format&#160;<span class="italics">mm/dd/yyyy</span>.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p> Enter an email to enroll the customer in <span class="ui">Email invoices</span>. When an email is added here, the customer receives an email with the invoice when sales are completed. </p>
+                        </li>
+                    </ol>
+                    <p>
+                        <img src="../Resources/Images/customer-mgt/invoicing-info.png" class="large-screen" alt="Invoicing information tab on customer information screen" />
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Accounts receivable information</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p>The <span class="ui">A/R info</span> tab is where you define basic accounts receivable information for customers with customers with a charge account (purchase order number or credit card on file).&#160;These options affect credit limits, when statements are generated, and if you will send statements to an online repository like ProLINK&#160;or a third-party document imaging application.</p>
+                        <div class="note">
+                            <p>Information on the A/R info tab may not be accurate for Independent branch stores of consolidated AR groups and Company stores managed by APAR.</p>
+                        </div>
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">The following is from legacy help, does it mean what they can see or not see on this screen?</span>
+                        </p>
+                        <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                            <col class="TableStyle-blue-header-Column-Column1" />
+                            <col class="TableStyle-blue-header-Column-Column2" />
+                            <col class="TableStyle-blue-header-Column-Column1" />
+                            <col class="TableStyle-blue-header-Column-Column2" />
+                            <col class="TableStyle-blue-header-Column-Column1" />
+                            <thead>
+                                <tr class="TableStyle-blue-header-Head-Header1">
+                                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                        <p class="table-header-white">Customer account type</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                                        <p class="table-header-white">Store type</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                        <p class="table-header-white">Main AR&#160;store</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                                        <p> </p>
+                                        <p class="table-header-white">Multi Store</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadD-Column1-Header1">
+                                        <p class="table-header-white">Your access is</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Retail</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">N/A</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">N/A</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                        <p class="table-text">View</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Regular</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">Company</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">&#160;</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                        <p class="table-text">View</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Regular</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">Independent </p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                        <p class="table-text">Full access</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Regular</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">Independent </p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                        <p class="table-text">Full access</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Regular</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">Independent </p>
+                                        <p class="table-text">Statements set to Branch</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                        <p class="table-text">View only</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">&#160;</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">Statements set to non-Branch</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                        <p class="table-text">Full access</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Regular</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">Independent </p>
+                                        <p class="table-text">Statements set to branch</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                        <p class="table-text">View only</p>
+                                        <p class="table-text"> </p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                        <p class="table-text">&#160;</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                                        <p class="table-text">Independent </p>
+                                        <p class="table-text">Statements set to non-branch</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyA-Column1-Body2">
+                                        <p class="table-text">Full access</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ol>
+                            <li>
+                                <p>Enter a <span class="ui">Credit limit</span> for the dollar amount of credit that is extended to customer. Required for charge accounts.</p>
+                            </li>
+                        </ol>
+                        <ol MadCap:continue="true">
+                            <li>
+                                <p>Select a <span class="ui">Statement type</span> for the type of statement to send to the customer. Available options are:</p>
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                <p><span class="ui">Balance forward</span> Applies payments and credits to the total balance and not individual items at the end of the month. Does not print statements.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Balance forward statement not mailed</span> Applies payments and credits to the total balance and not individual items at the end of the month. Print statements.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p><span class="ui">Open item</span> Applies credits and payments based on paid invoices and helps customers keep track of paid invoices. Prints  statements. </p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Open item statement not mailed</span>  Applies credits and payments based on  paid invoices and helps customers keep track of paid invoices. Does not print statements.</p>
+                            </li>
+                        </ul>
+                        <ol MadCap:continue="true">
+                            <li>
+                                <p>For customers using a third-party imaging application or have a <MadCap:variable name="products.PL" /> account, select <span class="ui">Online statements</span> so  invoices are available from the imaging repository or their <MadCap:variable name="products.PL" /> account. </p>
+                                <div class="note">
+                                    <p>Requires a valid email address added in the e-mail field on the <span class="ui">Account info</span> tab. Requires <span class="ui">Use online statements</span>. <MadCap:expanding><MadCap:expandingHead>Where is it? </MadCap:expandingHead><MadCap:expandingBody><span class="ui">System mg</span>t &gt;  <span class="ui">A/R</span>&#160;&gt; <span class="ui">A/R controls</span>.</MadCap:expandingBody></MadCap:expanding></p>
+                                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">How do we want to handle instructions to set up online statements via third-part app/repo? Add PDF like we do for other PDFs or provide <a href="https://genparts.sharepoint.com/sites/NCHSTORESYSTEMS/Shared Documents/Forms/AllItems.aspx?id=%2Fsites%2FNCHSTORESYSTEMS%2FShared%20Documents%2FDocument%20Imaging%20Training%20%26%20Resources%2FTAMS%20II%20Electroni%20Statements%20Setup%20Instructions%2Epdf&amp;parent=%2Fsites%2FNCHSTORESYSTEMS%2FShared%20Documents%2FDocument%20Imaging%20Training%20%26%20Resources">link</a> to setup instructions on NAPA&#160;connect?</span>
+                                    </p>
+                                    <p>
+                                        <MadCap:snippetText src="../Resources/snippets/store-independent-icon.flsnp" /> Document imaging must be enabled to use this option. This options sends scanned customer invoices to a third-party document imaging repository. Customers receive emailed  <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> statements or invoices?&#160;when what triggers so customer gets email?&#160;</span></p>
+                                </div>
+                            </li>
+                        </ol>
+                        <ol MadCap:continue="true">
+                            <li>
+                                <p>In <span class="ui">A/R terms code</span> dropdown menu, select the credit terms you are offering the customer. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Should we postpone this until we add more detail?&#160;</span></p>
+                            </li>
+                        </ol>
+                        <ol MadCap:continue="true">
+                            <li>
+                                <p>To <MadCap:xref href="enroll-customers-email-statements.htm">Enroll customers in email statements</MadCap:xref>, enter a valid address in <span class="ui">Email statements</span>. You can send interim, monthly, and archived statements to this address. </p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/ar-info.png" alt="ar tab on customer information screen" class="large-screen" />
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                    <ol start="5">
+                        <li>
+                            <p>Review <span class="ui">Charge information</span> which shows totals for the customer's <span class="italics">MTD</span> (month-to-date), <span class="italics">YTD</span> (year-to-date),  <span class="italics">Last year's charges</span>, and highest accounts receivable.</p>
+                        </li>
+                    </ol>
+                    <div>
+                        <ul>
+                            <li>
+                                <p><span class="ui">Charge totals</span> Total amount  charged to the account.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Highest amount owed</span> Greatest amount owed by the customer.</p>
+                            </li>
+                            <li>
+                                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Date</span> Statement date the <span class="ui">Highest amount owed</span> occurred.</p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/charge-info.png" alt="Charge information" class="small-screen" />
+                                </p>
+                            </li>
+                        </ul>
+                        <ol MadCap:continue="true">
+                            <li value="6">
+                                <p>Review <span class="ui">Last statement totals</span> which shows information about the customer's current statements, past statements, and open accounts receivable amounts:</p>
+                                <p>
+                                    <MadCap:snippetText src="../Resources/snippets/store-independent-icon.flsnp" /> Main AR&#160;store Totals from all branches are included. Totals are transmitted when branch stores complete <span class="ui">End of day</span>. </p>
+                                <p>
+                                    <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Accounting is maintained by APAR and these totals are not accurate until updates are sent to <MadCap:variable name="products.TAMS" />.</p>
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                <p><span class="ui">Date statement printed</span> Most recent date you printed statements.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Total due</span> Total amount due from the customer from all billing periods.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Current</span> Customer's balance for the current billing period.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">30 Days</span> Balance that is more than 30 days old.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">60 Days</span> Balance that is more than 60 days old.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">90 Day</span>s Balance that is more than 90 days old.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Service charge</span> Total of all service charges for n the current billing period.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Future due</span> Balances rolled forward and due in future billing periods.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Total</span> All balances due, including <span class="italics">Future due</span> amounts.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Account balance</span> All balances due, excluding <span class="italics">Future due</span> amounts.</p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/last-statement-totals.png" class="small-screen" alt="Last statement totals" />
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Buyout po (pickup) price information</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p>The Pickup G/P information sets up gross profit percentage used to calculate the sale price  for parts (for customers)&#160;or merchandise (for your store)&#160;you purchase outside of the <MadCap:variable name="products.Napa" /> supply chain. You can add multiple ranges to cover different price ranges. For example, a 50% gross profit for parts selling between $1.00-$99.00; and a 25% gross profit for parts selling between $100-$150.</p>
+                        <ol>
+                            <li>
+                                <p>Select <span class="ui">New</span> <img src="../Resources/Images/icons/new.png" class="button" /> to add a new pickup gross profit percent range.</p>
+                            </li>
+                            <li>
+                                <p>In  <span class="ui">Beginning cost</span> enter the starting cost in the range.</p>
+                            </li>
+                            <li>
+                                <p>In <span class="ui">Ending cost</span> enter the ending cost in the range.</p>
+                            </li>
+                            <li>
+                                <p>In <span class="ui">Gross profit %</span> enter the percentage of gross profit to add to the price for that range.</p>
+                            </li>
+                            <li>
+                                <p>Select a <span class="ui">Rounding type</span> to determine if price is rounded. </p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/picup-gp.png" class="large-screen" alt="Pickup gross profit percent on customer information screen" />
+                                </p>
+                            </li>
+                        </ol>
+                        <p><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Choose Yes to round according to the rounding you have set up. </span>
+                            <MadCap:expanding>
+                                <MadCap:expandingHead><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Where do I&#160;set up Rounding tables?&#160;</span>
+                                </MadCap:expandingHead>
+                                <MadCap:expandingBody><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Go to System Mgt &gt; Invoicing &gt; Rounding tables.</span>
+                                </MadCap:expandingBody>
+                            </MadCap:expanding>
+                        </p>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Credit cards information</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p>For customers who prefer to have a credit card on file, enter the token associated with the credit card in the <span class="ui">Cards on file</span> tab. For security purposes, credit card information is not saved in <MadCap:variable name="products.TAMS" />. Customers must provide a token number for the credit card they want to keep on file.</p>
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Should we recommend a website?</span>
+                        </p>
+                        <div class="note">
+                            <p>You cannot delete tokens once they are added. </p>
+                        </div>
+                        <ol>
+                            <li>
+                                <p>Select <span class="ui">Add card on file</span>.</p>
+                            </li>
+                            <li>
+                                <p>Enter the 11-digit token associated with credit card. Token number can never be changed. Select <span class="ui">OK</span>. </p>
+                            </li>
+                            <li>
+                                <p>Add a <span class="ui">note</span>.</p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/card-on-file.png" class="large-screen" alt="Card on file on customer information screen" />
+                                </p>
+                            </li>
+                        </ol>
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help verify steps</span>
+                        </p>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Blanket purchase order</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p>Set up purchase order numbers for the customer to charge against. Blanket purchase orders establish a charge limit for each invoice you create for this customer and does not limit the number of invoices for the customer. When you add a <span class="ui">Blanket po</span>, the purchase order is required when creating invoices. You can create blanket purchase orders for different date ranges, each with a unique maximum amount. For example, a customer may want to limit charges on each invoice to $100 during January. In this case, create a <span class="ui">Blanket po</span> beginning on January 1 and ending on January 31 with a Maximum amount of $100. Every invoice with total charges under $100 is charged against this purchase order. </p>
+                        <ol>
+                            <li>
+                                <p>To create a <span class="ui">Blanket po</span>, select <span class="ui">New</span> <img src="../Resources/Images/icons/new.png" class="button" />. </p>
+                            </li>
+                            <li>
+                                <p>Complete the following required information:</p>
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                <p><span class="ui">PO&#160;number</span> Required. Purchase order number used on the customer's invoices. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Are there any restrictions or requirements for the number?</span> </p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Begin date</span> First date purchases can be made against this purchase order number.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">End date</span> Last date purchases can be made against this purchase order number.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Maximum amount</span> Maximum dollar amount allowed on each invoice.</p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/blanket-po.png" alt="Blanket purchase order on customer information screen" class="large-screen" />
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Customer pricing information</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p><span class="ui">Usual pricing and profiles</span> is where you assign pricing  profiles to apply to customer's invoices. </p>
+                        <ol>
+                            <li>
+                                <p>To assign a profile, select an Available profile. Available price profiles show you the profiles available for assigning. </p>
+                                <p>
+                                    <img src="../Resources/Images/customer-mgt/usual-pricing.png" class="large-screen" alt="Usual pricing on customer information screen" />
+                                </p>
+                            </li>
+                        </ol>
+                        <ol>
+                            <li>
+                                <p>Use the <span class="ui">Right</span> and <span class="ui">Left</span> arrows to assign for use when the customer purchases parts from the</p>
+                            </li>
+                        </ol>
+                        <ul>
+                            <li>
+                                <p> <span class="ui">Lobby</span> Sales area of the store. These parts typically have a location code.  </p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Regular</span> Storage area of the store. </p>
+                                <div class="note">
+                                    <p>The <span class="italics">Usual pricing</span>, <span class="italics">Markup</span>, and <span class="italics">Rounding</span>  determine the Regular and Lobby pricing.  </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Customer pricing exemptions</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>You can assign pricing exceptions to customers on the <span class="ui">Pricing </span>tab. This lets you set up pricing to use when you don't want the Usual pricing to be used for this customer. </p>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Should we omit for now?</span>
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Sales summary </MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div>
+                        <p>Gives  a summary of the customer's sales information  for comparing trends during different date ranges, like sales totals, like <span class="italics">Net sales</span>, <span class="italics">Gross profit</span>, <span class="italics">Returns</span>, and <span class="italics">Invoice count</span>. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">How do they use this information?&#160;</span></p>
+                        <p>Retake screen with data</p>
+                        <p>
+                            <img src="../Resources/Images/customer-mgt/sales-summary.png" class="large-screen" alt="Sales summary on customer information" />
+                        </p>
+                        <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                            <col class="TableStyle-blue-header-Column-Column1" />
+                            <col class="TableStyle-blue-header-Column-Column2" />
+                            <thead>
+                                <tr class="TableStyle-blue-header-Head-Header1">
+                                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                        <p class="table-header-white">Column</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                                        <p class="table-header-white">What it shows</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Net sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Total value of goods sold to the customer. (Sum of customer sales - Sum customer sales returns).</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Net cost</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total cost of goods sold to the customer. (Sum of customer sales cost - Sum of customer sales returns cost).</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Gross profit </p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Total amount of gross profit in dollars and the percentage of total sales. (Net Sales from selected period – Net Cost from selected period) (Percentage = Gross Profit from selected period / Net Sales from selected period) * 100).</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Returns</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total value of goods returned by the customer.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Return % of sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Percent of returns in comparison to sales. Returns % of Sales = (sum of Sales Returns) / (sum of Customer Sales) * 100.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Invoice count</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text">Total number of invoices created for the customer.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Net core sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Total value of Core sales.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Net core cost</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text">Total cost of core sales.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Net reportable sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">If the customer participates in the <MadCap:variable name="products.Napa" /> manufacturers rebate program, the total value of reportable goods sold under the program.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Net reportable cost</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total cost of reportable goods sold. Rebate amounts are calculated as a percentage of this cost.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Reportable gross profit</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Total amount of gross profit for reportable goods sold and the percentage of total reportable sales.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Net delivered sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total value of goods delivered to the customer.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Net delivered cost</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Total cost of goods delivered to the customer.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Delivered gross profit</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text">Total dollar amount of gross profit for delivered goods and percentage of total delivered sales.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Delivered invoice count</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text"> Number of invoices created for goods delivered to the customer.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Net access sales</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total value of goods purchased  under the <MadCap:variable name="products.Napa" /> Access program.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Net access cost</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text"> Total cost of goods purchased under the <MadCap:variable name="products.Napa" /> Access program.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Access gross profit</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text"> Total amount of gross profit for goods purchased  under the <MadCap:variable name="products.Napa" /> Access program and percentage of net Access sales.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Access invoice count</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                        <p class="table-text">Number of invoices created for goods purchased  using the <MadCap:variable name="products.Napa" /> Access program.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Defective returns</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                        <p class="table-text">Total value of defective goods returned.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                                        <p class="table-text">WLC returns</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyA-Column2-Body1">
+                                        <p class="table-text"> Total value of WLC (Warranty Labor Claims).</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Contacts </MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Add contacts for this customer. For customers requiring authorized buyers, you must enter those contacts in the <span class="ui">Contacts</span> tab.</p>
+                    <ol>
+                        <li>
+                            <p>To create a new customer account, select <span class="ui">New</span> <img src="../Resources/Images/icons/new.png" class="button" />. </p>
+                            <p>To modify an existing contact, select the contact, then select <span class="ui">Edit</span> <img src="../Resources/Images/icons/edit.png" class="button" />.</p>
+                        </li>
+                    </ol>
+                    <MadCap:snippetBlock src="../Resources/snippets/authorized-buyer-contact-info.flsnp" />
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 33px;height: 30px;" class="button" />.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Misc charges</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p> <span class="ui">Miscellaneous charges</span> tab is where you assign charges outside the normal cost and exceptions to charges to the customer account. For example some states  require a disposal fee on batteries. You can add this miscellaneous Wholesale customers selling batteries are not required to pay the fee. To make the customer account exempt from this fee, assign a miscellaneous exemption. When you sell this customer a battery, they will be exempt from the disposal fee charge.</p>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Are there default charges I&#160;can list?&#160;</span>
+                    </p>
+                    <ol>
+                        <li>
+                            <p>To assign a miscellaneous charge, select the charge from <span class="ui">Available</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select the <span class="ui">Up</span> arrow. The Misc charge is <span class="ui">Assigned</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select <span class="ui">Use miscellaneous charge exemptions?</span> to apply the charges in the <span class="ui">Assigned</span> list to the customer's account. </p>
+                            <p>
+                                <img src="../Resources/Images/customer-mgt/misc-charges.png" class="large-screen" alt="Miscellaneous charges on customer information" />
+                            </p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Required government certificates </MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>If the customer has certifications, you can add them to the customer's account on the <span class="ui">Government certificate</span> tab.  A common government certificate  is the EPA refrigerant certification required to sell freon. </p>
+                    <ol>
+                        <li>
+                            <p>To assign a government certificate, select the certificate from <span class="ui">Available</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select the <span class="ui">Up</span> arrow. </p>
+                        </li>
+                        <li>
+                            <p>In the <span class="ui">Certification information</span> screen, enter the following required details:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Certification number</span> 6-digit certificate number.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Technician name</span> First and last name of the certified employee. </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Effective and Expiration</span>  Date certification is valid.</p>
+                        </li>
+                        <li>
+                            <p>Select <span class="ui">Save</span>.</p>
+                            <p>The certification is <span class="ui">Assigned</span> to the customer account.</p>
+                        </li>
+                    </ul>
+                    <p>
+                        <img src="../Resources/Images/customer-mgt/gov-cert.png" class="large-screen" alt="Government certification on customer information screen" />
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h3>Related topics</h3>
+            <p><a href="authorized-buyers.htm">Authorized buyers</a>
+            </p>
+            <p><a href="enroll-customers-email-statements.htm">Enroll customer in email statements</a>
+            </p>
+            <p><a href="enroll-customers-email-invoices.htm">Enroll customer in email invoices</a>
+            </p>
+            <p><a href="create-maintain-customer-notes.htm">Create and maintain customer notes</a>
+            </p>
+            <p><a href="napa-categories.htm">[%=products.Napa%] categories</a>
+            </p>
+        </div>
+        <div class="tab-content" id="tab-2" MadCap:conditions="tams.DoNotDistribute">
+            <p>Use as a quick reference for steps and important information.</p>
+            <ul>
+                <li>
+                    <p><a href="../pdf/TAMS II Pricing FAQs.pdf" target="_blank">TAMS II Pricing FAQs</a>
+                    </p>
+                </li>
+                <li>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Does Store action item pricing prework required pdf belong here?&#160;</span>
+                    </p>
+                </li>
+                <li>
+                    <p>guide 2 hyperlink to the external resource folder in this project</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Video title</span>
+            </p>
+            <p>Learn how to .... </p>
+            <ol>
+                <li>
+                    <p>Get  Embed id link from Bynder.</p>
+                </li>
+                <li>
+                    <p>From the Text editor, insert the Embed id over the one in this div.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../Resources/Images/writer-guidelines/video-id.png" />
+            </p>
+            <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+            </div>
+        </div>
+        <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Tab 4</span>
+            </p>
+            <p>TBD&#160;if tab 4 is needed and what it will be. </p>
+            <p>Test link to Partial ship video with id from embed link</p>
+            <div data-bynder-widget="video-item" data-media-id="EC0EC6C5-8C1E-46F5-B02605BF17A48BDD" data-width="" class="vidContainer" data-preload="none">
+            </div>
+        </div>
+    </body>
+</html>

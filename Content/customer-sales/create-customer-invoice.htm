@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Create a customer invoice </h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Process</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3">Videos</li>
+            <li class="tab-link" data-tab="tab-4">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>Customer invoices provide a history of payments tendered for parts sold. You can create invoices while working with customers to find the parts they need or when acknowledging messages for online orders, orders from other <MadCap:variable name="products.Napa" /> sources, or returns. </p>
+            <MadCap:snippetBlock src="../Resources/snippets/customer-accounts/default-customer-account.flsnp" />
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Create an invoice</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>From the <span class="ui">Invoice</span> screen, enter the customer number.</p>
+                            <p>
+                                <img src="../Resources/Images/customer-sales/customer-invoice-screen.png" class="popup" />
+                            </p>
+                            <MadCap:snippetBlock src="../Resources/snippets/customer-accounts/search-customer.flsnp" />
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>If <span class="bold">Authorized buyer</span> is set up for the account, you must select one. </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>To add parts, you can search the <span class="bold">Catalog</span>, or enter the <span class="bold">Part number</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/customer-sales/invoice-part.png" class="popup" />
+                            </p>
+                        </li>
+                    </ol>
+                    <div class="what-if">
+                        <p> A bar code does not scan?&#160;Select <span class="bold">Barcode</span> to manually enter it.</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Line</span> Select the appropriate product line when the product is shared among multiple lines.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p> Enter the <span class="bold">Quantity</span>.  </p>
+                            <div class="what-if">
+                                <p>I do not have sufficient on-hand quantities?&#160;</p>
+                                <p>A message tells you the parts will be sourced in <MadCap:variable name="products.NXP" />.</p>
+                                <p>
+                                    <img src="../Resources/Images/customer-sales/invoice-available-qty.png" class="popup" />
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Price or PD</span> Enter a new price or price decision code   to override the price. </p>
+                            <p>
+                                <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Store managers must approve a price override.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Tax</span> or <span class="ui">Tax 2</span>  Tax are automatically applied based on local sales tax.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Confirm part information is correct, and then enter <span class="bold">Y</span> for <span class="ui">OK</span>.<p><img src="../Resources/Images/customer-sales/invoice-part-added.png" class="popup" /></p></p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Repeat until all parts are added.</p>
+                        </li>
+                        <li>
+                            <p>
+                                <MadCap:xref href="check-out-and-tender-invoice.htm" target="_blank">Check out and tender payment</MadCap:xref> or go to <span class="bold">Special functions</span>, and then select <span class="bold">Save</span>  to save the invoice and open it when payment is received. </p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Create an invoice from messages</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <MadCap:snippetBlock src="../Resources/snippets/invoicing/invoice-from-message.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="Invoice"></a>Invoice special orders</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>When you receive parts for special orders, open the saved invoice to prepare it for delivery or pick up.</p>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> Is this the correct process? Is there anything to point out? </span>
+                    </p>
+                    <ol>
+                        <li>
+                            <p>From the <span class="ui">Invoice</span> screen, select <span class="ui">Recall saved invoice</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/customer-sales/customer-invoice-recall-saved-inv.png" class="popup" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Select the saved invoice, and then select <span class="ui">Invoice</span>. </p>
+                        </li>
+                        <li>
+                            <p>Confirm part information is correct. </p>
+                        </li>
+                        <li>
+                            <p>Continue to <MadCap:xref href="check-out-and-tender-invoice.htm" target="_blank">Check out and tender payment</MadCap:xref>.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="About"></a>About price decision codes</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>
+                        <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Store managers must approve a price decision code.</p>
+                    <p>
+                        <MadCap:snippetText src="../Resources/snippets/store-independent-icon.flsnp" /> Any user can enter a price decision code. Price decision codes can be set up to require a password.</p>
+                    <p>Pricing decision codes let you adjust the price of a part when you need to change it from the suggested price. For example, you may want to match a competitor's price, or offer a customer the lowest price when a part label is incorrect. To do this, you can enter a price decision code from a pricing sheet.</p>
+                    <h4>Change to suggested price</h4>
+                    <p>Use the following  to choose the correct price decision code when changing a suggested price.</p>
+                    <table style="border-top-left-radius: 0px;mc-table-style: url('../Resources/TableStyles/blue-header.css');" class="TableStyle-blue-header" cellspacing="0">
+                        <col class="TableStyle-blue-header-Column-Column1" />
+                        <col class="TableStyle-blue-header-Column-Column2" />
+                        <col class="TableStyle-blue-header-Column-Column1" />
+                        <thead>
+                            <tr class="TableStyle-blue-header-Head-Header1">
+                                <th class="TableStyle-blue-header-HeadE-Column1-Header1">Price sheet</th>
+                                <th class="TableStyle-blue-header-HeadE-Column2-Header1">Suggested price</th>
+                                <th class="TableStyle-blue-header-HeadD-Column1-Header1">Price decision code to use</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>List</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                    <p>Manufacturer's suggested list price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                    <p>L</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Red or Gray</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                    <p>Suggested retail price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                    <p>G</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Yellow</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                    <p>Retail price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                    <p>Y</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Green</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                    <p>Best dealer price for non-reportable items.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                    <p>N</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Pink</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                    <p>Set value to set custom pricing against ($100).</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                    <p>P</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Blue</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                    <p>Lowest non-reportable, non-rebateable price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                    <p>J</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Cost</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                    <p>Store cost from the distribution center.</p>
+                                    <p>
+                                        <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Requires a password.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                    <p>Z</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                                    <p>Usual</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                                    <p>Usual price sheet pre-selected for customer profile.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyA-Column1-Body2">
+                                    <p>U</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Change for price adjustment</h4>
+                    <p>Use the following to choose the correct price decision code for price adjustments.</p>
+                    <table style="mc-table-style: url('../Resources/TableStyles/blue-header.css');" class="TableStyle-blue-header" cellspacing="0">
+                        <col class="TableStyle-blue-header-Column-Column1" />
+                        <col class="TableStyle-blue-header-Column-Column2" />
+                        <thead>
+                            <tr class="TableStyle-blue-header-Head-Header1">
+                                <th class="TableStyle-blue-header-HeadE-Column1-Header1">Adjust price for</th>
+                                <th class="TableStyle-blue-header-HeadD-Column2-Header1">Price decision code to use</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Custom price for  customer.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                    <p>*</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Sale price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                    <p>!</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Special rebate price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                    <p>B</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Percentage markup or discount. Enter % sign, and then percent amount that is above or below the price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                    <p>%</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                    <p>Gross profit percentage for a part with an established cost value. Enter R, and then the percentage amount above or below cost. </p>
+                                    <p>
+                                        <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Requires a password.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                    <p>R</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body2">
+                                <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                    <p>Change the list price printed on the invoice.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                    <p>A</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-blue-header-Body-Body1">
+                                <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                                    <p>Accept the lowest suggested price.</p>
+                                </td>
+                                <td class="TableStyle-blue-header-BodyA-Column2-Body1">
+                                    <p>S</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Common invoice functions</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <MadCap:snippetBlock src="../Resources/snippets/invoicing/special-functions.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>PDF&#160;guides</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p><a href="../pdf/Invoicing Special Functions.pdf" target="_blank">Invoicing special functions</a>
+                    </p>
+                    <p><a href="../pdf/Price Decision Codes Guide.pdf" target="_blank">Price decision codes guide</a>
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <ul>
+                <li>
+                    <p><a href="../pdf/Invoicing Special Functions.pdf" target="_blank">Invoicing special functions</a> </p>
+                </li>
+                <li>
+                    <p><a href="../pdf/Price Decision Codes Guide.pdf" target="_blank">Price decision codes guide</a> </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+            </p>
+            <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+            <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+                </p>
+                <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+                <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

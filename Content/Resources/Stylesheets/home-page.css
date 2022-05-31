@@ -1,0 +1,385 @@
+﻿/*<meta />*/
+
+@import url('topic-styles.css');
+
+body
+{
+	color: var(--Dark);
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.body-container
+{
+	padding-left: 2%;
+	padding-top: 2%;
+	background-color: #fdfdfd;
+}
+
+/* Content */
+
+p
+{
+	font-size: 1rem;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: normal;
+	margin-bottom: 0;
+	color: var(--Brand1);
+	text-align: center;
+}
+
+h1 span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #fdfdfd;
+}
+
+h1.homeOpHead span
+{
+	/* background: linear-gradient(#fdfdfd 1.6rem, #DEEAF6 1.6rem 100%); */
+}
+
+/* cards */
+
+@media screen
+{
+	div.homeOp > div > div
+	{
+		display: grid;
+		grid-template-columns: minmax(90px, auto) 1fr;
+	}
+}
+
+div img
+{
+	width: 60px;
+	height: 60px;
+}
+
+.icon
+{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(191deg) brightness(89%) contrast(76%);
+	/* filter: invert(47%) sepia(8%) saturate(4%) hue-rotate(231deg) brightness(97%) contrast(90%); */
+}
+
+div.homeOp > div:hover .icon
+{
+	filter: invert(17%) sepia(37%) saturate(5332%) hue-rotate(225deg) brightness(76%) contrast(128%);
+}
+
+div.homeOp > div:hover .title
+{
+	color: var(--Brand1);
+}
+
+#daily-operations
+{
+	background-image: url("../Images/home/calendar-day.svg");
+}
+
+#whats-new
+{
+	background-image: url("../Images/home/bullhorn.svg");
+}
+
+#new-to-tams
+{
+	background-image: url("../Images/home/rocket.svg");
+}
+
+#sales
+{
+	background-image: url("../Images/home/money-bill-wave.svg");
+}
+
+#inventory
+{
+	background-image: url("../Images/home/boxes-stacked.svg");
+}
+
+#stock-replenishment
+{
+	background-image: url("../Images/home/square-plus.svg");
+}
+
+#customer-mgmt
+{
+	background-image: url("../Images/home/face-smile.svg");
+}
+
+#pricing
+{
+	background-image: url("../Images/home/dollar-sign.svg");
+}
+
+#acct-receivable
+{
+	background-image: url("../Images/home/file-invoice-dollar.svg");
+}
+
+#reports
+{
+	background-image: url("../Images/home/file-lines.svg");
+}
+
+#system-mgmt
+{
+	background-image: url("../Images/home/gears.svg");
+}
+
+#emp-mgmt
+{
+	background-image: url("../Images/home/user-gear.svg");
+}
+
+#training-sales
+{
+	background-image: url("../Images/home/money-bill-wave.svg");
+}
+
+#training-inventory
+{
+	background-image: url("../Images/home/boxes-stacked.svg");
+}
+
+#training-stock-replenishment
+{
+	background-image: url("../Images/home/square-plus.svg");
+}
+
+#training-requests
+{
+	background-image: url("../Images/home/chalkboard-user.svg");
+}
+
+.title
+{
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+div.homeWel .title
+{
+	font-weight: normal;
+}
+
+.description
+{
+	color: #77777a;
+	font-size: 1rem;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited
+{
+	color: var(--Brand1);
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: var(--Brand1);
+}
+
+/* Master page */
+
+div.home-footer
+{
+	background-color: var(--Brand1);
+	padding: .5rem;
+}
+
+p.footer
+{
+	color: var(--Brand2);
+	font-weight: bold;
+	text-align: center;
+	font-size: 1rem;
+	margin: 0;
+}
+
+@media print
+{
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
+/*turn off side nav menu */
+
+ul.navigation > li
+{
+	display: none;
+}
+
+.sidenav-wrapper
+{
+	display: none;
+}
+
+/* Grids */
+
+@media screen
+{
+	div.homeWel,
+	div.homeOp,
+	div.homeTrain
+	{
+		display: grid;
+		grid-template-columns: 31% 31% 31%;
+		justify-content: space-evenly;
+		grid-gap: 2rem;
+		color: #444;
+		margin-bottom: 2rem;
+		padding: 2rem;
+		margin-top: -18px;
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+}
+
+div.homeWel
+{
+	margin-bottom: 0;
+	padding-bottom: 0.5rem;
+	padding-top: 2.5rem;
+}
+
+div.homeWel > div
+{
+	padding: 10px;
+	border-radius: 5px;
+	color: var(--Brand1);
+	background-color: #E2E9F5;
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+}
+
+div.homeWel > div:hover
+{
+	background-color: #C1C1C1;
+}
+
+div.homeWel > div a
+{
+	color: var(--Brand1) !important;
+	text-decoration: none;
+}
+
+div.homeOp
+{
+	background-color: #DEEAF6;
+	border: 1px solid var(--Brand1);
+	border-radius: 6px;
+}
+
+div.homeOp > div
+{
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0.125rem 0.25rem 0 hsl(0deg 0% 57% / 50%);
+	background-color: #ffffff;
+}
+
+div.homeOp > div:hover
+{
+	transform: scale(1.1);
+}
+
+div.homeOp > div a
+{
+	color: #000000 !important;
+	text-decoration: none;
+}
+
+div.homeTrain
+{
+	border-top: 1px solid var(--Brand1);
+	padding-top: 0;
+}
+
+div.homeTrain > div
+{
+	padding: 20px;
+}
+
+div.homeTrain > div a
+{
+	color: #000000 !important;
+	text-decoration: none;
+}
+
+div.homeTrain li
+{
+	padding-left: 10px;
+	padding-bottom: 1rem;
+}
+
+div.homeTrain li::marker
+{
+	color: var(--Brand1);
+	content: "\2713 ";
+	font-size: .75rem;
+	font-weight: 300;
+}
+
+div.homeTrain > div.c2a p.button
+{
+	padding: 10px;
+	border-radius: 5px;
+	color: var(--Brand1);
+	background-color: #E2E9F5;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+margin-bottom: 1rem;
+}
+
+div.homeTrain > div.c2a p.button:hover
+{
+	background-color: #C1C1C1;
+}
+
+div.homeTrain > div.c2a a
+{
+	color: var(--Brand1) !important;
+	text-decoration: none;
+}

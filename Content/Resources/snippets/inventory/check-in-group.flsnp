@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p><span class="ui">Check-in groups</span> let you receive and post parts from multiple purchase orders. When a freight shipment includes multiple purchase orders, the <span class="ui">Ship number</span> on the <MadCap:variable name="reports.COM150" /> is the check-in group number. Use this number to receive and post all parts in the shipment at once.</p>
+        <p><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">&lt;When we add Manage check-in groups&gt; You can also create a check-in group of individual purchase orders. For example, you may have placed separate purchase orders, like one to replenish batteries and another to replenish oil. When these parts arrive, you can create a check-in group that includes both purchase orders and receive and post all the batteries and oil at once.</span>
+        </p>
+    </body>
+</html>

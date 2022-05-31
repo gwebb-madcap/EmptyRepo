@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-screens" style="mc-table-style: url('../../TableStyles/screens.css');" cellspacing="0">
+            <col class="TableStyle-screens-Column-Column1" />
+            <col class="TableStyle-screens-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-screens-Head-Header1">
+                    <th class="TableStyle-screens-HeadE-Column1-Header1">
+                        <p class="table-text">Button</p>
+                    </th>
+                    <th class="TableStyle-screens-HeadD-Column2-Header1">
+                        <p class="table-text">What it does</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Receive all</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> Receives all parts with  received quantity equal to zero. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Partial ship</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p class="table-text"> Flags parts that did not arrive in the shipment so you can post them later. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Discount % change</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text">Changes the discount percent. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Post to inventory</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p class="table-text"> Updates on-hand quantity with the received quantity.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Cancel PO</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> Removes or cancel the purchase order. If you did not post, bill, or receive any parts on the purchase order, you can cancel the purchase order.</p>
+                        <div class="note">
+                            <p>If you cancel a posted purchase order, you must call the A&amp;DP center and request them tocancel the purchase order. </p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Exception only / View all</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p>Switches between showing purchase orders with discrepancies (Exception only) and all (View all).Discrepancies occur when:&#160;</p>
+                        <ul>
+                            <li>
+                                <p>Shipped quantity does not match the received quantity, and the order is a <MadCap:variable name="products.Napa" /> order.</p>
+                            </li>
+                            <li>
+                                <p>Shipped quantity and received quantity are both zero.</p>
+                            </li>
+                            <li>
+                                <p>Ordered quantity does not match the received quantity, and the order is a non-<MadCap:variable name="products.Napa" /> order.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyB-Column1-Body1">
+                        <p class="table-text">Cancel selected items </p>
+                    </td>
+                    <td class="TableStyle-screens-BodyA-Column2-Body1">
+                        <p class="table-text">Cancels line items with 0 shipped and received quantities on open purchase orders including NOPOs. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What does this mean:&#160;"This button is available when there are records in the purchase order table." When there are open purchase orders with parts?&#160;</span></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

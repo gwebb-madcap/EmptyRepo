@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Adjust inventory quantities</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Videos</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>Occasionally inventory quantities are inaccurate due to various situations occurring during the day, like when you </p>
+            <ul>
+                <li>
+                    <p>Order parts outside the normal <MadCap:variable name="products.Napa" /> supply chain. </p>
+                </li>
+                <li>
+                    <p>Find damaged or stolen parts. </p>
+                </li>
+                <li>
+                    <p>Use paint to mix custom colors.</p>
+                </li>
+                <li>
+                    <p>Process a return but select the wrong return type, like core instead of defect. This can happen when working with the <MadCap:variable name="reports.RPT130" />.</p>
+                </li>
+                <li>
+                    <p>Have returned cores but the transaction quantities do not match what you have in the store. This can happen when working with the <MadCap:variable name="reports.RPT044" /> and <MadCap:variable name="reports.RPT045" />. </p>
+                </li>
+            </ul>
+            <p>Use the following adjustment types to correct quantity discrepancies:</p>
+            <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');" cellspacing="0">
+                <col class="TableStyle-blue-header-Column-Column1" />
+                <col class="TableStyle-blue-header-Column-Column2" />
+                <thead>
+                    <tr class="TableStyle-blue-header-Head-Header1">
+                        <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                            <p class="table-header-white">Adjustment type</p>
+                        </th>
+                        <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                            <p class="table-header-white">Use it to adjust quantities when you </p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Receipt adjustments</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">You receive parts outside the <MadCap:variable name="products.Napa" /> supply chain that are not on a purchase order, like a buyout purchase order. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                            <p class="table-text">Stock adjustments</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                            <p class="table-text">Find damaged parts, receiving mistakes, or need to adjust core and defective part quantities.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body1">
+                        <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                            <p class="table-text">Theft adjustments</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                            <p class="table-text">Find parts are lost or stolen.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-blue-header-Body-Body2">
+                        <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                            <p class="table-text">Mixing paint adjustments</p>
+                        </td>
+                        <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                            <p class="table-text">Open mixing paint for customizing colors.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Assortment breakdowns/ partial quantity or package JAuto. Do we need to cover RPT078, 278 and 043? If so I&#160;need help with them and to generate them. Content from legacy help taken for 078 and 043 in the reports section. Should we include a topic on Cores and adjustments from legacy help&#160;</p>
+            <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">
+                <p>Adjust inventory discrepancies as soon as  possible.</p>
+                <ul>
+                    <li>
+                        <p>Use <MadCap:variable name="reports.RPT078" /> to review inventory adjustments using the current date you are adjusting inventory.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Use the SCR002-IM&#160;Inventory review  Inventory quantities #1 report for current on-hand quantity from <MadCap:variable name="products.TAMS" />. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">from legacy help, is this still applicable?&#160;</span></p>
+                    </li>
+                </ul>
+            </p>
+            <div class="pre-requisites">
+                <p>Post purchase orders with parts that need to be adjusted first. You cannot adjust a part that is on an open purchase order. </p>
+            </div>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot> Receipt adjustments without purchase orders</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Use <span class="ui">Receipts</span> to add parts to your on-hand quantities when you receive parts outside the <MadCap:variable name="products.Napa" /> supply chain and do not have a purchase order, like  orders you take on a phone call with a supplier or with a customer for a special order.</p>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Adjustments</span>, and then select the <span class="ui">Receipts</span> tab.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/adjustment-receipt.png" class="large-screen" alt="Receipts adjustment tab on inventory quantity adjustments screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Enter the <span class="ui">Packing slip</span> number, <span class="ui">Part number</span>, and then select a product line in the <span class="ui">Line</span> dropdown menu.</p>
+                            <div class="what-if">
+                                <p>A part  is on an open purchase order? A message lets you know there is an open purchase order with the part number. Post the purchase order before adjusting the quantities. </p>
+                                <p> <img src="../Resources/Images/inventory/adjustment-open-po.png" class="small-screen" alt="Message for open purchase order with part number" /></p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Enter <span class="ui">Adjustment</span> quantities:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">On hand</span> Enter a positive or negative quantity for the adjustment. For example, if you have 3 parts on hand and  receive 2 parts,  enter 2.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">On order</span> Enter the quantity of the part currently on order.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">On backorder</span> Enter the quantity of the  part on backorder.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Enter the <span class="ui">Cost</span> and  <span class="ui">Core</span> cost as needed. </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p><span class="ui">Receipt</span> options <span class="italics">Optional</span> Automatically updates  <span class="italics">Adjustment quantity</span> based on purchase orders.</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">All items were received</span> Select if all parts listed on the receipt are in the shipment.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">On order quantity received</span> Select if the on-order quantity is being received in this adjustment. This automatically updates  <span class="italics">On hand adjustment</span> with the current on-order quantity, reduces the on-order quantity to 0, and clears <span class="italics">Days on order</span> for this part. </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Back order quantity received</span> Select if the backorder was canceled. This occurs when the distribution center cancels a backorder and you do not cancel it. This reduces the <span class="italics">On back order quantity</span> to 0  clears the <span class="italics">Days on back order</span>.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Cancel on order</span> Select if you canceled the order.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Cancel back order</span> Select if the backorder was canceled. This occurs when the distribution center cancels the order and you do not cancel it. This reduces the <span class="italics">On backorder quantity</span> to 0 and clears <span class="italics">Days on back order</span>. </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Cancel both order and back order</span> Select to cancel both the order and back order. </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span><img src="../Resources/Images/icons/save.png" style="width: 32px;height: 29px;" class="button" /> to update your on-hand quantities.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="Stock"></a>Stock adjustments for damaged or lost parts</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Use <span class="ui">Stock adjustments</span> to update on-hand quantities for damaged, lost, or found parts.  You can also adjust core and defect quantities using  <span class="ui">Stock adjustments</span>. For example, if your store donates oil filters, and you need to remove them from your inventory,  enter  negative quantities.</p>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Adjustments</span>. The <span class="ui">Receipts</span> tab is open be default.</p>
+                        </li>
+                        <li>
+                            <p> Select the <span class="ui">Stock adjustments</span> tab.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/adjustment-stock-adjustment.png" class="large-screen" alt="Stock adjustments tab on inventory quantity adjustments screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Enter the  <span class="ui">Part number</span>, and then select a product line in the <span class="ui">Line</span> dropdown menu</p>
+                        </li>
+                        <li>
+                            <p>Enter <span class="ui">Quantity adjustment</span>:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">On hand</span> Enter a positive or negative quantity for the adjustment (not the total&#160;on-hand). For example, if <MadCap:variable name="products.TAMS" /> shows 3 but you actually have 4, enter 4 as the adjustment.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Returned cores</span> Enter a positive or negative quantity to correct the current <span class="italics">Returned core quantity</span> when a discrepancy is found. For example, if a customer leaves a core at your store's door overnight, you won't have an return transaction to increment the returned core quantity. In this case, make an adjustment. You may also find a discrepancy when working with the <MadCap:variable name="reports.RPT044" /> </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Returned defectives</span> Enter a positive quantity of the defective parts returned.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span><img src="../Resources/Images/icons/save.png" style="width: 33px;height: 30px;" class="button" /> to update your on-hand quantities.</p>
+                        </li>
+                        <li>
+                            <p>Select if you want to include adjustments in sales history:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Yes</span> Updates your current month's sales quantity (a positive adjustment reduces the current month's sales quantity; a negative adjustment increases the current month's sales quantity).</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="ui">No</span> Does not update current month's sales quantity.</p>
+                        </li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Adjust for theft</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Use <span class="ui">Theft to adjust</span> on-hand quantities for stolen parts. For instance, you suspect oil cartons were stolen and need to update the on-hand quantity.</p>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Product Owners&#160;please confirm What's the difference between Theft adjustment and Stock adjustment?&#160;When you adjust for theft, it does not ask you but it does adjust by + no, sales history is reduced by that number; adjust by - no, sales history is increased for the current month totals) why is this the behavior.</span>
+                    </p>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Adjustments</span>, and then select the <span class="ui">Theft</span> tab.</p>
+                        </li>
+                        <li>
+                            <p>Enter the  <span class="ui">Part number</span>, and then select a product line from the <span class="ui">Line</span> dropdown menu.</p>
+                        </li>
+                        <li>
+                            <p>Enter the <span class="ui">Quantity  adjusted</span>. </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="italics">Negative quantity</span> Removes   quantity from inventory and does not change the current month's sales history. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Product owners please confirm if it removes from current month's sales history?&#160;</span></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="italics">Positive quantity</span> Adds quantity to inventory  and does or does not change current month's sales history. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Product owners please confirm if it removes from current month's sales history?&#160;</span></p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 32px;height: 29px;" class="button" /> to update your on-hand quantities.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/adjustment-stock-theft.png" class="large-screen" alt="Theft tab on inventory quantity adjustment screen" />
+                            </p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Adjust for mixing paint</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Use <span class="ui">Mixing paint adjustments</span> to remove opened mixing paint cans from inventory when customers request custom paint colors. Opened paint cans are non-returnable. You must remove them from your on-hand quantities. </p>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt; <span class="ui">Adjustments</span>, and then select the <span class="ui">Mixing paint adjustments</span> tab.</p>
+                        </li>
+                        <li>
+                            <p>Enter the <span class="ui">Part number</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select the product line in the <span class="ui">Line</span> dropdown menu.</p>
+                        </li>
+                        <li>
+                            <p>To remove opened cans from inventory, enter a negative quantity in <span class="ui">Quantity adjusted</span>. </p>
+                        </li>
+                        <li>
+                            <p>Select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 32px;height: 29px;" class="button" /> to update your on-hand quantities.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/adjustment-mixing-paint.png" class="large-screen" alt="Mixing paint adjustments tab on inventory quantity adjustments screen" />
+                            </p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <ul>
+                <li>
+                    <p><a href="../pdf/Adjust Inventory for Receipts.pdf" target="_blank">Adjust inventory for receipts</a> </p>
+                </li>
+                <li>
+                    <p><a href="../pdf/Adjust Inventory for Stock Adjustments.pdf" target="_blank">Adjust inventory for stock adjustments</a>
+                    </p>
+                </li>
+                <li>
+                    <p><a href="../pdf/Adjust Inventory for Mixing Paint.pdf" target="_blank">Adjust Inventory for mixing paint</a>
+                    </p>
+                </li>
+                <li>
+                    <p><a href="../pdf/Adjust Inventory for Theft.pdf" target="_blank">Adjust inventory for theft</a>
+                    </p>
+                </li>
+            </ul>
+            <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+                </p>
+                <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts.</p>
+                <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Tab 4</span>
+                </p>
+                <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+                <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

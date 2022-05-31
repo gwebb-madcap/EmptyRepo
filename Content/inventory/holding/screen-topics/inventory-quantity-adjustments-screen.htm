@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+        <link href="../../../Resources/TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Inventory quantity adjustments screen</h1>
+        <p>Use the Inventory quantity adjustment screen to maintain accurate on-hand quantities.</p>
+        <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span> &gt;<span class="ui"> Adjustments</span>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Receipts tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../../../Resources/Images/inventory/adjustment-receipt.png" class="large-screen" alt="Image of inventory quantity adjustments receipts tab" />
+                </p>
+                <p>Use the <span class="ui">Receipts</span> tab to adjust on-hand quantities for non-<MadCap:variable name="products.Napa" /> stock receipts and items shipped outside of <MadCap:variable name="products.Napa" /> distribution center, such as:</p>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Bullet list from legacy help, is it applicable?&#160;</span>
+                </p>
+                <ul>
+                    <li>
+                        <p><span class="ui">Jobber order entry and inquiry (JOEI) orders</span> Special orders  created when the store orders from other distribution centers.</p>
+                    </li>
+                    <li>
+                        <p><span class="ui">Merchandise transfers</span> Orders created when a branch store receives parts from the main store; and, the main store pays the cost without recording the transaction. </p>
+                    </li>
+                </ul>
+                <div class="note">
+                    <p>Adjustments  affect product line sales history information.</p>
+                    <p>Items ordered in <MadCap:variable name="products.TAMS" /> and included on an open purchase order must be posted using the Delayed stock receipts and purchase orders. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Postpone until this is covered?&#160;</span></p>
+                    <p> If landed pricing is enabled, the cost values are displayed with landed factors applied. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Is this accurate?</span></p>
+                </div>
+                <h3>Fields on the screen </h3>
+                <p>The following table lists the fields on the screen with a description of each.</p>
+                <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/screens.css');" class="TableStyle-screens" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <col class="TableStyle-screens-Column-Column3" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">Field</th>
+                            <th class="TableStyle-screens-HeadE-Column2-Header1">Description</th>
+                            <th class="TableStyle-screens-HeadD-Column3-Header1">
+                                <p class="table-text">&#160;</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Packing Slip</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Required. External shipping document that accompanies a shipment itemizing the contents of the shipment.</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Part number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Required.<MadCap:snippetText src="../../../Resources/snippets/inventory/part-number.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Line</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Required. <MadCap:snippetText src="../../../Resources/snippets/inventory/line-product-line.flsnp" /></p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Class</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text"><MadCap:variable name="products.Napa" /> classification assigned to the part for  stock control and planning: A, B, C, and D.</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyB-Column1-Body1">
+                                <p class="table-text">Cost</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyB-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column3-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><span class="ui">Replacement cost</span> Cost distribution center charges the store to replace the cost.</p>
+                <p><span class="ui">Average cost </span>Average cost of the part. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can we provide more details?&#160;</span></p>
+                <p><span class="ui">Core cost</span> <MadCap:snippetText src="../../../Resources/snippets/inventory/po-core-cost.flsnp" /></p>
+                <p><span class="ui">Adjustments</span> </p>
+                <p><span class="ui">Current</span> Total quantities in <MadCap:variable name="products.TAMS" /> for On-hand, On order, and On back order.</p>
+                <p><span class="ui">Adjustment</span> Positive or negative quantity your inventory has changed.  </p>
+                <p><span class="ui">New Quantity</span>  Sum of Current and Adjustment columns.</p>
+                <p><span class="ui">On Hand</span> Quantity  currently in stock.</p>
+                <p><span class="ui">On Order</span> Quantity  currently on order from the distribution center.</p>
+                <p><span class="ui">On Backorder</span> Quantity  currently on backorder. Backorder is a customer demand for which no stock is available, and  the customer is prepared to wait for the item to arrive in stock.</p>
+                <p><span class="ui">Receipt cost</span> Price  store paid for the part and core when each was receipted. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> What does receipted mean?</span></p>
+                <p><span class="ui">Core cost</span> <MadCap:snippetText src="../../../Resources/snippets/inventory/po-core-cost.flsnp" /></p>
+                <p><span class="ui">Core</span> Price the store paid for the core when it was receipted. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> What does receipted mean?</span></p>
+                <p><span class="ui">Value</span> Total value of the two costs. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What does this mean?&#160;</span></p>
+                <p><span class="ui">Receipt options</span> </p>
+                <p><span class="ui">All Items Were Received</span> Use when all of the items listed on the receipt were received.</p>
+                <p><span class="ui">On Order Quantity Received</span> Use when  total number of items that were on order were received.</p>
+                <p><span class="ui">Backorder Quantity Received</span> Use when total quantity on backorder was received.</p>
+                <p><span class="ui">Cancel On Order</span> Cancels what was on order.</p>
+                <p><span class="ui">Cancel Backorder</span> Cancels the backorder.</p>
+                <p><span class="ui">Cancel Both On Order and Backorder</span> Cancels both the order and backorder.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Stock adjustments tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../../../Resources/Images/inventory/adjustment-stock-adjustment.png" class="popup" alt="Image of Inventory quantity adjustments stock adjustments tab" />
+                </p>
+                <p>Use the <span class="ui">Stock adjustments</span> tab to adjust on-hand quantities  for damaged, lost or found parts, receiving mistakes, or  core and defective parts. </p>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From legacy help, is this applicable?&#160;Adjust inventory discrepancies or assortment breakdowns (selling a partial quantity or package). Any adjustment you enter updates sales history information for the product line.</span>
+                </p>
+                <p><span class="ui">Part Number</span> Required. Unique identification number assigned to the part. Both expanded part numbers and compressed part numbers are accepted. You can enter the following values:</p>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From legacy help, please confirm</span>
+                </p>
+                <p><span class="ui">Line</span> Required. Product line to which the part belongs, like <span class="italics">NOL</span> for NAPA Oil.</p>
+                <p><span class="ui">Class </span><MadCap:variable name="products.Napa" /> classification assigned to the part for  stock control and planning: A, B, C, and D.</p>
+                <p><span class="ui">Cost</span> </p>
+                <p><span class="ui">Replacement cost</span> Cost distribution center charges the store to replace the cost.</p>
+                <p><span class="ui">Average cost </span>Average cost of the part. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can we provide more details?&#160;</span></p>
+                <p><span class="ui">Core cost</span> Cost the store pays for the core part. The core is charged to the customer, and later refunded when the customer returns the core to the store.</p>
+                <p><span class="ui">Adjustments</span> </p>
+                <p><span class="ui">Current</span> Total quantities in <MadCap:variable name="products.TAMS"></MadCap:variable> for On-hand, On order, and On back order.</p>
+                <p><span class="ui">Quantity adjusted</span> Positive or negative quantity your inventory has changed.  </p>
+                <p><span class="ui">New Quantity</span>  Sum of <span class="ui">Current</span> and <span class="ui">Quantity adjusted</span>.</p>
+                <p><span class="ui">Stock adjustment value</span> Cost of adjustment <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Help with definition</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Mixing paint adjustments tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../../../Resources/Images/inventory/adjustment-mixing-paint.png" class="popup" alt="Image of Inventory quantitiy adjustments mixing paint adjustment tab" />
+                </p>
+                <p>Use the <span class="ui">Mixing paint</span> tab to adjust inventory quantities when opening mixing paint cans to for custom colors.</p>
+                <p><span class="ui">Part Number</span> Required. <MadCap:snippetText src="../../../Resources/snippets/inventory/part-number.flsnp" /></p>
+                <p><span class="ui">Line</span> Required. <MadCap:snippetText src="../../../Resources/snippets/inventory/line-product-line.flsnp" /></p>
+                <p><span class="ui">Class </span><MadCap:variable name="products.Napa" /> classification assigned to the part for  stock control and planning: A, B, C, and D.</p>
+                <p><span class="ui">Cost</span>
+                </p>
+                <p><span class="ui">Replacement cost</span> Cost distribution center charges the store to replace the cost.</p>
+                <p><span class="ui">Average cost</span> Average cost of the part. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can we provide more details?&#160;</span></p>
+                <p><span class="ui">Core cost</span> <MadCap:snippetText src="../../../Resources/snippets/inventory/po-core-cost.flsnp" /></p>
+                <p><span class="ui">Adjustments</span> </p>
+                <p><span class="ui">Current</span> Total quantities in <MadCap:variable name="products.TAMS"></MadCap:variable> for On-hand, On order, and On back order.</p>
+                <p><span class="ui">Quantity adjusted</span> Positive or negative quantity your inventory has changed.  </p>
+                <p><span class="ui">New Quantity</span>  Sum of <span class="ui">Current</span> and <span class="ui">Quantity adjusted</span>.</p>
+                <p><span class="ui">Stock adjustment value</span> Cost of adjustment <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Help with definition</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Theft tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../../../Resources/Images/inventory/adjustment-stock-theft.png" class="popup" alt="Image of Inventory quantity adjustments theft tab">
+                    </img>
+                </p>
+                <p>Use the <span class="ui">Theft</span> tab to adjust inventory when parts are stolen are lost. </p>
+                <p><span class="ui">Part Number</span> Required. <MadCap:snippetText src="../../../Resources/snippets/inventory/part-number.flsnp" /></p>
+                <p><span class="ui">Line</span> Required. <MadCap:snippetText src="../../../Resources/snippets/inventory/line-product-line.flsnp" /></p>
+                <p><span class="ui">Class </span><MadCap:variable name="products.Napa" /> classification assigned to the part for  stock control and planning: A, B, C, and D.</p>
+                <p><span class="ui">Cost</span>
+                </p>
+                <p><span class="ui">Replacement cost</span> Cost distribution center charges the store to replace the cost.</p>
+                <p><span class="ui">Average cost </span>Average cost of the part. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can we provide more details?&#160;</span></p>
+                <p><span class="ui">Core cost</span> <MadCap:snippetText src="../../../Resources/snippets/inventory/po-core-cost.flsnp" /></p>
+                <p><span class="ui">Adjustments</span> </p>
+                <p><span class="ui">Current</span> Total quantities in <MadCap:variable name="products.TAMS"></MadCap:variable> for On-hand, On order, and On back order.</p>
+                <p><span class="ui">Quantity adjusted</span> Positive or negative quantity your inventory has changed.  </p>
+                <p><span class="ui">New Quantity</span>  Sum of <span class="ui">Current</span> and <span class="ui">Quantity adjusted</span>.</p>
+                <p><span class="ui">Theft adjustment value</span> Cost of adjustment <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Help with definition</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

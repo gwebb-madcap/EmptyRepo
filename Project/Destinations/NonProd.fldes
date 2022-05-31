@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="ftp.myftpserver.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\output\nonProd\TAMSnonProd"
+  Port=""
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="scm"
+  ProviderType="Git"
+  Database="file:///C:/output/nonProd/TAMSnonProd/.git"
+  DatabaseRoot="file:///C:/output/nonProd/TAMSnonProd"
+  PushToRemote="true"
+  RemoteRepository="origin"></CatapultDestination>

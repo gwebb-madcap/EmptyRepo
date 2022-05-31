@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p><span class="ui">Beginning amount</span> Lowest cost of the part.</p>
+            </li>
+            <li>
+                <p><span class="ui">Ending amount</span> Highest cost of the part.</p>
+            </li>
+            <li>
+                <p><span class="ui">Gross profit %</span> Gross profit your store gains using the calculated resale price for parts sold in the range (Beginning and Ending amounts).</p>
+            </li>
+            <li>
+                <p><span class="ui">Rounding type</span> Determines decimal place: <span class="italics">No</span>, <span class="italics">Penny</span>, <span class="italics">Dollar</span>, or <span class="italics">Both</span>. </p>
+            </li>
+        </ul>
+    </body>
+</html>

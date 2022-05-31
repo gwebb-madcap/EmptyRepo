@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-blue-header" style="mc-table-style: url('../../TableStyles/blue-header.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-blue-header-Column-Column1" />
+            <col class="TableStyle-blue-header-Column-Column2" />
+            <col class="TableStyle-blue-header-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-blue-header-Head-Header1">
+                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                        <p class="table-header-white">Code</p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                        <p class="table-header-white"> Name</p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadD-Column1-Header1">
+                        <p class="table-header-white">Qualifying account</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">0</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Unassigned</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Accounts not yet  assigned a <MadCap:variable name="products.Napa" /> category. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Does this provide a discount?&#160;Why is this field used?&#160;</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">1</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Garage</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">  Independently owned garages, except NAPA AutoCare dealers, primarily providing general repairs like  light trucks and small engines.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">2</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Service station</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Accounts primarily selling gasoline.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">3</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Dealership</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> Businesses selling cars, trucks, tractors, equipment campers, mobile homes, and motorcycles  (new or used).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">4</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Fleet</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Accounts primarily offer services in the trucking industry (operating their own units or specialize in repairing  heavy duty vehicles). For national fleet accounts, use the category <span class="italics">National Account/Fleet</span>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">5</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Construction</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">  Accounts primarily erecting, demolishing, paving, or improving buildings and  businesses offering electrical, plumbing, architectural, and carpet laying services.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">6</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Mass merchandiser</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">   Accounts selling retail merchandise. However, for national mass merchandisers, like Sears and Montgomery Ward, use one of the National Account categories. </p>
+                        <p class="table-text"><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please provide a updated mass merchandiser or can we omit the examples?</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">7</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Government</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Government agencies like road departments, armed forces, or police.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">8</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Body shop</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Accounts repairing and refinishing vehicles including shops that are members of a larger entity in another category, like <span class="italics">Dealership body shop</span>, where billing can be separately distinguished.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">9</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Industrial</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> Accounts manufacturing raw materials, develop products, and provide equipment services, like plants or facilities producing goods.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">10</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Miscellaneous/commercial </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text"> Commercial accounts  that do not clearly fit in another category, like bowling alleys or cemeteries. These accounts can be cash or charge accounts.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">11</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Retail/D.I.Y.</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> <span class="italics">Do-It-Yourselfers</span> Individuals doing their own repairs and are typically cash or credit card accounts, but can be charge accounts. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What does open customer account mean ? Charge account or PO?</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">12</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Employee sale</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text"> Employees buying parts.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">13</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Brake/tire/muffler</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> Accounts installing parts like brakes, tires, or mufflers. Do not use for national accounts such as Midas or Firestone that are part of the National Accounts Program.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">14</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Farm</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Agricultural or livestock businesses like farms, groves, and cattle ranches.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">15</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">National account/M.I.</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"><![CDATA[  ]]><span class="italics">Master Installe</span>r All retail accounts  that are part of the National Accounts Program, like Midas.  Use <span class="italics">Mass merchandiser</span> category for any retail stores not part of the National Accounts Program.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">16</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Marine</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Recreational marinas, boat repair facilities, and commercial marine services.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">17</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Transfer</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">  Company-owned stores transferring merchandise with other stores. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From&#160;legacy help, can I omit: The transaction is recorded in the line item's sales history like a sale? What does this really mean?&#160;</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">18</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">National account/fleet</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">  Fleet accounts, like Southern Pacific Railroad or San Diego Gas and Electric that are  part of the National Accounts Program.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">19</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Vo-tech school</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Vocational training facilities.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">20</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Transfer-DNA sales history</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text"><span class="italics"> Does not affect sales history</span> Company-owned stores transferring merchandise with other stores. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">The transaction is not recorded in the line item's sales history. What does this really mean?</span>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">21</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Auto care dealer</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">  Accounts that are officially part of the NAPA AutoCare dealer program</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">22</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Super government</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text"> Government accounts qualifying for lower prices based on a specified annual purchase volume for selected reported sales programs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">23</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Super fleet </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Fleet accounts qualifying for lower prices based on a specified annual purchase volume for selected reported sale programs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">24</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> National account/super fleet </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Approved fleet accounts qualifying for lower prices based on a specified annual purchase volume for selected reported sales programs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">25</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Truck stop</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> Accounts  primarily servicing trucks.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">26</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> <MadCap:variable name="products.NAPA Online" /> Online return </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Customers returning parts originally purchased through <MadCap:variable name="products.NAPA Online" /> to a participating <MadCap:variable name="products.Napa" /> Auto Parts store for a refund.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">27</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Super marine</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text"> Marine accounts qualifying for lower prices based on a specified annual purchase volume for selected reported sales programs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">28 </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text">Truck service center</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">29 </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text">Mega fleet natl/account</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">30</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Mega fleet</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">31</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Mega government</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">32</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Super government natl/account</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">33</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Mega government natl account</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">46</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Kal Tire (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">47</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Fountain Tire (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">48</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Used car dealer (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">49</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Retail/semipro (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">50</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> Sale w/profit (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">51</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"> Kal Tire mega fleet (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                        <p class="table-text">52</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyB-Column2-Body1">
+                        <p class="table-text"> Kal Tire super fleet (Canada)</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyA-Column1-Body1">
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please help with description</span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

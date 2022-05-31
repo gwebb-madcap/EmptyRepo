@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.guidelines">
+    <head>
+    </head>
+    <body>
+        <h1>Modifying the tabs</h1>
+        <p>The tabs are created using a div with the "tab-content" class. The selected tab also uses a class named "current." The labels are created by a ul tag that uses the "tabs" class. Each list item uses a "tab-link" class and a data-tab attribute. The data-tab attribute (e.g., tab-1) should match its tab's number.</p>
+        <h3>To add a tab:</h3>
+        <ol>
+            <li>
+                <p>Right-click one of the existing "tab-content" divs and select <b>Copy</b>.</p>
+            </li>
+            <li>
+                <p>Position the cursor where you want to add the new tab.</p>
+            </li>
+            <li>
+                <p>Right-click and select <b>Paste</b>. The new tab will appear.</p>
+            </li>
+            <li>
+                <p>Open the topic in the Text Editor.</p>
+            </li>
+            <li>
+                <p>Change the new tab's ID. The tab IDs should be in order: tab-1, tab-2, etc.</p>
+            </li>
+            <li>
+                <p>Ensure that only one tab (most likely, the first tab) uses the "current class.</p>
+            </li>
+            <li>
+                <p>At the top of the tab code, locate the "tabs" bulleted list. </p>
+            </li>
+            <li>
+                <p>Add a li for the new tab. The data-tab attribute should match the new tab's number.</p>
+            </li>
+        </ol>
+        <h3>To remove a tab:</h3>
+        <ol>
+            <li>
+                <p>Right-click the tab in the block bar and select <b>Delete</b>.</p>
+            </li>
+            <li>
+                <p>Ensure that the tabs' IDs are unique and increment: tab-1, tab-2 etc.</p>
+            </li>
+            <li>
+                <p>Click inside the tab's label.</p>
+            </li>
+            <li>
+                <p>Right-click the label's li tag in the span bar and select <b>Delete</b>.</p>
+            </li>
+        </ol>
+    </body>
+</html>

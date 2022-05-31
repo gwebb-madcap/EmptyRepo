@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>When you receive a message for an Interstore, <MadCap:variable name="products.PL" />, or <MadCap:variable name="products.NAPA Online" /> order or a return from a delivery driver, you can invoice the order after acknowledging it.</p>
+        <ol>
+            <li>
+                <p>From the <span class="bold">Invoice</span> screen, select <span class="bold">Messages</span>.</p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select &#160;<span class="ui">Interstore</span>, <MadCap:variable name="products.PL" /> <MadCap:variable name="products.NAPA Online" />, or <span class="ui">Returns</span>.</p>
+                <p>
+                    <img src="../../Images/customer-sales/customer-invoice-mgs.png" class="popup" />
+                </p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select <span class="ui">OK</span>.</p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select <span class="bold">Acknowledge</span>.</p>
+                <p>
+                    <img src="../../Images/customer-sales/customer-invoice-acknow-msg.png" class="popup" />
+                </p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select the printer for printing the pull list, and then select <span class="bold">OK</span>.</p>
+                <p>
+                    <img src="../../Images/customer-sales/customer-invoice-print.png" class="popup" />
+                </p>
+            </li>
+            <li>
+                <p>Select <span class="ui">Invoicing orders</span> to create the invoice. </p>
+            </li>
+        </ol>
+    </body>
+</html>

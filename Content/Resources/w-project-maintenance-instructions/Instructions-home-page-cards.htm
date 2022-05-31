@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.guidelines">
+    <head>
+    </head>
+    <body>
+        <h1>Modifying the home page cards</h1>
+        <p>The home page topic uses the home.css stylesheet. </p>
+        <p>Each area of the home page is contained in a div: homeWel, homeOp, and homeTrain. All of them are setup to use a 3-column grid layout. The divs are defined in the screen medium so that Flare does not display error messages. Flare's editor does not support the grid display property, so the content will not appear in columns in the editor.</p>
+        <p>Each div has a negative top margin so that the top border (if it exists) will overlap the section's heading (an h1). The h1 should use a gradient background (like the current homeOp h1) to match the background colors.</p>
+        <h2>homeWel</h2>
+        <p>The homeWel div currently contains three divs that are formatted to resemble buttons. They are formatted using the "homeWel" selectors. </p>
+        <h3>To change a welcome link or its text:</h3>
+        <ol>
+            <li>
+                <p>Click inside one of the three divs.</p>
+            </li>
+            <li>
+                <p>Type the new text (if needed).</p>
+            </li>
+            <li>
+                <p>Right-click the a block in the span bar and select <b>Edit Hyperlink</b>.</p>
+            </li>
+            <li>
+                <p>Change the link as needed.</p>
+            </li>
+        </ol>
+        <h2>homeOp</h2>
+        <p>The homeOp div currently contains 9 "cards." Each card is a 2-column grid. The left column's width is set to 90px and contains a span with a background image (the icons). Each span uses the "icon" class and a unique class name. The icon class sets the icons' width, height, and background color using a filter. A hover pseudo class swaps the background color (also using a filter). This approach allows us to control the svgs colors and avoid us having to have separate default and hover images. However, the icons will not appear in Flare's editor.The right column is set to use the remaining width of the card. It contains two spans: title and description.</p>
+        <h3>To change an icon:</h3>
+        <ol>
+            <li>
+                <p>Find the icon's class in the stylesheet.</p>
+            </li>
+            <li>
+                <p>Check the name of the icon's background image.</p>
+            </li>
+            <li>
+                <p>Edit or replace the background image svg file.</p>
+            </li>
+        </ol>
+        <h3>To add a card:</h3>
+        <ol>
+            <li>
+                <p>Right-click a card's div tag in the block bar. The div is highlighted.</p>
+            </li>
+            <li>
+                <p>Select Copy.</p>
+            </li>
+            <li>
+                <p>Move to where you want to add the new card.</p>
+            </li>
+            <li>
+                <p>Paste the new card's div.</p>
+            </li>
+            <li>
+                <p>Change the title as needed.</p>
+            </li>
+            <li>
+                <p>Change the description as needed.</p>
+            </li>
+            <li>
+                <p>Open the topic in the Text editor.</p>
+            </li>
+            <li>
+                <p>Change the icon's class to a new unique class name.</p>
+            </li>
+            <li>
+                <p>Save the home page topic.</p>
+            </li>
+            <li>
+                <p>Create an icon for the new card.</p>
+            </li>
+            <li>
+                <p>Open the stylesheet in the text editor.</p>
+            </li>
+            <li>
+                <p>Add a style class for the new card's icon.</p>
+            </li>
+        </ol>
+        <h2>homeTrain</h2>
+        <p>The homeTrain div contains three divs. The first two divs contain a title and bulleted list. The title formatting is the same as the other section's titles. The bulleted list is formatted using the div.homeTrain li and div.homeTrain li::marker selectors. The third div contains a button. The button is currently formatted to match the buttons in the Welcome section. However, it uses unique selectors: div.homeTrain &gt; div.c2a p, div.homeTrain &gt; div.c2a p:hover, and div.homeTrain &gt; div.c2a a.</p>
+        <p>&#160;</p>
+    </body>
+</html>

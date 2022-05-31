@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>[%=Heading.Level1%]</title>
+    </head>
+    <body>
+        <h1>COM130 Special invoice recap report</h1>
+        <p>
+            <MadCap:toggler targets="recapReportRequredCOS">Company stores</MadCap:toggler>
+        </p>
+        <p MadCap:targetName="recapReportRequredCOS">Required to use report to verify return transactions match staged parts.</p>
+        <p> The <MadCap:variable name="reports.RPT130" /> shows return transactions completed  when customers return resalable merchandise, cores, and defective parts. Use this report to validate daily customer returns.</p>
+        <p>
+            <img src="../Resources/Images/reports/rpt130-special-invoice.png" class="large-screen" alt="Com one thirty report" />
+        </p>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Product owners, can you confirm the following list from legacy help is valid or is Jaren Schreck the only person who can confirm?</span>
+        </p>
+        <div class="best-practice">
+            <ul>
+                <li>
+                    <p>Voided invoices are valid. All transactions should be a cash/charge or credit/refund. Multiple voided invoices may indicate a theft problem.</p>
+                </li>
+                <li>
+                    <p>Voided ROA receipt  for  cash/check payment were posted to the account.  Multiple voided receipts may indicate a theft problem.</p>
+                </li>
+                <li>
+                    <p>There are no invoices with no charge items (items sold with a zero resale cost).</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p> Parts returned for credit the previous business day are in your store. </p>
+                </li>
+                <li>
+                    <p>Core and defective returned parts are listed on the invoice and in the appropriate staging area in your store.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="note">
+            <p>For  <span class="ui">No charge</span> transactions containing a sold part and an offsetting return of a core or defect for the same part, display in <span class="ui">No charge invoices</span>. The returned part displays in <span class="ui">Cores returned for credit/refund</span> or<span class="ui">Defectives returned for credit/refund</span>.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Print the report</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If the report is scheduled to print as part of your End of day process, it prints when the process is completed. To reprint the report: </p>
+                <MadCap:snippetBlock src="../Resources/snippets/rpt-130-print.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

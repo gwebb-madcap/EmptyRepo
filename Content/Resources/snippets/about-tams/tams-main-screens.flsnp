@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p><MadCap:variable name="products.TAMS" /> menu (sometimes referred to as back office or other <MadCap:variable name="products.TAMS" /> functions) is where you track sales, review transactions, manage inventory, generate reports, and maintain accounts receivable. </p>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;SME Question &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> Can we use TAMS&#160;menu instead of "back office"? AL's pointing out that it's access from POS as Other functions screen and in the header it is called "TAMS"</span>
+                </p>
+                <p>
+                    <img src="../../Images/about-tams/tams-menu-scn.png" class="popup" />
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span class="ui">Invoice</span> screen (sometimes referred to as point of sale or invoicing)&#160;is where you  sell parts, create special orders, open the <MadCap:variable name="products.Napa" /> online parts catalog, get shipping estimates using <MadCap:variable name="products.NXP" />, and finalize sales. </p>
+                <p>
+                    <img src="../../Images/about-tams/invoice-scn.png" class="popup" alt="Image of the invoice screen" />
+                </p>
+                <p>You can open the <MadCap:variable name="products.TAMS" /> menu from the <span class="bold">Invoice</span> screen by selecting <span class="bold">Other</span> <MadCap:variable name="products.TAMS" /> <span class="bold">functions</span> &gt;<span class="bold"> Other </span><MadCap:variable name="products.TAMS" /> <span class="bold">functions</span>.</p>
+            </li>
+        </ul>
+        <p>Another screen you may use is the <MadCap:variable name="products.TAMS" /> dashboard. It is a web-based screen where you access functions like customer information, order maintenance, planograms, and reports. </p>
+        <p>Go to <MadCap:variable name="products.TAMS" /> menu &gt; <span class="bold">Sales activities</span> &gt; <MadCap:variable name="products.TAMS" /> dashboard.</p>
+        <p>
+            <img src="../../Images/about-tams/dashboard.png" class="popup" alt="Image of the tams dashboard screen" />
+        </p>
+    </body>
+</html>

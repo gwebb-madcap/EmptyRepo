@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+    </head>
+    <body>
+        <h1>Manage check-in groups</h1>
+        <p class="authorNote">Remove DND&#160;condition</p>
+        <p>Check-in groups are a way to receive and post parts from several purchase orders at a time. Typically you create a check-in group to receive an overnight shipment; however, you can create a check-in group  to receive and post multiple purchase orders anytime </p>
+        <p>For example, you may have a few special orders that did not make the overnight shipment cut off. As these parts arrive at your store, and are not on the previous day's <MadCap:variable name="reports.COM150" />,  create a new check-in group to receive and post them. <span class="SMEQuestion" MadCap:conditions="tams.inProgress,tams.DoNotDistribute" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Help with a realistic example of when to create a check-in group that's not for overnight shipments</span>.</p>
+        <p> The <MadCap:variable name="reports.COM150" /> shows   the previous day's purchase orders, parts, and quantities ordered. It also shows the   <span class="ui">Shipment number</span> assigned to purchase orders in the shipment. </p>
+        <div class="note">
+            <p>If <span class="ui">Include interstore receipts with dc shipment</span> is selected, transfer orders are included and assigned a <span class="ui">Shipment number</span>. If not, you can create check-groups with these purchase orders. </p>
+        </div>
+        <p><span class="SMEQuestion" MadCap:conditions="tams.inProgress,tams.DoNotDistribute" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Why would the <MadCap:variable name="reports.COM150"></MadCap:variable> have multiple shipment numbers?&#160;</span>
+        </p>
+        <p class="authorNote">As part of your opening store process,  create a check-in group with  purchase orders from the <MadCap:variable name="reports.COM150" />. The check-in group is automatically assigned with the Shipment number. By selecting the check-in number on the scanner, you can scan all parts in the overnight shipment. </p>
+        <div class="best-practice">
+            <p>Use check-in groups  to receive parts from overnight shipments using an RF&#160;scanner.</p>
+        </div>
+        <div class="pre-requisites">
+            <ul>
+                <li>
+                    <p>To include interstore transfer orders in the same check-in group as replenishment orders, select <span class="ui">Include interstore receipts with dc shipments</span>. This assigns  all purchase orders from the previous day to the same the <span class="ui">Shipment number</span> which you can use to create the chceck-in group. <MadCap:expanding><MadCap:expandingHead>Where is it?&#160;</MadCap:expandingHead><MadCap:expandingBody>Go to <span class="ui">System mgmt</span>&#160;&gt; <span class="ui">Inventory</span> &gt; <span class="ui">Inventory management controls</span>.</MadCap:expandingBody></MadCap:expanding></p>
+                </li>
+                <li>
+                    <p>Have the <span class="ui">Shipment number</span> from the <MadCap:xref href="../reports/com150-shipment-advise-report.htm">COM150 Shipment advise report</MadCap:xref> for overnight shipments. </p>
+                </li>
+            </ul>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><a name="Create"></a>Create a check-in group</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>From the <MadCap:variable name="products.TAMS" /> menu, to <span class="bold">Inventory</span> &gt; <span class="bold">Purchase orders</span> &gt; <span class="bold">Received goods</span> &gt; <span class="bold">Create check-in group</span>. </p>
+                        <p>The <span class="bold">Create check-in group</span> screen shows open purchase orders. Notice all purchase order numbers from overnight shipments have the same <span class="bold">Shipment number</span>. </p>
+                        <p>
+                            <MadCap:conditionalText MadCap:conditions="tams.DoNotDistribute"><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Please confirm it is showing "open" purchase orders only.</span>
+                            </MadCap:conditionalText>
+                        </p>
+                        <p>
+                            <img src="../Resources/Images/inventory/check-in-grp-shipment-number.png" class="large-screen" alt="Purchase orders from overnight shipment on the create check-in group screen" />
+                        </p>
+                    </li>
+                </ol>
+                <ol start="2">
+                    <li>
+                        <p>To create a check-in group with:</p>
+                    </li>
+                </ol>
+                <ul>
+                    <li>
+                        <p><span class="italics">All purchase orders in an overnight shipment and using Include interstore receipts with dc shipments,</span> select one purchase order from the <MadCap:variable name="reports.COM150" />. All purchase orders assigned to the same <span class="ui">Shipment number</span> are  automatically selected.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p><span class="italics">Individual purchase orders,</span> use <span class="ui">Shift</span> + click to select each.</p>
+                    </li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>To assign purchase orders to the group, select  <span class="bold">Down</span>  arrow. The selected purchase orders move to <span class="ui">Assigned to a check-in group</span>. </p>
+                        <p>
+                            <img src="../Resources/Images/inventory/receive-add-po-check-in-grp.png" class="large-screen" alt="Screen showing available purchase orders and purchases orders assigned to check in group " />
+                        </p>
+                    </li>
+                </ol>
+                <ul>
+                    <li>
+                        <p>To remove a purchase order from the group, select it and use  <span class="bold">Up</span>  arrow. It moves back to  <span class="bold">Available</span>. </p>
+                    </li>
+                </ul>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>Select <img src="../Resources/Images/icons/save.png" class="button" style="width: 32px;height: 29px;" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Modify a check-in group</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>
+                        <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="bold">Inventory</span> &gt; <span class="bold">Purchase orders</span> &gt; <span class="bold">Received goods</span> &gt; <span class="bold">Select check-in group</span>. </p>
+                        <p>
+                            <img src="../Resources/Images/inventory/receive-select-check-in-grp.png" class="large-screen" alt="Seelct check in group screen" />
+                        </p>
+                    </li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>Select a <span class="bold">Check-in group</span>.</p>
+                    </li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>Select <span class="bold">Maintain check-in group</span>. </p>
+                    </li>
+                </ol>
+                <ul>
+                    <li>
+                        <p>To add a purchase order, select it from <span class="bold">Available</span> and use <span class="bold">Down</span> arrow.</p>
+                        <p>
+                            <img src="../Resources/Images/inventory/receive-add-po-check-in-grp.png" class="large-screen" alt="Screen showing available purchase orders and purchase orders assigned to check in group" />
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>To remove a purchase order, select it from  <span class="bold">Available</span> and use <span class="bold">Up</span> arrow. </p>
+                        <div class="note">
+                            <p> If <span class="ui">Include interstore receipts with dc shipment</span> is selected all purchase orders assigned to the same <span class="ui">Shipment number</span> return to <span class="ui">Available</span>. </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Repeat as needed. </p>
+                    </li>
+                    <li>
+                        <p>Select <span class="bold">Save</span><img src="../Resources/Images/icons/save.png" class="" style="width: 32px;height: 29px;" />. </p>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3>Related topics</h3>
+        <p>
+            <MadCap:xref href="receive-freight-manually.htm" target="_blank">Receive freight manually</MadCap:xref>
+        </p>
+        <p>
+            <MadCap:xref href="receive-freight-using-rf-scanner.htm" target="_blank">Receive freight using an RF scanner </MadCap:xref>
+        </p>
+        <p>
+            <MadCap:xref href="post-freight.htm" target="_blank">Post freight</MadCap:xref>
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

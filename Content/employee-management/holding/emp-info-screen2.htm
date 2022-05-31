@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+        <link href="../../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Employee information screen</h1>
+        <p>Use the <span class="ui">Employee information</span> screen to add new employees or maintain employee information. </p>
+        <div class="note">
+            <p>Only employees with a manager-level code assigned in the <span class="ui">Job code</span> field have access to the <span class="ui">Employee information</span> screen.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Main tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the&#160;<span class="ui">Main</span> tab to add a new employee or maintain employee information.</p>
+                <p>
+                    <img src="../../Resources/Images/emp-info/emp-info-main.png" class="large-screen" />
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/screens.css');" class="TableStyle-screens" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Employee</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">To edit information for an existing employee, enter the employee's number or select the employee from the list.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Employee number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Required. Must be between 0 and 9,999 and not in use.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Job code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Required. Indicates the employee's role. Only employees with manager-level job codes can access the <span class="ui">Employee information</span> screen.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Last name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Required. Allows up to 20 characters.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">First name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Required. Allows up to 20 characters.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Middle initial</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">The first letter of the employee's middle name.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Birth date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Employee's date of birth in MMDDYYYY&#160;format.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Address 1,2</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Up to two lines for the employee's home street address.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">City</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">City in which the employee lives.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">State</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">The abbreviation and name of the state in which the employee lives. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">This value determines what state income taxes are paid by the employee. Is this true even if TAMS is not used for payroll?</span></p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Zip</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">The employee's postal code.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Country</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">The country in which the employee lives (United States, Canada, or Mexico). <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">This value determines U.S. federal or other national income taxes paid by the employee.  Is this true even if TAMS is not used for payroll?</span></p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Phone number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">The employee's primary telephone number, including area code. Hyphens are optional.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">E-mail address</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">The employee's email address, up to 50 characters.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Pay type</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Required. Indicates if the employee is hourly or salaried.</p>
+                                <div class="note">
+                                    <p>If time tracking is in use in <MadCap:variable name="products.TAMS" />, salaried employees are not required to clock in and out. </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Profile number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Required if the <span class="ui">Pay type</span> is hourly. Indicates the pay period profile for the employee.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Language</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">The language (English, French, or Spanish) in which the employee views screens and messages. English is the default.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Invoicing allowed</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Provides the employee access to the Point of Sale (Invoicing) screens when selected.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Display gross profit and cost</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">
+                                    <MadCap:snippetText src="../../Resources/snippets/store-independent-icon.flsnp" /> only; this field is not displayed for <MadCap:snippetText src="../../Resources/snippets/store-company-icon.flsnp" />. </p>
+                                <p class="table-text">&#160;</p>
+                                <p class="table-text">Select the checkbox to allow the employee to view gross profit and cost information in <MadCap:variable name="products.TAMS" /> on <span class="ui">Inventory Review</span> screens and reports, <span class="ui">Invoicing/Stock Check</span> screens, and <span class="ui">View Today's Sales</span> screens. The default setting is not selected.</p>
+                                <p class="table-text">&#160;</p>
+                                <p class="table-text">When the field is not selected, the following <MadCap:variable name="products.TAMS" /> components are affected:</p>
+                                <table class="TableStyle-blue-header" style="mc-table-style: url('../../Resources/TableStyles/blue-header.css');" cellspacing="0">
+                                    <col class="TableStyle-blue-header-Column-Column1" />
+                                    <col class="TableStyle-blue-header-Column-Column2" />
+                                    <thead>
+                                        <tr class="TableStyle-blue-header-Head-Header1">
+                                            <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                                <p class="table-header-white">Module</p>
+                                            </th>
+                                            <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                                                <p class="table-header-white">Screen and Results</p>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="TableStyle-blue-header-Body-Body1">
+                                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                                <p class="table-text">Invoicing</p>
+                                            </td>
+                                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                                <p class="table-text"><span class="ui">Stock Check</span>
+                                                </p>
+                                                <p class="table-text">The gross profit percent does not appear when a "<span class="ui">?</span>" is entered twice in the <span class="ui">Lost Sale Qty/C/?</span> field.</p>
+                                                <p class="table-text">&#160;</p>
+                                                <p class="table-text"><span class="ui">Stock Check (Other Stores)</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Cost</span> and <span class="ui">Core Cost</span> fields are blank.</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="TableStyle-blue-header-Body-Body2">
+                                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                                <p class="table-text">Communications</p>
+                                            </td>
+                                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                                <p class="table-text"><span class="ui">Interstore Stock Check</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Cost</span> and <span class="ui">Core Cost</span> fields are blank.</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="TableStyle-blue-header-Body-Body1">
+                                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                                <p class="table-text">View Today's Sales</p>
+                                            </td>
+                                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                                <p class="table-text"><span class="ui">Sales Summary</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Gross Profit</span> and<span class="ui"> Gross Profit %</span> fields are blank both on screen and on the <span class="ui">Today's Employee Sales</span> report.</p>
+                                                <p class="table-text">&#160;</p>
+                                                <p class="table-text"><span class="ui">Sales Detail</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Cost</span>, <span class="ui">Gross Profit</span>, and <span class="ui">Gross Profit %</span> fields are blank both on screen and on the <span class="ui">Today's Employee Sales</span> report.</p>
+                                                <p class="table-text">&#160;</p>
+                                                <p class="table-text"><span class="ui">Funds Summary</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Gross Profit</span> and <span class="ui">GP%</span> fields are blank on the <span class="ui">Today's Employee Sales</span> report.</p>
+                                                <p class="table-text">&#160;</p>
+                                                <p class="table-text"><span class="ui">Funds Detail</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Cost</span>, <span class="ui">Gross Profit</span>, and <span class="ui">Gross Profit %</span> fields are blank both on screen and on the <span class="ui">Today's Employee Sales</span> report.</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="TableStyle-blue-header-Body-Body2">
+                                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                                <p class="table-text">Inventory Maintenance</p>
+                                            </td>
+                                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                                <p class="table-text"><span class="ui">Product Line - Sales History</span>
+                                                </p>
+                                                <p class="table-text">The <span class="ui">Cost of Sales</span>, <span class="ui">Gross Profit</span>, and <span class="ui">Gross Profit %</span> fields are blank.</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="TableStyle-blue-header-Body-Body1">
+                                            <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                                                <p class="table-text">Inventory Review</p>
+                                            </td>
+                                            <td class="TableStyle-blue-header-BodyA-Column2-Body1">
+                                                <p class="table-text"><span class="ui">Price Calculation Criteria</span> (activated via <span class="ui">Calculate Prices</span> button)</p>
+                                                <p class="table-text">The <span class="ui">Calculate based on Gross Profit?</span> setting is not selected and cannot be changed.</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Catalog preference</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Identifies the catalog that is displayed when an employee selects the <span class="ui">Catalog</span> button or presses F9 on the <span class="ui">Invoice</span> screen. This field overrides the <span class="ui">Catalog preference</span> field on the <span class="ui">Invoicing controls</span> screen.</p>
+                                <div class="best-practice">
+                                    <p><MadCap:variable name="products.Napa" /> recommends that you set the field to <span class="ui">PartsPRO SE</span>.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Store dept</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">The department in which the employee works, such as Counter or Manager.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">A/R customer #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">If each of your employees has an individual A/R customer number to use when purchasing parts, enter the employee's A/R customer number in this field. </p>
+                                <p class="table-text">&#160;</p>
+                                <div class="note">
+                                    <p class="table-text">This field affects the employee's ability to self-invoice.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Timeout minutes</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">The number of minutes of inactivity before <MadCap:variable name="products.TAMS" /> automatically locks the screen. At that time, the employee must enter a password to continue.</p>
+                                <p class="table-text">&#160;</p>
+                                <div class="note">
+                                    <p class="table-text">The <span class="ui">Employee access validation</span> field on the <span class="ui">System management</span> &gt; <span class="ui">Store controls</span> &gt; <span class="ui">General</span> tab controls this field:</p>
+                                    <ul>
+                                        <li>
+                                            <p class="table-text"> When <span class="ui">Employee access validation</span> is selected, <span class="ui">Timeout minutes</span> must be set from 1 to 10 for assistant manager, district officer, store manager, and hourly key holder employees. Timeout minutes can be set from 0 to 999 for other employees. </p>
+                                        </li>
+                                        <li>
+                                            <p class="table-text">When <span class="ui">Employee access validation</span> is not selected, <span class="ui">Timeout minutes</span> can be set from 0 to 999 for all employees.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="table-text">
+                                        <MadCap:snippetText src="../../Resources/snippets/store-company-icon.flsnp" />: <span class="ui">Employee access validation</span> is selected and cannot be changed. </p>
+                                    <p class="table-text">
+                                        <MadCap:snippetText src="../../Resources/snippets/store-independent-icon.flsnp" />: <span class="ui">Employee access validation</span> can be selected or cleared.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Employee password</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Required. The employee's password used to log in, unlock the screen, or access any protected functions. When the field is set or changed on this screen, the employee is prompted to change the password upon logging in.</p>
+                                <MadCap:snippetBlock src="../../Resources/snippets/employee-management/password-guidelines.flsnp" />
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Expires in days</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Number of days before the employee's password expires and must be changed. The employee receives a message to change the password 15 days before it expires.</p>
+                                <div class="note">
+                                    <p class="table-text">The <span class="ui">Employee access validation</span> field on the <span class="ui">System management</span> &gt; <span class="ui">Store controls</span> &gt; <span class="ui">General</span> tab controls this field:</p>
+                                    <ul>
+                                        <li>
+                                            <p class="table-text"> When <span class="ui">Employee access validation</span> is selected, <span class="ui">Expires in days</span> must be set from 1 to 90. </p>
+                                        </li>
+                                        <li>
+                                            <p class="table-text">When <span class="ui">Employee access validation</span> is not selected, <span class="ui">Expires in days</span> can be set from 1 to 999 for all employees.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="table-text">
+                                        <MadCap:snippetText src="../../Resources/snippets/store-company-icon.flsnp" />: <span class="ui">Employee access validation</span> is selected and cannot be changed. </p>
+                                    <p class="table-text">
+                                        <MadCap:snippetText src="../../Resources/snippets/store-independent-icon.flsnp" />: <span class="ui">Employee access validation</span> can be selected or cleared.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Employment date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Date the employee was hired (MMDDYYYY).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Service date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Date on which the employee becomes eligible for benefits (MMDDYYYY).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Termination date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Employee's last official work day (MMDDYYYY) for terminated employees.</p>
+                                <p class="table-text">&#160;</p>
+                                <div class="note">
+                                    <p class="table-text">When the <span class="ui">Termination date</span> is today or in the past, the employee's access to all functions is removed. The <span class="ui">Invoicing allowed</span> checkbox is cleared, and access to all functions is removed on the <span class="ui">Security</span> tab.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Pay rate</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Employee's payroll rate, either a salary amount for a single pay period or the employee's regular hourly rate.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Employee ID</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p class="table-text">Specifies an ID used to track when the employee signs up a new NAPA&#160;Rewards member. The employee receives a spiff amount (varies per district) for each new member that signs up for NAPA Rewards.</p>
+                                <div class="note">
+                                    <p>This field is visible only when NAPA Rewards is turned on or the IBS portal is turned on in the store. The system validates if the ID is assigned to another employee and prompts you to enter a new ID if it is.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Security tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the <span class="ui">Security</span> tab to define a security profile for an employee. Changes to security take effect when the users logs out and then logs in to <MadCap:variable name="products.TAMS" />.</p>
+                <p>
+                    <img src="../../Resources/Images/emp-info/emp-info-security.png" class="large-screen" />
+                </p>
+                <table style="mc-table-style: url('../../Resources/TableStyles/screens.css');" class="TableStyle-screens" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Employee</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">To edit information for an existing employee, enter the employee's number or select the employee from the list.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Employee number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Required. Must be between 0 and 9,999 and not in use.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">&#160;</td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyB-Column1-Body1">&#160;</td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body1">&#160;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

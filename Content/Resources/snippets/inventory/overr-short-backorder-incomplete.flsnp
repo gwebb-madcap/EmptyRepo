@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>Indicates if stock receipts were received and if quantity received matches  quantity ordered.</p>
+        <p class="table-text"><span class="ui">O Over</span> Quantity received is greater than quantity shipped <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">or ordered?</span>. (Billed)</p>
+        <p class="table-text"><span class="ui">S Short</span> Quantity received is less than quantity shipped<span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> or ordered?</span>. (Billed)</p>
+        <p class="table-text"><span class="ui">I Incomplete</span> Incomplete parts are parts that arrived in the shipment but your store has not been billed. This is sometimes referred to as Held lines and can occur on classification parts, partial shipments, or when parts are canceled after they have shipped. </p>
+        <p class="table-text">
+            <MadCap:snippetText src="../store-company-icon.flsnp" />When parts remain with an I for more than 1 day, research to determine the reason. </p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From legacy help:&#160;"Billing (stock receipts) has not been received. (Not Billed)"</span>
+        <p class="table-text"><span class="ui">Blank</span> Quantity received equals quantity shipped.  (Billed)</p>
+    </body>
+</html>

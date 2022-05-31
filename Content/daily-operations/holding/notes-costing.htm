@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+    </head>
+    <body>
+        <h1>notes costing</h1>
+        <p>independent store - configured so costing is a step in the eod process when costing is needed. Screen will be blank if no costing is needed. Costing screen pops up and lists invoices that require costing.</p>
+        <p>Costing - sell a part and gross profit is outside of low and high thresholds, those invoices display as part of costing function during eod. You already sold it so you can't adjust the sale price to get a diff gross profit. You can correct cost if the cost was wrong on that part. </p>
+        <p>If cost is correct, you confirm it and the gross profit is outside threshold - and that is correct</p>
+        <p>If cost is incorrect, (you bought part from outside vendor and never added the part in <MadCap:variable name="products.TAMS" /> and sold it at 100%&#160;gross profit) - when screen comes up you can change the cost of the part so when TAMS calculates how much gross profit you made for the sale is accurate</p>
+        <p>They can resolve costing issues from sales menu before they run end of day. If they don't resolve it, the screen pops up during end of day</p>
+        <p>When screen pops up during eod, it shows a list of invoices or parts numbers. They can select the transaction data what you sold and what the cost is, you answer yes or no for each to validate. If you answer no, it lets you enter cost value. </p>
+        <p>Common example of when this happens, you bought a part from an outside vendor and never added the cost to in TAMS, when you sold it you sold it at 100% gross profit. Your threshold is 50% above profit. Cost invoice screen opens because you made too much gross profit and you need to validate the cost</p>
+        <p>Buttons:</p>
+        <p>Cost specific invoice - adjust selected in voice, one invoice at a time</p>
+        <p>Cost Review needed invoices - </p>
+        <p>Cost invoice item lets you Change cost or This cost is ok buttons</p>
+    </body>
+</html>

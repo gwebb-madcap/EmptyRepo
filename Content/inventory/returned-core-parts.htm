@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Returned cores</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Video</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <div>
+                <p><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">How to set up Core tracking (alternate core account, Core return tax decision </span><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Item return info required feature </span>
+                </p>
+            </div>
+            <p>You probably keep returned core parts in a specific staging area until you're ready to ship them to the manufacturer.  Before sending them on their way,  remove them from inventory to keep inventory up-to-date. Removing returned  core  parts from   inventory is a multi-step process: </p>
+            <ul>
+                <li>
+                    <p>Use the <MadCap:variable name="reports.RPT130" /> to confirm  parts were returned correctly, and part numbers returned are in the correct staging areas. </p>
+                </li>
+                <li>
+                    <p>Create the <MadCap:variable name="reports.RPT044" /> to validate part numbers and quantities being returned. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What is a better word than validate for this step?</span></p>
+                </li>
+                <li>
+                    <p>Remove returned parts from your inventory.</p>
+                </li>
+            </ul>
+            <div class="best-practice">
+                <ul>
+                    <li>
+                        <p>Stage   returned parts that can be resold away from your core staging area and label   <span class="italics">New returns</span>.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Complete all steps in the process before starting <span class="ui">End of day</span>.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pre-requisites">
+                <p>Clear <span class="ui">Use RGN</span> to use Returned Defectives/Cores. <MadCap:expanding><MadCap:expandingHead>Where is it?</MadCap:expandingHead><MadCap:expandingBody>Go to <span class="ui">System mgt</span> &gt; <span class="ui">RGN&#160;control</span>s.</MadCap:expandingBody></MadCap:expanding><![CDATA[
+]]></p>
+                <p>
+                    <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> <MadCap:variable name="reports.RPT130" /> Required to confirm returned core transactions match the total core parts staged. </p>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can you provide insight on what to do when - A part is staged but not on the <MadCap:variable name="reports.RPT130"></MadCap:variable>? Note the discrepancy on the report. </span>
+                </p>
+            </div>
+            <h3>Process returned cores</h3>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>Build and generate the <MadCap:variable name="reports.RPT044" /> to confirm the total of returned cores  matches the total in your staging area. </p>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    <p>Go to <span class="ui">Inventory</span> &gt; <span class="ui">Returned defectives/cores</span>. On the  <span class="ui">Selection criteria</span> tab, choose the product lines to include on the <MadCap:variable name="reports.RPT044" />.</p>
+                </li>
+                <li>
+                    <p>Enter the <span class="bold">Product line</span> code for all  cores returned in the <span class="ui">Line</span> field (like, <span class="italics">BAT</span>), and then press <span class="ui">Enter</span>.  </p>
+                    <p>
+                        <img src="../Resources/Images/inventory/core-add-product-line.png" class="large-screen" alt="Returned defectives and cores screen" />
+                    </p>
+                    <div class="what-if">
+                        <p>I&#160;don't know the product line? Select <span class="ui">All </span>to see all product lines with a returned core quantity greater than 0 before selecting criteria.</p>
+                        <p>
+                            <img src="../Resources/Images/inventory/cores-product-line-select.png" class="small-screen" alt="Select product line screen " />
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Repeat until all core product lines being returned are selected.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Select <span class="bold">Submit</span>.  <span class="bold">Records returned</span> shows the total of parts returned.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/core-records-returned.png" class="large-screen" alt="Returned records " />
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>To create a list of core parts returned by product lines, select the <span class="ui">Returned defectives/cores</span> tab, and then select <span class="ui">Returned cores</span>.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/cores-list-returned-product-lines.png" class="large-screen" alt="List of returned core product lines " />
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Select <span class="ui">Printer</span> <img src="../Resources/Images/icons/printer.png" />. The <span class="ui">Report viewer</span> opens the report. </p>
+                </li>
+                <li>
+                    <p>To confirm the <span class="ui">Quantity</span> for each core product line matches the  quantities staged in your store, select <span class="ui">Print</span> to print the <MadCap:variable name="reports.RPT044" />. </p>
+                    <p>
+                        <img src="../Resources/Images/inventory/cores-report-044-in-viewer.png" class="large-screen" alt="044 report in the Report viewer screen" />
+                    </p>
+                </li>
+            </ul>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>After confirming part numbers and returned quantities are correct, you are ready to finalize and remove returned cores from returned core quantity:</p>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    <p>Select <span class="ui">Finalize cores</span>.</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p><![CDATA[  ]]><span class="ui">Zero returned cores on-hand quantities for NAPA parts</span> Required. Sets the returned core quantity for the <MadCap:variable name="products.Napa" /> parts selected in the criteria to 0 (also called <span class="italics">zeroes out</span>).</p>
+                </li>
+                <li>
+                    <p><span class="ui">Zero returned cores on hand quantities for non-NAPA parts</span> Required. Sets the returned core quantity for non-<MadCap:variable name="products.Napa" /> parts selected in the criteria to 0. </p>
+                </li>
+                <li>
+                    <p>Select <span class="ui">OK</span> to update remove returned core quantities from  inventory.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/cores-finalize.png" class="small-screen" alt="Finalize cores message" />
+                    </p>
+                </li>
+            </ul>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>Stage returned <MadCap:variable name="products.Napa" /> cores (for distribution center) and non-<MadCap:variable name="products.Napa" /> cores (for vendor)&#160;on separate shipping pallets. </p>
+                    <div class="note">
+                        <p>You can include a copy of the printed report as the packing slip.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <p><a href="../pdf/Finalize Returned Defectives and Cores.pdf" target="_blank">Finalize returned defectives and cores</a> </p>
+        </div>
+        <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+            </p>
+            <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+            <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+                </p>
+                <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+                <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

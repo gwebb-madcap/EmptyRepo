@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+    </head>
+    <body>
+        <h1>Manage Cash journal controls</h1>
+        <p>
+            <MadCap:snippetText src="../Resources/snippets/store-independent-icon.flsnp" /> To use the <span class="ui">Cash received journal</span>  for reconciling and balancing daily transactions, you must enable the <span class="ui">Cash received journal</span> and set up appropriate general codes from your accounting system. </p>
+        <p>Cash journal controls are specific general ledger codes from your accounting system that account for specific transactions. For example,  For example you may have a charge customer who  paid using a check. Or, you may have given customers a discount for making early accounts payments. Or, you may have merchant fees associated with certain payment methods. </p>
+        <div class="best-practice">
+            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Are there any best practices?&#160;</span>
+            </p>
+        </div>
+        <div class="pre-requisites">
+            <p>Before setting up cash journal controls:&#160;</p>
+            <ul>
+                <li>
+                    <p>Add <MadCap:xref href="general-ledger-codes.htm" target="_blank">General ledger codes</MadCap:xref> from your accounting system so they are available as  <span class="ui">Cash journal controls</span>.</p>
+                </li>
+                <li>
+                    <p>Assign general ledger codes to categories in <MadCap:variable name="products.TAMS" /> <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What are these categories and how do they assign them?</span> &#160;</p>
+                </li>
+            </ul>
+        </div>
+        <h3>Assign general ledger codes</h3>
+        <ol>
+            <li>
+                <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">System management</span> &gt; <span class="ui">Invoicing</span>, and then select <span class="ui">Cash journal controls</span>.</p>
+                <p>
+                    <img src="../Resources/Images/system-management/cash-journal-controls.png" alt="Cash journal controls screen" class="large-screen" />
+                </p>
+            </li>
+        </ol>
+        <ol MadCap:continue="true">
+            <li>
+                <p>To enable <span class="ui">Cash received journal</span>, select <span class="ui">Cash journal in use</span>. </p>
+            </li>
+        </ol>
+        <div class="caution">
+            <p><span class="ui">Lock</span> prevents unauthorized users from clearing or changing <span class="ui">Cash journal controls</span>.  Once locked, you must contact <MadCap:variable name="products.TAMS" /> support to unlock the field to make changes to it.</p>
+        </div>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Select the following required general ledger codes:</p>
+                <ul>
+                    <li>
+                        <p><span class="ui">A/R G/L code</span> Code from your accounts receivable system?&#160;<span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From legacy help: "Enter G/L code for A/R"&#160;What is this one for?</span>&#160;</p>
+                    </li>
+                    <li>
+                        <p><span class="ui">Cash G/L code</span> Code used for cash, check, and credit card amounts you collected for the business day.</p>
+                    </li>
+                    <li>
+                        <p><span class="ui">Payment discount G/L code</span> Code used for the discount you offer customers for paying statement balance early.</p>
+                    </li>
+                    <li>
+                        <p><span class="ui">Merchant fees G/L code</span> Code for the merchant fees your store pays for credit card processing. </p>
+                    </li>
+                    <li>
+                        <p><span class="ui">AR&#160;trade G/L code</span> <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Product Please help with definition</span> </p>
+                    </li>
+                    <li>
+                        <p><span class="ui">AR cash sales G/L code</span> Code from your accounts receivable system for customers set up with a charge account but are paying with cash.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>To account for funds being deposited to the bank, select <span class="ui">To office deposit</span>. This adds it as an additional <span class="ui">Deposit type</span> when balancing the <span class="ui">Cash received journal</span>. </p>
+            </li>
+        </ol>
+        <h3>Related topics</h3>
+        <p>
+            <MadCap:xref href="general-ledger-codes.htm" target="_blank">General ledger codes</MadCap:xref>
+        </p>
+        <p>
+            <MadCap:xref href="../daily-operations/balance-cash-received-journal.htm">Balance Cash received journal</MadCap:xref>
+        </p>
+    </body>
+</html>

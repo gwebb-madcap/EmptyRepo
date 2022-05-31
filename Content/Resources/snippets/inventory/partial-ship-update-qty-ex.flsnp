@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>For example, if 3 of 5 parts were originally received and 2 parts  arrived in this shipment, enter 5. Post to inventory as you normally would. This is not necessary when receiving with an RF&#160;scanner, because the received quantities increment automatically. If receiving from the <span class="ui">Received goods</span> screen, the <span class="ui">Quantity rec</span> remains there for reference.</p>
+    </body>
+</html>

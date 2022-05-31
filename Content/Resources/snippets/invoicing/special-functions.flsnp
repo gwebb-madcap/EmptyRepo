@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The <span class="ui">Special functions</span> menu lists options for invoices, like canceling an invoice or adding a core charge to an invoice. When customer information is opened on the <span class="bold">Invoice</span> screen, the <span class="bold">Special functions</span> options are available. Use the mouse or <span class="ui">Shift</span>+<span class="ui">Tab</span> to go to the <span class="ui">Special functions</span> menu. </p>
+        <p>Two ways to use a <span class="ui">Special function</span>:</p>
+        <ul>
+            <li>
+                <p><span class="ui">Arrow</span> and <span class="ui">Enter</span> </p>
+                <p>Use the <span class="bold">Up/Down</span> arrows to select a function. When the function is highlighted, press <span class="ui">Enter</span>. </p>
+            </li>
+            <li>
+                <p><MadCap:variable name="ui-napa-terms.shortcutTITLE" /> </p>
+                <p>Use <span class="ui">Shift</span>+<span class="ui">Tab</span> and then the <MadCap:variable name="ui-napa-terms.shortcut" />.</p>
+            </li>
+        </ul>
+        <table style="mc-table-style: url('../../TableStyles/blue-header.css');" class="TableStyle-blue-header" cellspacing="0">
+            <col class="TableStyle-blue-header-Column-Column1" style="width: 178px;" />
+            <col class="TableStyle-blue-header-Column-Column2" />
+            <col class="TableStyle-blue-header-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-blue-header-Head-Header1">
+                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                        <p class="table-header-white">Special function </p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                        <p class="table-header-white"><MadCap:variable name="ui-napa-terms.shortcutTITLE" />
+                        </p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadD-Column1-Header1">
+                        <p class="table-header-white">What you can do</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text"> Cancel invoice</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">\</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Cancel the current invoice.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">Bag fee</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">BAG</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Add plastic bag fee when required by state.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">Core</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">COR</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Charge  core part  to customer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">Change customer</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">CU</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Change customer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text"> Defective</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"> <span class="ui">DEF</span></p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Enter defective part for warranty replacement or use for defective bill backs to the customer.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">Delivery</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">DEL</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Enter a delivery charge.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">Does not affect sales</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">DNS</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p>Exclude the transaction from the part sales history. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">Environmental charge</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">ENV</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Manually enter environmental fees.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text"> Freight</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">FRT</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Enter freight charges.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text"> Message</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">M</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Enter a comment on invoice. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">Other</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1"><span class="ui">OTH</span>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Add an item to the invoice that is not a part such as warranty, labor, or freight charge.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text"> Pickup	</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">PU</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Add a pickup item to the invoice.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">Quote</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">QUO</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Print plain paper quote of invoice information and saves invoice.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <MadCap:snippetBlock src="../store-independent-icon.flsnp" />
+                        <p>Miscellaneous</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">MIS</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p>Make an adjustment to the invoice total. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <MadCap:snippetBlock src="../store-independent-icon.flsnp" />
+                        <p class="table-text">Policy adjustment</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">PA</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Adjust  customer AR account on charge invoices.
+</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text"> Save invoice	</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">SAV</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Save invoice information.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text"> Split invoice	</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">SPL</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Tender only selected item(s)  and save the invoice with the remaining items.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text"> Service charge</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                        <p class="table-text"><span class="ui">SVC</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                        <p class="table-text">Add a service charge to the invoice.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">Telephone	</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                        <p class="table-text"><span class="ui">TEL</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                        <p class="table-text">Enter telephone service charge.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                        <p class="table-text">Warranty labor claim</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyB-Column2-Body2">
+                        <p class="table-text"><span class="ui">WLC</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyA-Column1-Body2">
+                        <p class="table-text">Enter part for warranty labor claim process.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:topicToolbarProxy data-mc-skin="/Project/Skins/Topic Toolbar.flskn" />
+        <MadCap:bodyProxy />
+        <div class="home-footer">
+            <table style="width: 100%;margin-left: auto;margin-right: auto;">
+                <col />
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="footer">© Genuine Parts Company 2022</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tip-pop tip">
+            <MadCap:snippetText src="../Snippets/search-tips.flsnp" />
+        </div>
+        <div class="tip-pop pop">
+            <MadCap:snippetText src="../Snippets/search-popular.flsnp" />
+        </div>
+        <script src="scripts.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+        <h1>Returned defective parts</h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Processes</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Video</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Item return info required feature </span>
+            </p>
+            <p>When customers return  defective parts, keep them in a unique staging area until you're ready to return them to the distribution center. Removing returned  defective parts from your inventory is a multi-step process, that requires you to: </p>
+            <ul>
+                <li>
+                    <p>Use the <MadCap:variable name="reports.RPT130" /> to confirm  parts were returned correctly, and part numbers returned are in the correct staging areas. </p>
+                </li>
+                <li>
+                    <p>Create the <MadCap:variable name="reports.RPT045" /> to validate part numbers and quantities being returned. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What is a better word than validate for this step?</span></p>
+                </li>
+                <li>
+                    <p>Remove returned parts from your inventory.</p>
+                </li>
+            </ul>
+            <div class="best-practice">
+                <ul>
+                    <li>
+                        <p>Stage   returned parts that can be resold away from the defective staging area and label   <span class="italics">New returns</span>.</p>
+                    </li>
+                    <li>
+                        <p>Complete all steps in the process before starting <span class="ui">End of day</span>.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pre-requisites">
+                <ul>
+                    <li>
+                        <p>Clear <span class="ui">Use RGN</span> to use <span class="ui">Returned Defectives/Cores</span>. <MadCap:expanding><MadCap:expandingHead>Where is it?</MadCap:expandingHead><MadCap:expandingBody>&#160;Go to <span class="ui">System mgt</span> &gt; <span class="ui">RGN&#160;control</span>s.</MadCap:expandingBody></MadCap:expanding><![CDATA[
+                ]]></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>
+                            <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> <MadCap:variable name="reports.RPT130" /> Required to confirm returned defective part transactions match the total defective parts staged. </p>
+                    </li>
+                </ul>
+                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Can you provide insight on what to do when - A part is staged but not on the <MadCap:variable name="reports.RPT130" />? Note the discrepancy on the report. </span>
+                </p>
+            </div>
+            <h3>Process defective parts</h3>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>Build and generate the <MadCap:variable name="reports.RPT045" /> to confirm the total of returned defective parts matches the total in your staging area. </p>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    <p>Go to <span class="ui">Inventory</span> &gt; <span class="ui">Returned defectives/cores</span>. The  <span class="ui">Selection criteria</span> opens. </p>
+                </li>
+                <li>
+                    <p>Choose <span class="ui">Select</span> or use <span class="ui">All</span> to see all product lines to see all product lines with a returned defective quantity greater than 0.</p>
+                    <p> <img src="../Resources/Images/inventory/defects-product-line-select.png" class="large-screen" alt="Returned defectives and cores screen" /></p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>In the <span class="ui">Select product line</span> screen, select all product lines from the <span class="ui">Available</span> list. Select the <span class="ui">Right</span> arrow <img src="../Resources/Images/icons/right-arrow.png" class="button" /> to move to line(s) to the <span class="ui">Selected</span> list.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-add-all-product-lines.png" class="small-screen" alt="Image of Select product line screen" />
+                    </p>
+                </li>
+                <li>
+                    <p> In the <span class="ui">Selected</span> list, select cores and other product lines  with no returns, like <span class="italics">BAT</span>, and then select the <span class="ui">Left</span> arrow <img src="../Resources/Images/icons/left-arrow.png" class="button" style="width: 30px;height: 29px;" />.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-remove-product-line.png" class="small-screen" alt="Select product line screen" />
+                    </p>
+                </li>
+                <li>
+                    <p>Repeat as needed to remove parts from the report.</p>
+                </li>
+                <li>
+                    <p>Select <span class="ui">OK</span>.</p>
+                </li>
+                <li>
+                    <p>Select <span class="bold">Submit</span>.  <span class="bold">Records returned</span> shows the total of parts returned.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-records-returned.png" class="large-screen" alt="Records returned " />
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Select the <span class="ui">Returned defectives/cores</span> tab, and then select <span class="ui">Returned defects</span> to create the list of defective parts returned by product lines.</p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-list-returned-product-lines.png" class="large-screen" alt="List of returned defective product lines" />
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Select <span class="ui">Printer</span> <img src="../Resources/Images/icons/printer.png" />. The <span class="ui">Report viewer</span> opens the report. </p>
+                </li>
+                <li>
+                    <p>To confirm the <span class="ui">Quantity</span> for each core product line matches the  quantities staged in your store, select <span class="ui">Print</span> to print the <MadCap:variable name="reports.RPT045" />. </p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-report-045-in-viewer.png" class="large-screen" alt="045 report in the Report viewer screen" />
+                    </p>
+                </li>
+            </ul>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>After confirming part numbers and returned quantities are correct, you are ready to finalize and remove returned cores from returned core quantity:</p>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    <p>Select <span class="ui">Finalize cores</span>.</p>
+                </li>
+                <li>
+                    <p><![CDATA[  ]]><span class="ui">Zero returned cores on-hand quantities for NAPA parts</span> Required. Sets the returned defective quantity for the <MadCap:variable name="products.Napa" /> parts selected in the criteria to 0 (also called <span class="italics">zeroes out</span>).</p>
+                </li>
+                <li>
+                    <p><span class="ui">Zero returned cores on hand quantities for non-NAPA parts</span> Required. Sets the returned defective quantity for non-<MadCap:variable name="products.Napa" /> parts selected in the criteria to 0. </p>
+                    <p>
+                        <img src="../Resources/Images/inventory/defects-finalize.png" alt="Finalize defectives message screen" class="small-screen" />
+                    </p>
+                </li>
+            </ul>
+            <ol MadCap:continue="true">
+                <li>
+                    <p>Package defective parts for shipping.</p>
+                    <div class="note">
+                        <p> You can include a copy of the report as a packing slip.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <p><a href="../pdf/Finalize Returned Defectives and Cores.pdf" target="_blank">Finalize returned defectives and cores</a> </p>
+        </div>
+        <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+            </p>
+            <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+            <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+            </div>
+            <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+                <p class="VideoNameCaption"><span class="HideGlossary">Video</span>
+                </p>
+                <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+                <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

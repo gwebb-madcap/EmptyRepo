@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../Video/jquery.modal.min.css" />
+        <script src="../Video/jquery-3.4.1.min.js">
+        </script>
+        <script src="../Video/jquery.modal.min.js">
+        </script>
+        <script src="../Video/bundle.js">
+        </script>
+        <script src="../Video/video.js">
+        </script>
+    </head>
+    <body>
+        <MadCap:breadcrumbsProxy />
+        <MadCap:topicToolbarProxy data-mc-skin="/Project/Skins/Topic Toolbar.flskn" />
+        <MadCap:bodyProxy />
+        <div class="topicFooter">
+             © Genuine Parts Company 2022
+        </div>
+        <div class="tip-pop tip">
+            <MadCap:snippetText src="../Snippets/search-tips.flsnp" />
+        </div>
+        <div class="tip-pop pop">
+            <MadCap:snippetText src="../Snippets/search-popular.flsnp" />
+        </div>
+        <div id="video-modal" class="modal">
+            <div class="bynder-video">
+            </div><a href="#" rel="modal:close"></a>
+        </div>
+        <script src="scripts.js">
+        </script>
+    </body>
+</html>

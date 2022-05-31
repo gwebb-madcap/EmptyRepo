@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="tams.non-prod">
+  <TocEntry
+    Title="Internal Stuff"
+    Link="/Content/u-internal-stuff/about-internal-stuff.htm"
+    conditions="tams.non-prod">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/day-1-guides.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="tams.non-prod" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/u-internal-stuff/topic-gif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="tams.non-prod" />
+    <TocEntry
+      Title="Test your TAMS II knowledge"
+      Link="/Content/learn-knowledge-check/about-knowledge-test.htm"
+      conditions="tams.non-prod">
+      <TocEntry
+        Title="What do you know about customer accounts"
+        Link="/Content/learn-knowledge-check/customer-accounts/ca-about-knowledge-check.htm"
+        conditions="tams.non-prod">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/learn-knowledge-check/customer-accounts/ca-knowledge-check-1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="tams.non-prod" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/learn-knowledge-check/customer-accounts/ca-knowledge-check-2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          conditions="tams.non-prod" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="example-topics"
+      Link="/Project/TOCs/x-example-topics.fltoc"
+      conditions="tams.non-prod" />
+  </TocEntry>
+</CatapultToc>

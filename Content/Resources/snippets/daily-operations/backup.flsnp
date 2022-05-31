@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="important">
+            <p>If an error occurs during <span class="ui">End of day</span> and the backup does not complete, do not  contact <MadCap:variable name="products.TAMS" /> support. Start <span class="bold">End of day</span>, and then start the backup. Be sure to complete the backup before opening your store. If the backup fails, a&#160;ticket is automatically created and sent to <MadCap:variable name="products.TAMS" /> support.</p>
+        </div>
+    </body>
+</html>

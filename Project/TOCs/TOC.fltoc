@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedFile%]"
+    Link="/Project/TOCs/Daily operations.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="[%=System.LinkedFile%]"
+    Link="/Project/TOCs/Getting started.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="[%=System.LinkedFile%]"
+    Link="/Project/TOCs/What's new.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="[%=System.LinkedFile%]"
+    Link="/Project/TOCs/Customer sales.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="[%=System.LinkedFile%]"
+    Link="/Project/TOCs/Inventory management.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="Customer accounts"
+    Link="/Project/TOCs/Customer accounts.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="Employee management"
+    Link="/Project/TOCs/Employee management.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="internal-stuff"
+    Link="/Project/TOCs/x-internal-stuff.fltoc"
+    ReplaceMergeNode="true" />
+</CatapultToc>

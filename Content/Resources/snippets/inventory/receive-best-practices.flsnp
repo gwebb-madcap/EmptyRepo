@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p>Arrange and label staging areas of floor space or empty totes, like <span class="italics">sales area</span>, <span class="italics">stocking area</span>, or by <span class="italics">part type</span>.</p>
+            </li>
+            <li>
+                <p>Separate parts as you scan to keep track of what you have  scanned.</p>
+            </li>
+            <li>
+                <p>Separate scanned parts not assigned to a check-in group to determine their correct purchase order. </p>
+            </li>
+            <li>
+                <p> Keep parts you have not scanned on or near the shipping pallet.</p>
+            </li>
+            <li>
+                <p>Place scanned parts  in the corresponding floor space or tote.</p>
+            </li>
+            <li>
+                <p>Log out all users from RF&#160;scanners after scanning all parts and before posting freight.</p>
+            </li>
+        </ul>
+    </body>
+</html>

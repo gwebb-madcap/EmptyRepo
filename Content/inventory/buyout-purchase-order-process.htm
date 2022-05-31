@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod,tams.inProgress">
+    <head>
+        <style>
+			
+.TableStyle-RPM_video_container_tablestyle
+{
+background-color: #ffffff;
+}
+</style>
+        <link href="../Resources/Stylesheets/store-toggle.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Buyout purchase order process </h1>
+        <script id="bynder-widgets-js" data-account-url="assets.genpt.com" data-language="en" src="https://d8ejoa1fys2rk.cloudfront.net/bynder-embed/latest/bynder-embed.js">
+        </script>
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="tab-1">Steps</li>
+            <li class="tab-link" data-tab="tab-2">Guides</li>
+            <li class="tab-link" data-tab="tab-3" MadCap:conditions="tams.DoNotDistribute">Video</li>
+            <li class="tab-link" data-tab="tab-4" MadCap:conditions="tams.DoNotDistribute">Tab 4</li>
+        </ul>
+        <div class="tab-content current" id="tab-1">
+            <p>
+                <MadCap:toggler targets="requiredProcessCOS">Company stores</MadCap:toggler> <MadCap:toggler targets="optionalprocessIOS">Independent stores</MadCap:toggler></p>
+            <div class="tog2">
+                <div>
+                    <p MadCap:targetName="requiredProcessCOS">Required process. </p>
+                </div>
+                <div>
+                    <p MadCap:targetName="optionalprocessIOS">Optional process. </p>
+                </div>
+            </div>
+            <p>When customers need parts or merchandise outside the <MadCap:variable name="products.Napa" /> supply chain, the buyout purchase order process manages the sale from ordering through the vendor to reconciling the purchase order. The buyout purchase order process (also called p<span class="italics">ick up order</span>) is a multi-step process requiring you to:&#160;</p>
+            <ul>
+                <li>
+                    <p>Create a buyout purchase order  to generate a purchase order number for the vendor. </p>
+                </li>
+                <li>
+                    <p>Invoice the customer to tender payment.</p>
+                </li>
+                <li>
+                    <p>Complete the purchase order  once payment is received.</p>
+                </li>
+            </ul>
+            <div class="best-practice">
+                <p>Complete buyout purchase orders  before starting the <span class="bold">End of day</span> process.</p>
+            </div>
+            <div class="pre-requisites">
+                <ul>
+                    <li>
+                        <p>Select <span class="ui">Buyout po in use</span>. <MadCap:expanding><MadCap:expandingHead>Where is it? </MadCap:expandingHead><MadCap:expandingBody> <span class="ui">System management</span> &gt;<span class="ui"> Inventory</span> &gt; <span class="ui">Buyout PO</span> &gt; <span class="ui">Buyout po&#160;controls</span>. Select <span class="ui">Buyout po in use</span>.</MadCap:expandingBody></MadCap:expanding></p>
+                    </li>
+                    <li>
+                        <p>Select <span class="ui">Allow po entry from invoicing</span> so users can add parts from the <span class="ui">Invoice</span> screen. <MadCap:expanding><MadCap:expandingHead>Where is it?&#160;</MadCap:expandingHead><MadCap:expandingBody><span class="ui">System management</span> &gt; <span class="ui">Inventory</span> &gt; <span class="ui">Buyout PO</span> &gt; <span class="ui">Buyout po controls</span>. Select <span class="ui">Allow po entry from invoicing</span>.</MadCap:expandingBody></MadCap:expanding></p>
+                    </li>
+                    <li>
+                        <p>Manage store pickup gross profit percent to set your gross profit percent and beginning and ending cost used to determine sales price for the item. <MadCap:expanding><MadCap:expandingHead>Where is it? </MadCap:expandingHead><MadCap:expandingBody><span class="ui">System management</span> &gt; <span class="ui"> Invoicing</span> &gt; <span class="ui">Store PU GP</span></MadCap:expandingBody></MadCap:expanding>.</p>
+                    </li>
+                </ul>
+                <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Link to manage store pickup gross profit percent.</p>
+                <ul>
+                    <li>
+                        <p>Add vendors  you are work with in <MadCap:variable name="products.TAMS" />. <MadCap:expanding><MadCap:expandingHead>Where is it?</MadCap:expandingHead><MadCap:expandingBody><span class="ui">System management</span> &gt; <span class="ui">Vendors</span></MadCap:expandingBody></MadCap:expanding>&#160;.<span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Future link to manage vendors</span></p>
+                    </li>
+                    <li>
+                        <p>Confirm the buyout part is posted to on-hand inventory.</p>
+                    </li>
+                    <li>
+                        <p><span class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Manage buyout purchase order controls</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="note">
+                <p>The below steps take you through the process from the <span class="ui">Invoice</span> screen. <MadCap:expanding><MadCap:expandingHead>Show me another way</MadCap:expandingHead><MadCap:expandingBody>You can also go to  <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt;&#160;<span class="ui">Buyout PO</span>.</MadCap:expandingBody></MadCap:expanding> </p>
+            </div>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Create a buyout purchase order</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <p>The first step is  to generate a purchase order number to provide the vendor to purchase the part. </p>
+                <MadCap:dropDownBody>
+                    <ol>
+                        <li>
+                            <p>From the <span class="bold">Invoice</span> screen, enter the customer account number (customer requesting the merchandise). </p>
+                        </li>
+                        <li>
+                            <p> Create the buyout purchase (pick-up) order:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p> Go to <span class="bold">Special functions</span> &gt; <span class="bold">Pick-up</span>. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-select-pickup.png" class="large-screen" alt="Pickup selected on invoice screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>A message lets you know when customers do not have buyout purchase orders. Select <span class="bold">OK</span> to continue. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-no-po.png" class="small-screen" style="max-width: auto;" alt="Customer does not have a buyout purchase order message" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>   In the  <span class="ui">Customer buyout</span> screen,  select <span class="bold">Add po</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-add-po.png" class="large-screen" style="max-width: 30%;" alt="Customer buyout screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>The <span class="ui">Buyout purchase orders</span> screen shows open buyout purchase orders. </p>
+                            <p> <img src="../Resources/Images/inventory/buyout-po-open-orders.png" class="large-screen" alt="Buyout purchase orders screen " /></p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>To create a new buyout purchase order, select <span class="ui">New</span> <img src="../Resources/Images/icons/new.png" class="button" style="width: 32px;height: 29px;" />.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Enter the following details in <span class="ui">Create buyout po</span> screen:</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-create-po-details.png" class="small-screen" style="max-width: 30%;" alt="Create buyout purchase order message" />
+                            </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="bold">Vendor number</span> Numeric code (15 numbers) to identify vendor.  </p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Payment type</span> Select <span class="italics">Cash</span>, <span class="italics">On account</span>, <span class="italics">Purchase card</span>. </p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Purchase card number</span> Manager's purchase card <span class="italics">(p card</span>) number. </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Select <span class="bold">OK</span> to generate the buyout purchase order number. Give this number to the vendor.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-number-created.png" class="small-screen" alt="Buyout purchase order number" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Select  <span class="bold">Add detail</span>. </p>
+                            <p>The <span class="ui">Buyout purchase orders</span> screen opens where you add part information. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-purchase-orders-screen.png" class="large-screen" alt="Buyout purchase order screen" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>To start adding a new part, select <span class="bold">New</span><img src="../Resources/Images/icons/new.png" class="button" style="width: 32px;height: 29px;" />. Enter the following information: </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="bold">Type</span> Select <span class="italics">Special order</span>.</p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Part number</span> Enter the buyout part number.</p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Line</span> Select a non-<MadCap:variable name="products.Napa" /> product line. </p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Description</span> Describe the part using up to 21 alpha-numeric and special characters. </p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Order quantity</span> Enter the quantity you are purchasing from the vendor.</p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Unit cost</span> <MadCap:snippetText src="../Resources/snippets/inventory/unit-cost.flsnp" /></p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Core cost</span> <MadCap:snippetText src="../Resources/snippets/inventory/po-core-cost.flsnp" /></p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Customer number</span> Enter or search for the customer's account number.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-purchase-orders-screen-part-added.png" class="large-screen" alt="Buyout purchase orders screen with part added" />
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Invoice number</span> and <span class="ui">Invoice date</span> are blank until you tender the invoice</p>
+                        </li>
+                        <li>
+                            <p>Select <span class="bold">Save</span><img src="../Resources/Images/icons/save.png" class="button" style="width: 34px;height: 31px;" /> .</p>
+                        </li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Create a customer invoice</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <p>The second step is to create a customer invoice so you can bill the customer and tender payment for the part.</p>
+                <MadCap:dropDownBody>
+                    <ol>
+                        <li>
+                            <p>From the <span class="bold">Invoice</span> screen, enter the customer number.</p>
+                        </li>
+                        <li>
+                            <p> Select <span class="bold">Special functions</span> &gt; <span class="bold">Pick-up</span>. </p>
+                            <p>The <span class="ui">Customer buyout</span> screen shows the open buyout purchase order.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-customer-buyout-with-po.png" alt="Customer buyout screen" class="large-screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p>Select the purchase order, and then select <span class="bold">Next</span>. </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>The <span class="ui">Edit buyout po</span> screen shows the part information. </p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p>To change the <span class="ui">Quantity</span> or cost, select the part and enter the correct value. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-edit-po.png" class="large-screen" alt="Edit buyout purchase order" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Select <span class="ui">Next</span> to continue.</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>To create the invoice, select <span class="ui">Invoice parts</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-invoice-parts.png" class="large-screen" alt="Invoice parts screen" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>If the <span class="ui">Pickup gross profit percent</span> is set up, the sale price is based on the cost entered on the buyout purchase order. Enter the price for the part, and then <a href="../customer-sales/check-out-and-tender-invoice.htm" target="_blank">Check out</a> as normal. </p>
+                            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What if pick up gross profit percent is not set up, how is price determined?</span> </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-customer-invoice-with-part.png" alt="Image of customer invoice with buyout part" class="large-screen" />
+                            </p>
+                        </li>
+                    </ol>
+                    <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">In meeting recording, price is blank because it's a pu, need help getting better screen. Pickup item screen shows asking for pickup item cost, do you wish to enter a lost sale, can we confirm steps.</span>
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Complete the buyout purchase order</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <p>The final step is to  complete the transaction and match the part purchased with the part ordered and the part sold. </p>
+                <MadCap:dropDownBody>
+                    <ol>
+                        <li>
+                            <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Inventory</span>&gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Buyout PO</span>. </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select the open buyout purchase order, and then select the <span class="ui">Other options</span> tab.</p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-open-orders.png" class="large-screen" alt="Buyout purchase orders screen " />
+                            </p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>In <span class="ui">Vendor invoices</span>, select <span class="ui">Add</span>. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-other-tab.png" class="large-screen" alt="Other options tab on buyout purchase order screen" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Complete the following vendor invoice information:&#160;</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><![CDATA[	]]><span class="ui">Invoice number</span> Invoice number provided by the vendor. <span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Is this correct?&#160;</span></p>
+                        </li>
+                        <li>
+                            <p><![CDATA[	]]><span class="ui">Invoice date</span> Date you are completing the buyout purchase order.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Amount</span> Price you are charging customer for the part.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Payment type</span> Select your method of payment: <span class="italics">Cash</span>, <span class="italics">On account</span>, or <span class="italics">Purchase card</span>. </p>
+                            <p><![CDATA[	]]><MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> If your purchase card is on file, select it from the dropdown menu. </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>Select <span class="bold">Save</span><img src="../Resources/Images/icons/save.png" class="button" style="width: 32px;height: 29px;" />.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>In <span class="ui">G/L information</span>, select <span class="bold">Add</span>. Complete the following:</p>
+                            <p>
+                                <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Required to enter  <span class="bold">G/L information</span>:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><![CDATA[	]]><span class="ui">G/L code</span> Select <span class="italics">140 Inventory</span> as the general ledger code to associate with the part.</p>
+                        </li>
+                        <li>
+                            <p><span class="bold">Amount</span> Enter the amount store pays for part before tax. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-gl-info.png" class="large-screen" alt="Add gl information" />
+                            </p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>To add  taxes, select <span class="ui">Add</span>.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">G/L code</span> Select the tax code (typically <span class="italics">Taxes</span>).</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><span class="bold">Amount</span> Enter the tax amount.</p>
+                        </li>
+                    </ul>
+                    <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">What if The part does not have tax?</p>
+                    <ul>
+                        <li>
+                            <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Add a general inventory code using code <span class="italics">140 Inventory</span>, and round the amount down by 1 penny (for $20.00, enter $19.99). </p>
+                        </li>
+                        <li>
+                            <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Add a tax code using <span class="italics">820 Taxes</span>, and enter .01. This adds a tax line to the invoice.</p>
+                        </li>
+                    </ul>
+                    <p class="futureContent" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;Future Content &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">
+                        <img src="../Resources/Images/inventory/buyout-po-tax-line.png" alt="Image of general ledger codes added for tax" class="large-screen" />
+                    </p>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Select <span class="bold">PO&#160;unit costs verified</span> to confirm the paper invoice matches the part shipped from the vendor. </p>
+                            <p>
+                                <img src="../Resources/Images/inventory/buyout-po-unit-cost-verified-checkbox.png" class="large-screen" alt="Purchase order unit cost verified" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" /> Required to select  <span class="bold">Approve po</span>.</p>
+                            <div class="note">
+                                <p><span class="ui">Approve po</span> is available when you tender the invoice and select <span class="ui">PO&#160;unit costs verified</span>.<span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> Is this correct, it doesn't make sense</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 34px;height: 31px;" class="button" />.</p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot> Create buyout purchase order from customer invoice</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>
+                        <MadCap:toggler targets="optionalprocessIOS">Independent stores</MadCap:toggler>
+                    </p>
+                    <p>Optional process.</p>
+                    <p>
+                        <MadCap:toggler targets="defaultProcessCOS">Company stores</MadCap:toggler>
+                    </p>
+                    <p MadCap:targetName="defaultProcessCOS">This  option is enabled by default; the below process does not apply.</p>
+                    <p>When you do not want to add a buyout part to your on-hand inventory, create a buyout purchase order from the customer's invoice. </p>
+                    <div class="pre-requisites">
+                        <p>Clear <span class="ui">Buyout purchase order in use</span>. <MadCap:expanding><MadCap:expandingHead>Where is it?</MadCap:expandingHead><MadCap:expandingBody> <span class="ui">System management</span> &gt; <span class="ui">Inventory controls</span> &gt; <span class="ui">Buyout po</span> &gt; <span class="ui">Buyout po controls</span>.</MadCap:expandingBody></MadCap:expanding></p>
+                    </div>
+                    <ol>
+                        <li>
+                            <p>From the <span class="bold">Invoice</span> screen, enter the customer number.</p>
+                        </li>
+                        <li>
+                            <p> Select <span class="bold">Special functions</span> &gt; <span class="bold">Pick-up</span>. </p>
+                        </li>
+                        <li>
+                            <p>Enter the following information:</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Part number</span> Part ordered from supplier. Part does not have to exist in <MadCap:variable name="products.TAMS" />. </p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Line </span>Enter 3-character abbreviation  for non-<MadCap:variable name="products.Napa" /> product line.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Description</span> Enter a description for the part.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Quantity</span> Total quantity ordered.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>The <span class="ui">Pickup</span> screen opens where you enter the following part details:&#160;</p>
+                        </li>
+                    </ol>
+                    <ul>
+                        <li>
+                            <p><span class="ui">Pick-up item cost</span> Store cost for the part.</p>
+                        </li>
+                        <li>
+                            <p><span class="ui">Do you wish to enter a lost sale for the item?</span>&#160;Select <span class="ui">Yes</span> if you purchased the part because you could not get the <MadCap:variable name="products.Napa" /> equivalent on time to make the sale. Otherwise, select <span class="ui">No</span>.</p>
+                        </li>
+                        <li>
+                            <p>Select <span class="ui">OK</span> to return to the customer's invoice.</p>
+                        </li>
+                    </ul>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>If <span class="ui">Pickup gross profit percent</span> is not set up, enter the sale price of the item in <span class="ui">PD</span> on the customer's invoice. If <span class="ui">Pickup gross profit percent</span> is set up, the sale prices is automatically determined.</p>
+                        </li>
+                    </ol>
+                    <ol MadCap:continue="true">
+                        <li>
+                            <p>Tender and checkout as normal.</p>
+                        </li>
+                    </ol>
+                    <MadCap:dropDown>
+                        <MadCap:dropDownHead>
+                            <MadCap:dropDownHotspot>Open the completed invoice </MadCap:dropDownHotspot>
+                        </MadCap:dropDownHead>
+                        <MadCap:dropDownBody>
+                            <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Why do they need to do this?&#160;</span>
+                            </p>
+                            <ol>
+                                <li>
+                                    <p>Go to <span class="ui">Sales activity</span> &gt; <span class="ui">Transactions</span> &lt; <span class="ui">Review changed transactions</span>. </p>
+                                </li>
+                                <li>
+                                    <p>Enter a <span class="ui">Date</span> for the time frame during which you created the buyout purchase order. </p>
+                                </li>
+                                <li>
+                                    <p>Select <span class="ui">Include pickup items only</span>. </p>
+                                </li>
+                                <li>
+                                    <p>Select <span class="ui">Submit</span>.</p>
+                                </li>
+                                <li>
+                                    <p> Select the <span class="ui">Transaction list</span> tab when the buyout purchase order is located.</p>
+                                </li>
+                                <li>
+                                    <p>Select the buyout purchase order, and then select <span class="ui">View invoice</span>.</p>
+                                </li>
+                            </ol>
+                        </MadCap:dropDownBody>
+                    </MadCap:dropDown>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h3>Related topics</h3>
+            <p>
+                <MadCap:xref href="../system-management/general-ledger-codes.htm" target="_blank">General ledger codes</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="../system-management/manage-vendors.htm" MadCap:conditions="tams.DoNotDistribute">Manage vendors</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="../system-management/manage-store-pickup-gross-profit-percent.htm" MadCap:conditions="tams.DoNotDistribute">Manage store pickup gross profit percent</MadCap:xref>
+            </p>
+        </div>
+        <div class="tab-content" id="tab-2">
+            <p>Use as a quick reference for steps and important information.</p>
+            <p><a href="../pdf/Create Buyout Purchase Orders.pdf" target="_blank">Create buyout purchase orders</a> </p>
+        </div>
+        <div class="tab-content" id="tab-3" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Video title</span>
+            </p>
+            <p>Learn how to .... Give a brief description of what they will learn in this video, listing key concepts/tasks.</p>
+            <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+            </div>
+        </div>
+        <div class="tab-content" id="tab-4" MadCap:conditions="tams.DoNotDistribute">
+            <p class="VideoNameCaption"><span class="HideGlossary">Tab 4</span>
+            </p>
+            <div data-bynder-widget="video-item" data-media-id="D333248E-4C5A-4566-8538542E7F8A0963" data-width="" class="vidContainer" data-preload="none">
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Manage employee set up and permissions</h1>
+        <p>Add and maintain employee information, log in credentials and access in <span class="ui"> Employee information</span>. </p>
+        <div class="best-practice">
+            <p>The following guidelines help you avoid conflicts with Employee numbers: </p>
+            <ul>
+                <li>
+                    <p>If you are part of a store ownership, assign  employees the same <span class="ui">Employee number</span> at all stores. </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>If using <span class="ui">Phone Room</span>, add the same employee  in all stores where the employee is active to ensure the employee can print delivery invoices. </p>
+                </li>
+                <li>
+                    <p>Do not reuse <span class="ui">Employee numbers</span>.</p>
+                </li>
+                <li>
+                    <p>Do not edit a previously used <span class="ui">Employee number</span> to assign  to a new employee to prevent listing the new employee on  historical information completed by the previous employee, such as invoices.</p>
+                </li>
+            </ul>
+        </div>
+        <h3>Password guidelines</h3>
+        <MadCap:snippetBlock src="../Resources/snippets/employee-management/password-guidelines.flsnp" />
+        <div class="note">
+            <p>Only employees with <span class="ui">Access allowed</span> selected for <span class="ui">Employee maintenance</span> on the <span class="ui">Security</span> tab have access to the <span class="ui">Employee information</span> screen. The only security group with this setting is <span class="ui">Store managers</span>.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Add a new or edit employee and setup permissions</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can add new employee or make changes to existing employee information as needed. You cannot change the <span class="ui">Employee number</span> or reuse an existing employee information for another employee.</p>
+                <ol>
+                    <li>
+                        <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="bold">Employee mgmt</span> &gt; <span class="bold">Employee information</span>. </p>
+                        <p>The <span class="bold">Main</span> tab displays by default. </p>
+                        <p>
+                            <img src="../Resources/Images/emp-info/emp-info-main.png" class="large-screen" alt="Employee information screen" />
+                        </p>
+                    </li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>To add a new employee, select <span class="bold">New</span><img src="../Resources/Images/icons/new.png" class="button" style="width: 34px;height: 30px;" />. </p>
+                        <p>To edit existing employee information, select the employee in the list or enter the employee's number in the <span class="ui">Employee</span> field. </p>
+                    </li>
+                </ol>
+                <ol MadCap:continue="true">
+                    <li>
+                        <p>Enter the following required information:</p>
+                        <ul>
+                            <li>
+                                <p><span class="ui">Employee number</span> Enter a number between 0 and 9,999 that has never been used for a current or past employee. </p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Job code</span> Select the code matching the employee's job in the store, like <span class="italics">Counter sales</span>, <span class="italics">Commercial sales associate</span>, or <span class="italics">Shipping supervisor</span>.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Last name</span> Enter up to 20 characters.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">First name</span> Enter up to 20 characters.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Pay type</span> Select <span class="italics" style="font-weight: normal;">Hourly</span> or <span class="italics" style="font-weight: normal;">Salary</span>.</p>
+                                <div class="note">
+                                    <p>If using time tracking  in <MadCap:variable name="products.TAMS" />, employees with <span class="ui">Pay type</span> <span class="italics">Salary</span> are not required to clock in and out. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p><span class="ui">Profile number</span> Required for employees with <span class="ui">Pay type</span> set to <span class="italics">Hourly</span>. The profiles are defined and maintained in <span class="ui">Employee mgmt</span> &gt; <span class="ui">Pay period profile maintenance</span>.</p>
+                            </li>
+                            <li>
+                                <p><span class="ui">Employee password</span> Sets a temporary password. Employee will be asked to change it after logging in. </p>
+                                <p>You can use this field to reset the employee's password any time, but the employee is always asked to change it.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>If the employee needs access to the Point of Sale (Invoicing) screens, select the <span class="ui">Invoicing allowed</span> checkbox.</p>
+                    </li>
+                    <li>
+                        <p>Select <MadCap:variable name="products.PPSE" /> in the <span class="ui">Catalog preference</span> field.</p>
+                    </li>
+                    <li>
+                        <p>If each of your employees has an individual A/R customer number to use when purchasing parts, enter the employee's A/R customer number in the <span class="ui">A/R customer #</span> field. </p>
+                        <div class="note">
+                            <p>If self-invoicing is not allowed, an employee cannot self-invoice when their A/R customer number is entered here. </p>
+                            <p>The <span class="ui">Allow employee to self invoice</span> checkbox on the <span class="ui">Permissions</span> tab of <span class="ui">System mgmt</span> &gt; <span class="ui">Invoicing</span> &gt; <span class="ui">Invoicing controls</span> determines if self-invoicing is allowed.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Determine if the default timeout displayed in the <span class="ui">Timeout minutes</span> field is correct for the employee, and change it if necessary. <span class="ui">Time out minutes</span> determines how long the system is inactive or idle before <MadCap:variable name="products.TAMS" /> locks the screen.</p>
+                        <p>The <span class="ui">Employee access validation</span> field (set in <span class="ui">System management</span> &gt; <span class="ui">Store controls</span> &gt; <span class="ui">General</span> tab) determines the <span class="ui">Timeout minutes</span>  as followed:</p>
+                        <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                            <col class="TableStyle-blue-header-Column-Column1" style="width: 29px;" />
+                            <col class="TableStyle-blue-header-Column-Column2" />
+                            <col class="TableStyle-blue-header-Column-Column1" />
+                            <thead>
+                                <tr class="TableStyle-blue-header-Head-Header1">
+                                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                        <p class="table-header-white">Selected</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadE-Column2-Header1">
+                                        <p class="table-header-white">Employees</p>
+                                    </th>
+                                    <th class="TableStyle-blue-header-HeadD-Column1-Header1">
+                                        <p class="table-header-white">Timeout minutes</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body1">
+                                        <p class="table-text">Assistant manager</p>
+                                        <p class="table-text">Hourly keyholder</p>
+                                        <p class="table-text">Store manager</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body1">
+                                        <p class="table-text">1-10</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body2">
+                                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                        <p class="table-text">Yes</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyE-Column2-Body2">
+                                        <p class="table-text">All other employees</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyD-Column1-Body2">
+                                        <p class="table-text">0-999</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-blue-header-Body-Body1">
+                                    <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                                        <p class="table-text">No</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyB-Column2-Body1">
+                                        <p class="table-text">All employees</p>
+                                    </td>
+                                    <td class="TableStyle-blue-header-BodyA-Column1-Body1">
+                                        <p class="table-text">0-999</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>
+                            <MadCap:snippetText src="../Resources/snippets/store-company-icon.flsnp" />: <span class="ui">Employee access validation</span> is selected and cannot be changed. </p>
+                        <p>
+                            <MadCap:snippetText src="../Resources/snippets/store-independent-icon.flsnp" />: <span class="ui">Employee access validation</span> can be selected or cleared.</p>
+                    </li>
+                    <li>
+                        <p>Select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 32px;height: 29px;" class="button" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="tams.DoNotDistribute">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Edit employee information</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You make changes to an employee's information as needed. You cannot change the <span class="ui">Employee number</span> or reuse an existing employee information for another employee.</p>
+                <ol>
+                    <li>
+                        <p>Go to <span class="bold">Employee mgmt</span> &gt; <span class="bold">Employee information</span>. </p>
+                    </li>
+                    <li>
+                        <p>On the <span class="bold">Main</span> tab, select the employee in the list or enter the employee's number in the <span class="ui">Employee</span> field. </p>
+                    </li>
+                    <li>
+                        <p>Enter or change information on any of the tabs and select <span class="ui">Save</span> <img src="../Resources/Images/icons/save.png" style="width: 33px;height: 30px;" class="button" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Remove employee access</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If an employee resigns or is terminated, update the employee's information in <MadCap:variable name="products.TAMS" /> to remove their access.</p>
+                <ol>
+                    <li>
+                        <p>Go to <span class="bold">Employee mgmt</span> &gt; <span class="bold">Employee information</span>. </p>
+                    </li>
+                    <li>
+                        <p>On the <span class="bold">Main</span> tab, select the employee in the list or enter the employee's number in the <span class="ui">Employee</span> field. </p>
+                    </li>
+                    <li>
+                        <p>Enter the employee's last day in the <span class="ui">Termination Date</span> field  and select <span class="ui">Save</span><img src="../Resources/Images/icons/save.png" style="width: 32px;height: 29px;" class="button" />.</p>
+                    </li>
+                </ol>
+                <p>On this date, the <span class="ui">Invoicing allowed</span> checkbox is cleared, and all the employee's security settings on the <span class="ui">Security</span> tab are set to <span class="ui">No access</span>. </p>
+                <div class="note">
+                    <p>You cannot delete employees from <MadCap:variable name="products.TAMS" /> because the employee data is tied to transactions.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Set employee security</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Grant, deny, or give view access to <MadCap:variable name="products.TAMS" /> menus and sub menus from the <span class="ui">Security</span> tab.  </p>
+                <div class="best-practice">
+                    <p>Keep in mind the following rules when assigning security:</p>
+                    <ul>
+                        <li>
+                            <p>You can grant permissions only as high as your own permissions. For example, if you have <span class="ui">View only</span> access to <span class="ui">Finalize pay period</span>, you can grant only <span class="ui">View only</span> access to other employees.</p>
+                        </li>
+                        <li>
+                            <p>Security settings take effect when the employee logs out and then logs back in.</p>
+                        </li>
+                        <li>
+                            <p>For an employee to access any  sub menu options, you must give access to the main menu option. For example, to give an employee to access <span class="ui">Employee sales fund detail</span>, the employee must have access to <span class="ui">Sales activities menu</span>, and <span class="ui">Review today's employee sales</span>.</p>
+                            <p>
+                                <img src="../Resources/Images/emp-info/emp-info-sec-menu-excerpt.png" class="small-screen" alt="Saves activities menu and sub menu access " />
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <p>From the <span class="ui">Security</span> tab, select a <MadCap:variable name="products.TAMS" /> menu or sub menu, and then choose one of the following options:</p>
+                <ul>
+                    <li>
+                        <p><span class="ui">Access allowed</span> Gives employee access to the selected menu. </p>
+                    </li>
+                    <li>
+                        <p><span class="ui">No access</span> Denies employee access to the selected menu. </p>
+                    </li>
+                    <li>
+                        <p><span class="ui">View only</span> Lets employee see the selected menu but does not allow action. </p>
+                        <p>
+                            <img src="../Resources/Images/emp-info/emp-info-security.png" class="large-screen" alt="Security tab on employee information screen" />
+                        </p>
+                    </li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Set security using groups and copying settings</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div>
+                    <p>You can quickly set security for an employee by selecting a group and assigning those values or by copying one employee's settings to another employee. You can also manually define access to functions as necessary. </p>
+                    <ol>
+                        <li>
+                            <p>Go to <span class="bold">Employee mgmt</span> &gt; <span class="bold">Employee information</span>. </p>
+                        </li>
+                        <li>
+                            <p>On the <span class="bold">Main</span> tab, select the employee in the list or enter the employee's number in the <span class="ui">Employee</span> field. </p>
+                        </li>
+                        <li>
+                            <p>Select the <span class="ui">Security</span> tab.</p>
+                        </li>
+                        <li>
+                            <p>To quickly assign security settings, do one of the following:</p>
+                            <ul>
+                                <li>
+                                    <p>Select a <span class="ui">Group</span> for the employee, and then select <span class="ui">Yes</span> on the warning message. All settings for the group are assigned to the selected employee, and any existing settings for the employee are replaced with the group settings.</p>
+                                    <div class="note">
+                                        <p>The security permissions for a group are hard coded and cannot be edited in <MadCap:variable name="products.TAMS" />. After the group permissions are applied to an employee, each setting can be changed.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Select <span class="ui">Copy from employee</span>, select <span class="ui">Copy security</span>, and then select <span class="ui">Yes</span> on the warning message.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>To modify individual settings, select the menu or sub-menu in the list, and then select the option for <span class="ui">Access allowed</span>, <span class="ui">No access</span>, or <span class="ui">View only</span>.</p>
+                        </li>
+                        <li>
+                            <p>To apply the same security level to a menu and its sub-menus, select <span class="ui">Apply to sublevels</span>, select the top menu option, and then select either <span class="ui">Access allowed</span>, <span class="ui">No access</span>, or <span class="ui">View only</span>.</p>
+                        </li>
+                        <li>
+                            <p>Click <span class="ui">Save</span><img src="../Resources/Images/icons/save.png" style="width: 33px;height: 30px;" class="button" /> when all options are set appropriately.</p>
+                        </li>
+                    </ol>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

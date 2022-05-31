@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Genuine Parts Company">Genuine Parts Company</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="800-472-8267">800-472-8267</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="2999 Wildwood Parkway">2999 Wildwood Parkway</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Atlanta, GA 30339">Atlanta, GA 30339</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T18:02:51.1357833-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="Email"
+    Comment=""
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="Facebook"
+    Comment=""
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="Twitter"
+    Comment=""
+    EvaluatedDefinition="https://twitter.com/#!/MadCapDocTeam">https://twitter.com/#!/MadCapDocTeam</Variable>
+  <Variable
+    Name="Instagram"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="LinkedIn"
+    Comment=""
+    EvaluatedDefinition="" />
+  <Variable
+    Name="PDF Release Notes"
+    Comment=""
+    EvaluatedDefinition="TAMS Release Notes">TAMS Release Notes</Variable>
+</CatapultVariableSet>

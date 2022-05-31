@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.guidelines">
+    <head>
+    </head>
+    <body>
+        <h1>Modifying the alerts</h1>
+        <p>The Example-alerts topic contains an example of each alert. </p>
+        <h2>Style rules</h2>
+        <p>Each alert is created with two CSS&#160;rules:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: CSS;">div.note
+{
+	background-image: url("../Images/alerts/note.svg");
+	background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    padding-left: 60px;
+    min-height: 50px;
+}
+
+div.note &gt; p:first-child:before
+{
+	content: "Note ";
+	color: #3AB800;
+	font-weight: bold;
+	display: block;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>The main style rule sets the background image, padding, and min-height. The min-height is set so that smaller alerts do not "chop off" the image. The second style rule adds and formats the alert type ("Note" in the code snippet above) before the first paragraph in the alert. Note that this approach assumes that the alerts start with a paragraph. We are including a space after the alert type in case we change the formatting (for example, if "Note moves to the beginning of the note rather than above it).</p>
+        <h3>To create an alert:</h3>
+        <ol>
+            <li>
+                <p>Copy the two style rules for any existing alert.</p>
+            </li>
+            <li>
+                <p>Rename the style rules.</p>
+            </li>
+            <li>
+                <p>set the background image to the image you want to use.</p>
+            </li>
+            <li>
+                <p>Change the alert's type. </p>
+            </li>
+            <li>
+                <p>Change the alert's color to match the icon.</p>
+            </li>
+        </ol>
+        <h2>Icons</h2>
+        <p>The icons are stored in the Images\alerts folder. We are using svg images so that we can set their width, height, and color using CSS. </p>
+        <h3>To change an image:</h3>
+        <ol>
+            <li>
+                <p>Name the new image to match the current image's filename.</p>
+            </li>
+            <li>
+                <p>In Windows, replace the old image with the new image.</p>
+            </li>
+        </ol>
+    </body>
+</html>

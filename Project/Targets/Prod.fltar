@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  conditions="tams.production"
+  DefaultUrl="/Content/Home.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/topic-styles.css"
+  MasterStylesheetOverride="true"
+  ConditionTagExpression="include[Default.ScreenOnly or tams.non-prod or tams.production], exclude[Default.PrintOnly or tams.DoNotDistribute or tams.guidelines]"
+  MasterToc="/Project/TOCs/TOC.fltoc"
+  MasterPage="/Content/Resources/TemplatePages/Topics.flmsp"
+  MoveOutputContentToRoot="false"
+  Skin="/Project/Skins/HTML5-Side Navigation.flskn"
+  OutputFile="Home">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Prod.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>

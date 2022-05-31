@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="COM150"
+    EvaluatedDefinition="COM150 TAMS shipment advice report">COM150 TAMS shipment advice report</Variable>
+  <Variable
+    Name="RPT130"
+    Comment=""
+    EvaluatedDefinition="RPT130 Special invoice recap report">RPT130 Special invoice recap report</Variable>
+  <Variable
+    Name="RPT045"
+    Comment=""
+    EvaluatedDefinition="RPT045 Returned defectives report">RPT045 Returned defectives report</Variable>
+  <Variable
+    Name="RPT044"
+    Comment=""
+    EvaluatedDefinition="RPT044 Returned cores report">RPT044 Returned cores report</Variable>
+  <Variable
+    Name="RPT078"
+    Comment=""
+    EvaluatedDefinition="RPT078 Daily inventory activity report">RPT078 Daily inventory activity report</Variable>
+  <Variable
+    Name="RPT043"
+    Comment=""
+    EvaluatedDefinition="RPT043 Line inventory value detail report">RPT043 Line inventory value detail report</Variable>
+  <Variable
+    Name="SCR041"
+    Comment=""
+    EvaluatedDefinition="Cash received journal daily report">Cash received journal daily report</Variable>
+  <Variable
+    Name="RPT206"
+    Comment=""
+    EvaluatedDefinition="Returns worksheet">Returns worksheet</Variable>
+  <Variable
+    Name="RPT278"
+    Comment=""
+    EvaluatedDefinition="Selective inventory activity report">Selective inventory activity report</Variable>
+  <Variable
+    Name="RPT080"
+    Comment=""
+    EvaluatedDefinition="RPT080 Payment cards/others tendered">RPT080 Payment cards/others tendered</Variable>
+</CatapultVariableSet>

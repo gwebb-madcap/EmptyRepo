@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p><span class="bold">Receive freight</span> During this step, you are verifying parts and quantities arrived and updating them in <MadCap:variable name="products.TAMS" />.</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span class="bold">Post freight</span> During this step, the store manager confirms the received quantities are correct, makes final adjustments, and posts the quantities to inventory so on-hand quantities are current.  </p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+﻿/*<meta />*/
+
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+div.tog2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid .25px var(--Brand4);
+}
+
+div.tog2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.tog2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.tog2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.tog2 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.tog2 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+@media tablet
+{
+	div.tog2 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.tog2 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	div.tog2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.tog2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.non-prod">
+    <head>
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Order selection groups</h1>
+        <p>The first thing you need to do to be ready to order stock is to define your order selection groups. Order selection groups allow you to create orders automatically because the groups eliminate the labor-intensive task of manually entering individual part numbers. </p>
+        <p><span class="SMEQuestion">Add sample screens from the Resources folder; then add steps or topics on creating OSG for each order type -- one for Factory, NAPA, non-NAPA, and Special.</span>
+        </p>
+        <p>You can define as many selection groups as you require for each order type. The order types are:</p>
+        <ul>
+            <li>
+                <p> Factory</p>
+            </li>
+            <li>
+                <p>NAPA</p>
+            </li>
+            <li>
+                <p>Non-NAPA</p>
+            </li>
+            <li>
+                <p>Special</p>
+            </li>
+        </ul>
+        <p>For information about order types, see <MadCap:xref href="order-types.htm">Order types</MadCap:xref>.</p>
+        <p>After you select an order type, you define the parts to be ordered by specifying which suppliers, classification codes, product lines, and part numbers to include in the order. You also set the ordering logic that is used when the order is placed.  (In RPM,&#160;order selection groups were known as <i>order templates</i>.) </p>
+        <h3><a name="Settings_common_to_all_order_types"></a>Settings common to all order types</h3>
+        <p>The <span class="ui">Order selection group</span> screen changes, depending on the order type that you are creating orders for. The following fields must be completed for all order types:</p>
+        <ul>
+            <li>
+                <p>
+                    <MadCap:popup>
+                        <MadCap:popupHead>Include items flagged as hazardous</MadCap:popupHead>
+                        <MadCap:popupBody>Inventory that contains environmental hazards is flagged as hazardous. Some examples include NAPA batteries, oil, or antifreeze. Select this checkbox to include these items when this order selection group is used.</MadCap:popupBody>
+                    </MadCap:popup>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:popup>
+                        <MadCap:popupHead>Include displayed merchandise</MadCap:popupHead>
+                        <MadCap:popupBody>Select this checkbox to include parts with a display quantity in the order.</MadCap:popupBody>
+                    </MadCap:popup>
+                </p>
+            </li>
+            <li>
+                <p><span class="ui">Order based on</span>
+                </p>
+                <p>This setting determines the logic used to calculate how many to order.</p>
+                <table class="TableStyle-blue-header" style="mc-table-style: url('../Resources/TableStyles/blue-header.css');" cellspacing="0">
+                    <col class="TableStyle-blue-header-Column-Column1" />
+                    <col class="TableStyle-blue-header-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-blue-header-Head-Header1">
+                            <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                                <p class="table-header-white">Option</p>
+                            </th>
+                            <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                                <p class="table-header-white">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                                <p class="table-text"><span class="ui">Min/Max</span>
+                                </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                                <p>Keeps enough parts on the shelf to maintain optimal stock levels without overstocking. <MadCap:variable name="products.TAMS" /> orders a part if the total quantity of on hand, on order, on back order, on factory order, minus work in progress is less than the minimum stocking level set for the part.</p>
+                                <p> When parts reach a specified minimum level, they are ordered up to the maximum level. </p>
+                                <p>For example, your Min is set to 5, your Max is set to 10, and you have 4 available after today's sales. When your order is calculated, 6 parts will be ordered to bring you up to the maximum of 10.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body2">
+                            <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                                <p class="table-text"><span class="ui">Sales history</span>
+                                </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                                <p>Uses the months you specify to determine how much to order. This method is recommended for seasonal items, such as deicers in winter months or carwashing items in summer months.</p>
+                                <p>If you base your order on Sales history, click <span class="ui">Select sales months</span> and indicate which months to use to calculate the order amount.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-blue-header-Body-Body1">
+                            <td class="TableStyle-blue-header-BodyB-Column1-Body1">
+                                <p class="table-text"><span class="ui">Days supply</span>
+                                </p>
+                            </td>
+                            <td class="TableStyle-blue-header-BodyA-Column2-Body1">
+                                <p>Calculates the quantity needed for a specific number of days. <MadCap:variable name="products.TAMS" /> uses the average daily sales to calculate how many items you will need for the number of days that you specify.</p>
+                                <p>In addition, enter a value for <span class="ui">Minimum demand</span>. This number determines what minimum sales history (demand) a part must have before it is considered for ordering. For example, if you enter <span class="ui">5</span>, a part has to have at least 5 sales in the time period designated before <MadCap:variable name="products.TAMS" /> reviews it for potential ordering.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li>
+                <p>
+                    <MadCap:popup>
+                        <MadCap:popupHead>Automatic finalization</MadCap:popupHead>
+                        <MadCap:popupBody>Specifies an upper and lower dollar limit to determine when purchase orders are finalized automatically. Orders with totals within these limits are finalized automatically; orders that total less or more than these limits must be finalized manually.
+
+Enter a minimum and maximum order value to use automatic finalization. If you leave the default amounts of 0.00, all orders for this selection group are finalized automatically.
+
+</MadCap:popupBody>
+                    </MadCap:popup>
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetBlock src="../Resources/snippets/Classification codes.flsnp" />
+            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Maintain order selection groups</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The Order Selection Group screen changes, depending on the order type that you select. </p>
+                <ol>
+                    <li>
+                        <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="bold">Inventory</span> &gt; <span class="bold">Purchase orders</span> &gt; <span class="ui">Maintain order selection group</span>.</p>
+                    </li>
+                    <li>
+                        <p>Select an <span class="ui">Order type</span>, and then select <span class="ui">New</span><img src="../Resources/Images/icons/new.png" style="width: 29px;height: 26px;" />. </p>
+                        <p>See <MadCap:xref href="order-types.htm">Order types</MadCap:xref> to learn about the order types available.</p>
+                    </li>
+                    <li>
+                        <p>Enter an identifier in the <span class="ui">Order selection group</span> field, and then enter a name for the group in <span class="ui">Alias</span>.</p>
+                    </li>
+                    <li>
+                        <p>Complete the <MadCap:xref href="#Settings_common_to_all_order_types">Settings common to all order types</MadCap:xref>.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

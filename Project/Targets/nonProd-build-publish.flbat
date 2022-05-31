@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target"
+  Guid="91173daa-bfd5-414d-b9cc-e4c2173fbe0a">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="local-build"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="nonProd-HTML"
+      Type="HTML5"
+      Build="true"
+      Publish="true"
+      LastPublished="2022-05-23T14:29:24.3028311-04:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pdf-internal-review"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="pdf-release-notes"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Prod"
+      Type="HTML5"
+      LastBuilt="2022-05-24T08:03:47.3661671-04:00"
+      LastPublished="2022-05-24T08:04:23.9900915-04:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="word-internal-review"
+      Type="Word" />
+  </Targets>
+</CatapultBatchTarget>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.guidelines">
+    <head>
+    </head>
+    <body>
+        <h1>Modifying the search tips and popular search term list</h1>
+        <p>The search tips and popular search terms are stored in snippets (search-tips and search-popular). These snippets are add to the bottom of each template page. When the topic loads, a function in scripts.js moves the two divs to the search bar. When the user clicks "Search tips" or "Popular searches," the matching div appears/disappears. Each div hides the other div (if it is currently visible) when it appears.</p>
+        <p>The labels "Search tips" and "Popular searches" are stored in the script.</p>
+        <h3>To modify the search tips or popular search terms:</h3>
+        <ol>
+            <li>
+                <p>Open the search-tips or search-popular snippet.</p>
+            </li>
+            <li>
+                <p>Modify the snippet's content as needed.</p>
+            </li>
+        </ol>
+        <h3>To change the labels:</h3>
+        <ol>
+            <li>
+                <p>Open scripts.js in a text editor.</p>
+            </li>
+            <li>
+                <p>Modify the following:<br />var searchLinks = '&lt;p class="search-tips"&gt;&lt;span id="searchtips"&gt;Search tips&lt;/span&gt;&lt;span id="searchpopular"&gt;Popular searches on popular topics&lt;/span&gt;&lt;/p&gt;';</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

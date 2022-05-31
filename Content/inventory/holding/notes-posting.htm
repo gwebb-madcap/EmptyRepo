@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+    </head>
+    <body>
+        <h1>notes posting </h1>
+        <p class="authorNote">&#160;</p>
+        <p>I have a purchase order showing a <span class="ui">Qty shipped</span> but no parts have arrived and <span class="ui">Qty rec</span> is 0. &#160;</p>
+        <p class="authorNote">When the distribution center pulls, packs, and ships parts, they usually bill your store for what they shipped on that day. When this happens, a receipts file is sent to your store from <MadCap:variable name="products.TAMS" />. It includes what parts are shipped and a shipment number. The next morning, you create the check-in group with these purchase orders.</p>
+        <p class="authorNote">Factory or drop-ship orders. They do know that factory-direct shipments that these suppliers ship from different warehouses and so the parts can come in on 2 different shipments but be on one PO</p>
+        <p class="authorNote">REMOVED&#160;REDUNDANCY&#160;Overnight orders from the distribution center (<MadCap:variable name="products.Napa" /> daily orders) and factory direct orders (drop-ship orders)  typically contain parts from multiple purchase orders. These orders are automatically assigned to one check-in group so you can quickly receive all parts at a time. The check-in group is the <span class="ui">Shipment number</span> on the <MadCap:xref href="../../reports/com150-shipment-advise-report.htm" target="_blank">COM150 Shipment advise report</MadCap:xref>. </p>
+        <p>&#160;</p>
+        <p class="authorNote">Show them how to turn this off to seperate interstore transfers from stock receipts As long as Interstore receipts with DC&#160;shipment is not selected. If selected and you post by check-in group, interstore orders from the previous day will also be included. </p>
+        <p>Throughout the day, shipments arrive to replenish your inventory and depending on the order, parts from several purchase orders may be included. For instance, shipments from a <MadCap:variable name="products.Napa" /> distribution center or  non-<MadCap:variable name="products.Napa" /> supplier may include several parts from multiple purchase orders while  special or inter store orders may include parts from 1 purchase order. </p>
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">TAMSSIS-2060 The issue with parts shipped from multiple locations being posted as 0 has been resolved when receiving parts using a Check-in group. Not sure if I&#160;need to mention anything about this here</span>
+        </p>
+        <p>Purchase orders with Received quantity of 0 </p>
+        <p>When shipments arrive with multiple </p>
+        <p>To quickly update inventory when large shipments arrive, we recommend receiving and then posting quantities to your inventory as follows:&#160;</p>
+        <p>&#160;</p>
+        <p>RELEASE 3.05.03TAMSIIS-2060 The issue with parts shipped from multiple locations being posted as 0 has been resolved when receiving parts using a Check-in group.</p>
+        <p>From GWinko doc</p>
+        <ol>
+            <li>
+                <p>Impact of Posting PO’s without COM150</p>
+            </li>
+        </ol>
+        <p>User will not be able to print OS&amp;D report at time of posting of the PO or PO’s.</p>
+        <p>If COM150 is received after PO or PO’s are posted, COM150 will reflect “Above part does not affect stock quantity”- for any parts posted on the PO or PO’s.  This is an indication to store on hand quantities will not be affected and a trigger to the user to print out the OS&amp;D report.</p>
+        <ol MadCap:continue="true">
+            <li>
+                <p>Scanning and get message that part is not in the session/PO</p>
+            </li>
+        </ol>
+        <p>If a part is scanned while scanning in freight and a message appears stating that the part is not in the session / PO and asks if they want to add it to the session PO, that part should be set aside and dealt with separately.</p>
+        <p>The reason for this is that if that part is in a PO that contains other parts, if the person scanning in the freight tells the scanner to add the part to the session / PO, the entire PO containing the part that was scanned and prompted the message will be added to the session / PO being scanned in.</p>
+        <p>The business impact of this is that the remaining parts on that PO would have no received quantity and if the person editing and posting that Check-In Group or PO doesn’t notice this, they would prompt the system to post those parts as none received, which would clear on order information and potentially make those parts eligible for ordering again.  T</p>
+        <p>his could prompt the system to reorder those quantities when, in fact, they’re really still on order, but have not been received yet.</p>
+        <p>The best business practice here is to add those quantities to the system using the Inventory &gt; Adjustments &gt; Receipts tab.  Posting quantities this way will affect the purchases dollar figure for that product line / group, which is what should happen, from a business perspective.  If other functions, such as Part Maintenance or even the Stock Adjustments tab in the Adjustments function, are used to post these quantities, those adjustments will impact the ‘Adjustments’ figure for the product line / group, and this figure basically represents inventory loss or gain.</p>
+        <p>The above mentioned scenario is not an inventory loss or gain.  The system tracks the ‘Adjustments’ figures for all product lines &amp; groups and prints that figure on the Line Inventory Value report (RPT027) and month end.  If a store uses the above mentioned figure from this report for tax reporting purposes, they will have incorrectly reported a false inventory loss or gain.  However, if they don’t use this figure, it really doesn’t matter which function they use to add these quantities.</p>
+        <p>Post by Check-in group</p>
+        <ol>
+            <li>
+                <p>If a Check-In Group is created and no received quantities are entered for parts in a PO for which stock receipts have been processed, system displays a window stating backordered quantities will be cleared and asks if this is the final shipment.</p>
+            </li>
+        </ol>
+        <ul>
+            <li>
+                <p>If ‘Yes’ is selected, parts with no quantity received get marked as posted (w/ none added to inventory) and on order quantities are removed.</p>
+            </li>
+            <li>
+                <p> 	If ‘No’ is selected, parts with no quantities received get marked as posted (none added to inventory) and a duplicate line is added to the PO with an open order for the same parts.  Additionally, the Shipped Qty gets cleared.</p>
+            </li>
+        </ul>
+        <ol MadCap:continue="true">
+            <li>
+                <p>If a Check-In Group is created and no received quantities are entered for parts in a PO for which NO stock receipts have been processed, system marks parts with no received quantities as posted and posts none to inventory, but leaves the on order quantity.</p>
+            </li>
+        </ol>
+        <ul>
+            <li>
+                <p>Note:  Best Practice is to remove the on order quantity through Part Maintenance and call support to have the Posted Date modified, or else End of Day will reset the On Order quantity and days on order.</p>
+            </li>
+        </ul>
+    </body>
+</html>

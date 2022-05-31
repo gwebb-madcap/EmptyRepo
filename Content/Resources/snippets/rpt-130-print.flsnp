@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Go to <span class="bold">Reports</span> &gt; <span class="bold">Reports manager</span>, and then select <span class="bold">EOD</span> from the <span class="bold">Report group</span> dropdown menu. </p>
+            </li>
+            <li>
+                <p>Select <MadCap:variable name="reports.RPT130" />, and then select <span class="bold">Selection criteria</span>. </p>
+            </li>
+            <li>
+                <p>Enter a date to generate the report on the <span class="bold">Report timeframe</span> screen, like <span class="bold">EOD</span> or <span class="bold">EOM</span>, and then select <span class="bold">OK</span>.</p>
+            </li>
+            <li>
+                <p>Generate the report for the <span class="bold">Current accounting day</span> in the  <span class="bold">End of day - selection criteria</span> screen.</p>
+            </li>
+        </ol>
+        <ul>
+            <li>
+                <p>To print the report, select <span class="bold">View report</span>, and then select the printer. </p>
+            </li>
+            <li>
+                <p>Select <span class="bold">OK</span>.</p>
+            </li>
+        </ul>
+    </body>
+</html>

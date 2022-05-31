@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p> <img src="../../Images/inventory/po-log-review-po-edit-po-tab.png" alt="Image of edit purchase order tab from purchase order log review screen" class="large-screen" /></p>
+        <p> The screen name changes depending on the menu from which you open it.</p>
+        <ul>
+            <li>
+                <p>From <span class="ui">Inventory</span> &gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Receive goods</span> &gt; <span class="ui">Open purchase order</span>s, it is <span class="ui">Receive goods</span>. </p>
+            </li>
+            <li>
+                <p>From <span class="ui">Inventory</span>&gt; <span class="ui">Purchase orders</span> &gt; <span class="ui">Order log</span>, it is <span class="ui">Purchase order log review</span>.</p>
+            </li>
+        </ul>
+        <p class="authorNote">When you first open the tab, it shows purchase orders with <span class="ui">Exceptions only</span> (purchase orders with shipped quantities that do not match the received quantities). Include this in posting/receiving topics</p>
+        <table class="TableStyle-screens" style="mc-table-style: url('../../TableStyles/screens.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-screens-Column-Column1" />
+            <col class="TableStyle-screens-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-screens-Head-Header1">
+                    <th class="TableStyle-screens-HeadE-Column1-Header1">
+                        <p class="table-text">Field</p>
+                    </th>
+                    <th class="TableStyle-screens-HeadD-Column2-Header1">
+                        <p class="table-text">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Purchase order </p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <MadCap:snippetBlock src="po-number.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Order type </p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="../order-type.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p>Source</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Order selection group </p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="order-selection-group.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Creation date</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> <MadCap:snippetText src="po-create-date.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Line</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="line-product-line.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Part number</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> <MadCap:snippetText src="part-number.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Qty shipped</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p class="table-text"> <MadCap:snippetText src="quantity-shipped.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">OSB</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <MadCap:snippetBlock src="overr-short-backorder-incomplete.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Qty rec</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="quantity-received.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Qty dmg</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p> <MadCap:snippetText src="quantity-damaged.flsnp" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Qty B/O</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="backorder.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Unit cost </p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <MadCap:snippetBlock src="unit-cost.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Core cost</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="po-core-cost.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Unit discount</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <MadCap:snippetBlock src="unit-discount.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Unit net cost</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <MadCap:snippetBlock src="unit-net-cost.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Partial shipped</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <MadCap:snippetBlock src="partial-shipped-column.flsnp" />
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Posted</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p class="table-text"> Check mark indicates on-hand quantities are updated with the received quantity for the part.</p>
+                        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">Clear backorders is from legacy help, is it accurate?&#160;</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Clear backorders</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p>Select to clear backorder quantities on<MadCap:variable name="products.Napa" />, Class, or NOPO purchase orders. This function does not cancel the backorder at the distribution center or factory. <span class="ui">Clear backorders</span> is available on the <span class="ui">Purchase order log review  - Edit PO</span> screen when:</p>
+                        <ul>
+                            <li>
+                                <p>You have full access rights.</p>
+                            </li>
+                            <li>
+                                <p>At least one part on the PO has been posted.</p>
+                            </li>
+                            <li>
+                                <p>The order type is <MadCap:variable name="products.Napa" />, Class, or the PO number is NOPO.</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Notes</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p class="table-text">Select to view the <span class="ui">Purchase order notes</span> screen with notes about the purchase order. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Find part</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> Select to open the <span class="ui">Find part screen</span> to locate a specific part on the order. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Quantity ordered</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p>Shows the total parts ordered.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyE-Column1-Body1">
+                        <p class="table-text">Over/short</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body1">
+                        <p class="table-text"> Shows the total parts received that are over or short of the ordered amount. Negative indicates a short quantity.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body2">
+                    <td class="TableStyle-screens-BodyE-Column1-Body2">
+                        <p class="table-text">Order value</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyD-Column2-Body2">
+                        <p> Shows the dollar value of the total parts ordered.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-screens-Body-Body1">
+                    <td class="TableStyle-screens-BodyB-Column1-Body1">
+                        <p class="table-text">Receipt value</p>
+                    </td>
+                    <td class="TableStyle-screens-BodyA-Column2-Body1">
+                        <p class="table-text">Shows the dollar value of the total parts received.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Buttons on the Edit po tab</h3>
+        <MadCap:snippetBlock src="buttons-receive-po-screens.flsnp" />
+        <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;">From legacy help, is this accurate:&#160;The following buttons will only display if Landed Pricing is enabled.</span>
+        </p>
+        <p style="color: #b22222;">Values displayed are xxx (where xxx is either Landed Pricing or Standard Pricing). Displays whether values are Standard or Landed Pricing.</p>
+        <ul>
+            <li>
+                <p style="color: #b22222;">Landed Factors Click to view the Landed Factors screen with landed costs and prices. Shortcut: Ctrl+Alt+l.</p>
+            </li>
+            <li>
+                <p style="color: #b22222;">Standard / Landed Pricing When landed pricing is enabled, click to view all values in the opposite type of pricing. Shortcut: Ctrl+Alt+p.</p>
+            </li>
+            <li>
+                <p style="color: #b22222;">Standard Pricing - Click to switch to Standard Pricing.</p>
+            </li>
+            <li>
+                <p style="color: #b22222;">Landed Pricing - Click to switch to Landed Pricing. <span style="color: #b22222;">****</span></p>
+            </li>
+        </ul>
+    </body>
+</html>

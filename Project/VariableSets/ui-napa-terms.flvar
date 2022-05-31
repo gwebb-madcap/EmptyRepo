@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="rewards"
+    EvaluatedDefinition="NAPA Rewards">NAPA Rewards</Variable>
+  <Variable
+    Name="shortcutTITLE"
+    Comment=""
+    EvaluatedDefinition="Keyboard shortcut">Keyboard shortcut</Variable>
+  <Variable
+    Name="shortcut"
+    Comment=""
+    EvaluatedDefinition="keyboard shortcut">keyboard shortcut</Variable>
+</CatapultVariableSet>

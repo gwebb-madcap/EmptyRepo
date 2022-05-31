@@ -1,0 +1,1412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="tams.DoNotDistribute">
+    <head>
+        <link href="../../../Resources/TableStyles/screens.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Cash received journal screen</h1>
+        <p class="authorNote">When you reconcile transactions at the end of each accounting day, you match the  funds tendered  with  funds received in the <span class="bold">Cash received journal</span>. The <span class="bold">Cash received journal</span> is record of all funds collected for each accounting day. It is out of balance when the funds tendered do not match the funds collected. </p>
+        <p>Use the Cash received journal screen to balance your journal for each accounting day.</p>
+        <div class="pre-requisites">
+            <p>You must start the <MadCap:xref href="../../end-of-day.htm">End of day</MadCap:xref> before balancing the Cash received journal. </p>
+        </div>
+        <p>From the <MadCap:variable name="products.TAMS" /> menu, go to <span class="ui">Sales activities</span> &gt; <span class="ui">Cash received journal</span>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Summary tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Summary tab to review invoice and transaction information for the selected accounting day. </p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-summary-tab-screen.png" class="large-screen" alt="Image of summary tab on cash received journal screen" />
+                </p>
+                <h3>Fields on the screen</h3>
+                <p>The following table lists the fields on the screen with a description of each.</p>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <col class="TableStyle-screens-Column-Column3" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Area</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadE-Column2-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column3-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Accounting date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Accounting for which you are balancing the journal. Shows oldest date  by default.</p>
+                                <p><span class="SMEQuestion" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #b22222;&quot; class=&quot;mcFormatColor&quot;&gt;Question for reviewer: &#160;&lt;/span&gt;&lt;b /&gt;&lt;/b&gt;"> From legacy help:&#160;This is the date to which transactions are booked, not necessarily the date on which transactions occurred.)</span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Invoice information</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Beginning invoice number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Oldest) invoice number used on the selected date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Ending invoice number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Last invoice number used on the selected date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total invoices submitted</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total count of the invoices submitted on the selected date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Transaction information</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p class="table-text">Summary of sales transactions. The right column is transaction amounts  processed during the selected day.  The left column is cash not yet recorded.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Cash invoices</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total of all cash invoices created for the selected date. Includes sale and reloading of <MadCap:variable name="products.Napa" /> gift cards.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Less cash refunds</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total  cash refunded on the selected date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total cash sales</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total of cash sales transactions (cash invoices minus  cash refunds).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Total charge invoices/credits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total charge amount.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total received on account</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total payments received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Payment discounts</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total payment discounts.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total returned checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total amount of returned checks.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Total miscellaneous receipts</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total amount of all miscellaneous receipts.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total over/short cash drawers (+/-)</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total amount cash drawer is over or short.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Total paid-outs</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total amount paid out to customers.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Total of all cash transactions</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total amount of all cash transactions. For the journal to be in balance, this amount must equal the total deposits.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Deposit information</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p class="table-text">Deposits with totals.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Calendar date of the deposit.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Currency</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Currency of the deposit amount.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Credit cards</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total charged to credit cards.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Deposit number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Deposit slip number for the currency amount.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Totals</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Total of  currency deposited and total of all credit card transactions.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Total deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Total of  currency and credit card transaction deposits.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyB-Column2-Body2">
+                                <p class="table-text">Journal In balance | out of balance</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column3-Body2">
+                                <p class="table-text">Whether or not journal is in balance.  When out of balance, the message is in red and includes the amount by which it is out of balance. </p>
+                                <p class="table-text">&#160;</p>
+                                <p class="table-text">To be in balance, the total of all cash transactions must equal the total deposits. The out of balance amount is positive (+) if total deposits are greater and negative (-) if total cash transactions are greater. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Miscellaneous receipts tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the <span class="ui">Miscellaneous receipts</span>  tab to add and adjust cash received for non-sales related merchandise.</p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-miscellaneous-receipts-tab-screen.png" class="large-screen" alt="Imabe of miscellaneous tab on cash received journal screen" />
+                </p>
+                <h3>Fields on the screen</h3>
+                <p>The following table lists the fields on the screen with a description of each.</p>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <col class="TableStyle-screens-Column-Column3" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Area</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadE-Column2-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column3-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Received from</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Displays the name of the person from whom the cash was received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Location</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Displays the DC code and store number where the cash was received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">G/L code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p> General Ledger code and description for the miscellaneous cash receipt.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Amount of cash received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Note</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Notes about the miscellaneous cash receipt.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p class="table-text">You add and maintain cash receipts in the area at the bottom.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Received from</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Name of the person from whom the cash was received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Location</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">DC code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>Distribution center code for the store where the cash was received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Store number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Store number where the cash was received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body2">
+                                <p class="table-text">G/L code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body2">
+                                <p>General Ledger code for the miscellaneous cash receipt.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyE-Column2-Body1">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column3-Body1">
+                                <p>Amount of cash received.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyB-Column2-Body2">
+                                <p class="table-text">Note</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column3-Body2">
+                                <p>Descriptions for miscellaneous cash receipt. Notes are required for a G/L code 99.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Over/short tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Over/short tab to add, edit, and remove amounts that are over or short. </p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-over-short-tab-screen.png" class="large-screen" alt="Image of over short tab on cash received journal screen" />
+                </p>
+                <h3>Fields on the screen</h3>
+                <p>The following table lists the fields on the screen with a description of each. </p>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" style="width: 38px;" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Employee</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Name and number of the employee assigned to the cash drawer.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">G/L Code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> General ledger code and description accounting for the over or short.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Customer #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Customer account number.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Over </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p>Amount by which the cash drawer is over what it should be.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Short </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p>Amount by which the cash drawer is under what it should be.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Note </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p>Descriptions about the over/short.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Totals</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Totals for both over and short amounts.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Total Over/short for all drawers</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Combined total of all over and short cash drawers for the accounting date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Employee</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Name and number of the employee assigned to the cash drawer.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">G/L code </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p>General Ledger code and description accounting for the over or short. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Customer #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Required for a G/L code 99. Customer account number and description. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Over</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Amount by which the cash drawer is over what it should be.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Short</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Amount by which the cash drawer is under what it should be.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Note</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p> Required for a G/L code 99. Description for the over/short.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Paid outs tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Paid outs tab to add, edit, and remove non-sales cash paid out on the selected date.</p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-paid-outs-tab-screen.png" class="large-screen" alt="Image of paid outs tab on cash received journal screen" />
+                </p>
+                <h3>Fields on the screen</h3>
+                <p>The following table lists the fields on the screen with a description of each.</p>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Paid to</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Name of the person who received the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">G/L code </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p>General ledger code and description accounting for the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Location</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Distribution center code and number of the store where the payout occurred.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Customer/line code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Customer number or product line code for the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> Amount of non-sales cash paid out.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Note</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Describes the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total paid out </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p>Total of all non-sales cash paid out.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Paid to</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Name of the person who received the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">G/L code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p> General ledger code accounting for the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">DC Code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p>Distribution center code for the store where the payout occurred.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Store number </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p>Store number where the payout occurred.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Customer/line code</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p> Customer number or product line code for the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Amount </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p>Amount of the payout.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Note</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p> Required for a G/L code 99 . Description of the payout.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Deposit tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Deposit tab to review the total deposits for the accounting day. </p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-deposit-tab-summary-screen.png" alt="Image of deposit summary tab on cash received journal screen" class="large-screen" />
+                </p>
+                <h3>Summary tab</h3>
+                <p>Use the Summary tab to </p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-deposit-tab-summary-screen.png" alt="Image of deposits summary tab on cash received journal screen" class="large-screen" />
+                </p>
+                <h4>Fields on the summary tab</h4>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Store deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">To office for deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Currency</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Coins</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Less authorized drawer fund</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total cash / check deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Deposit date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Tender type</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Gross amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">To office for deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Total payment card / other deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Total transactions</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Payment card/other deposits tab</h3>
+                <p>Use the payment card/other deposits tab to </p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-deposit-tab-payment-card-other-deposit-screen.png" class="large-screen" alt="Image of the deposit tab payment card other deposits on the cash received journal screen" />
+                </p>
+                <h4>Fields on the screen</h4>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Store deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Deposit date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Tender type</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Gross amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">To office for deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Total payment card / other deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Deposit date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Deposit type</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Card</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Gross amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Total transactions</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p class="table-text">&#160;</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Cash / check deposits tab</h3>
+                <p>Use the Cash Check Deposits tab to review all cash and check deposits for the accounting date.</p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-deposit-tab-payment-cash-check-deposits-screen.png" class="large-screen" alt="Image of the deposits tab cash check deposits screen" />
+                </p>
+                <h4>Fields on the screen</h4>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css'); margin-left: 0; margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Deposit slip #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Enter the number of the deposit slip sent to the bank with this group of cash and checks.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Deposit Date</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Enter the date of the deposit slip.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Deposit Type</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Select the type of deposit: Store or Office.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Print Deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Slip Click to print a copy of the deposit slip report.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Currency</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Enter the total amount of cash currency (bills).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Coins</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Enter the amount of cash in coins.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Count</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Click to display the Count Bills/Coins screen to maintain details about the currency and coins to be deposited.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Less Authorized Drawer Fund</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Enter the amount of cash to be reserved for authorized cash drawers.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Cash for Deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Displays the total cash to be deposited for the date. This amount is the total of currency and coins, minus the Authorized Drawer Fund.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Displays the total of all checks collected for the date.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Cash/Check Deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Displays the total of all types of cash and check deposits.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Deposit Slip</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Enter the number of the deposit slip sent to the bank with this group of cash and checks.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Deposits</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Displays the total count of all deposits in parentheses ( ) and the total deposit amount.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Total Transactions</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Displays the total amount of all transactions.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Deposit Slip #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Enter the number of the deposit slip sent to the bank with this group of cash and checks.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Checks Assigned to Deposit </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">Use this table to add and maintain records of each check being deposited.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Check Name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Displays the name of the person who wrote the check.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Check #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Displays the number of the check.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Amount </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Displays the amount of the check.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">ROA</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Check type which is only applicable when Use Check Deposit Tracking is checked on the Cash Received Journal Controls screen. </p>
+                                <div class="note">
+                                    <p class="table-text">ROA checks cannot be assigned to a Store deposit. The system assigns ROA checks to an Office deposit on completion of the "Update cash received journal" EOD task.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Checks </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Displays a total of all checks to be deposited.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Unassign from Deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Click to remove a check from this list down to the table of Checks Unassigned. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Add Unlisted Checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Click to add a check not listed in either table. </p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Checks Unassigned </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">This table displays records for each check available but currently unassigned to this deposit slip.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Check Name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Enter the total amount of cash currency (bills).</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Check #</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Enter the amount of cash in coins.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Click to display the Count Bills/Coins screen to maintain details about the currency and coins to be deposited.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">ROA Check type. </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text">This is only applicable when Use Check Deposit Tracking is checked on the Cash Received Journal Controls screen.</p>
+                                <div class="note">
+                                    <p class="table-text">The system assigns Retail checks to the Store deposit type and ROA checks are assigned to the Office deposit type automatically during EOD.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Unassigned Retail Checks </p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text">Total all rows where ROA is not checked, excluding manual checks. This is only applicable when Use Check Deposit Tracking is checked on the Cash Received Journal Controls screen.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Total Unassigned ROA</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Checks Total all rows where ROA is checked. This is only applicable when Use Check Deposit Tracking is checked on the Cash Received Journal Controls screen.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Unassigned Checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Displays a total of all checks not assigned to a deposit slip.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyB-Column1-Body2">
+                                <p class="table-text">Assign from Deposit</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body2">
+                                <p class="table-text"> Click to remove a check from this list and move it up to the table of Checks Assigned to Deposit. </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p> </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Returned checks tab</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Use the Returned checks tab to review, add, change, or delete checks returned to your store for insufficient funds.</p>
+                <p>
+                    <img src="../../../Resources/Images/daily-ops/crj-returned checks-tab-screen.png" class="large-screen" alt="Image of returned checks tab on cash received journal screen" />
+                </p>
+                <h3>Fields on the screen</h3>
+                <p>The following table lists the fields on the screen with a description of each.</p>
+                <table class="TableStyle-screens" style="mc-table-style: url('../../../Resources/TableStyles/screens.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                    <col class="TableStyle-screens-Column-Column1" />
+                    <col class="TableStyle-screens-Column-Column2" />
+                    <thead>
+                        <tr class="TableStyle-screens-Head-Header1">
+                            <th class="TableStyle-screens-HeadE-Column1-Header1">
+                                <p class="table-text">Field</p>
+                            </th>
+                            <th class="TableStyle-screens-HeadD-Column2-Header1">
+                                <p class="table-text">Description</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Customer Number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Number of the customer whose check was returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Customer Name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Name of the customer or merchant.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Check Number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Number of the customer check that was returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Amount of the customer check that was returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Total Returned Checks</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Total amount of all customer checks that have been returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Customer Number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Number of the customer whose check was returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyE-Column1-Body1">
+                                <p class="table-text">Customer Name</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body1">
+                                <p class="table-text"> Name of the customer.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body2">
+                            <td class="TableStyle-screens-BodyE-Column1-Body2">
+                                <p class="table-text">Check Number</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyD-Column2-Body2">
+                                <p class="table-text"> Number of the customer check that was returned.</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-screens-Body-Body1">
+                            <td class="TableStyle-screens-BodyB-Column1-Body1">
+                                <p class="table-text">Amount</p>
+                            </td>
+                            <td class="TableStyle-screens-BodyA-Column2-Body1">
+                                <p class="table-text"> Amount of the customer check that was returned.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="first"
+  MasterPage="/Content/Resources/TemplatePages/Topics.flmsp"
+  ShowMadCapBacklink="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/topic-styles.css"
+  MasterStylesheetOverride="true"
+  ConditionTagExpression="include[Default.ScreenOnly or tams.inProgress or tams.non-prod or tams.production], exclude[Default.PrintOnly or tams.DoNotDistribute or tams.guidelines]"
+  FaviconSkin="(none)"
+  conditions="tams.non-prod"
+  MoveOutputContentToRoot="false"
+  PreventExternalUrls="true"
+  IncludeMicroContentSearchResults="false"
+  TopicToolbarSkin="/Project/Skins/Topic Toolbar.flskn"
+  Skin="/Project/Skins/HTML5-Side Navigation.flskn"
+  ResolveCssVariables="false"
+  DefaultUrl="/Content/Home.htm"
+  MasterToc="/Project/TOCs/TOC.fltoc"
+  OutputFile="Home">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/NonProd.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>

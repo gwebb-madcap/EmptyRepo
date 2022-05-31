@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p><span class="ui">Unit designator</span> Unit of measurement that identifies how parts are price, like <span class="italics">Gram, Meter, Inch, Pound, Card, or Sheet.</span> If the <span class="ui">Unit designator</span> is 2, the part is priced by the pair. To define<span class="ui"> Unit designators</span>, go to <span class="ui">System management</span> &gt; <span class="ui">Inventory</span> &gt; <span class="ui">Inventory codes</span>.</p>
+        <table style="margin-left: 0;margin-right: auto;">
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p>1 Each</p>
+                    </td>
+                    <td>
+                        <p>A Card</p>
+                    </td>
+                    <td>
+                        <p>J Milliliter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>2 Pair</p>
+                    </td>
+                    <td>
+                        <p>B Sheet</p>
+                    </td>
+                    <td>
+                        <p>K Liter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>3 Pound</p>
+                    </td>
+                    <td>
+                        <p>C Drum</p>
+                    </td>
+                    <td>
+                        <p>L Gram</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>4 Foot</p>
+                    </td>
+                    <td>
+                        <p>D Set</p>
+                    </td>
+                    <td>
+                        <p>M Kilogram</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>5 Roll</p>
+                    </td>
+                    <td>
+                        <p>E Box</p>
+                    </td>
+                    <td>
+                        <p>N Millimeter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>6 Pint</p>
+                    </td>
+                    <td>
+                        <p>F Package</p>
+                    </td>
+                    <td>
+                        <p>O Meter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>7 Quart</p>
+                    </td>
+                    <td>
+                        <p>G Case</p>
+                    </td>
+                    <td>
+                        <p>P Centimeter</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>8 Gallon</p>
+                    </td>
+                    <td>
+                        <p>H Bag</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>9 Asst</p>
+                    </td>
+                    <td>
+                        <p>I Inch</p>
+                    </td>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

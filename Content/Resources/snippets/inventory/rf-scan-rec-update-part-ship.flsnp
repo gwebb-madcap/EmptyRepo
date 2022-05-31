@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="note">
+            <p>If you are scanning the remaining parts from a partial shipment, the <span class="ui">Quantity rec</span> increments even if the part numbers were previously flagged with <span class="ui">Partial ship</span>. This means you do not need to change the <span class="ui">Quantity rec</span>.</p>
+        </div>
+    </body>
+</html>

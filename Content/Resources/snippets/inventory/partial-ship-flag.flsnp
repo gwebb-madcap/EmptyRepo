@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <p>Select the rows with parts that have arrived and you expect additional quantities to arrive later, and then select <span class="ui">Partial ship</span>.</p>
+                <div class="caution">
+                    <p>Do not select rows with parts you intend to post. Only select parts that need to remain open on the purchase order so you can post them later.</p>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>A message asks you to update the partial ship flag, choose <span class="ui">Selected rows</span>. This flags the parts with quantities that have not completely arrived and keeps the purchase order open so you can update the <span class="ui">Quantity rec</span> when the remaining quantities arrive. </p>
+                <p>
+                    <img src="../../Images/inventory/partial-ship-update-flag.png" class="" alt="Image of message to update the partial ship flag for the selected rows">
+                    </img>
+                </p>
+                <div class="caution">
+                    <p> Do not select <span class="ui">All rows</span>. It applies the partial ship flag to all parts, and no parts are posted. </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

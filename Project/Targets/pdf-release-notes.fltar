@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Release-notes PDF.fltoc"
+  MasterPageLayout="/Content/Resources/pdf-PageLayouts/release-notes.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/topic-styles.css"
+  OutputFile="TAMS Release Notes"
+  ConditionTagExpression="include[Default.PrintOnly or tams.DoNotDistribute], exclude[Default.ScreenOnly or tams.guidelines]"
+  conditions="Default.PrintOnly">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="docx" />
+  <PDF
+    Tagged="true"
+    TitleBar="DocumentTitle"
+    ShowUsedBookmarks="false" />
+  <DocumentProperties
+    Author=""
+    Title="[%=General.PDF Release Notes%]" />
+</CatapultTarget>

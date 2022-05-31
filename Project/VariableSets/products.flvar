@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="TAMS"
+    EvaluatedDefinition="TAMS">TAMS</Variable>
+  <Variable
+    Comment=""
+    Name="PPSE"
+    EvaluatedDefinition="PartsPRO">PartsPRO</Variable>
+  <Variable
+    Name="PL"
+    Comment=""
+    EvaluatedDefinition="PROLink">PROLink</Variable>
+  <Variable
+    Name="NAPA Online"
+    Comment=""
+    EvaluatedDefinition="NAPA Online">NAPA Online</Variable>
+  <Variable
+    Name="NXP"
+    Comment=""
+    EvaluatedDefinition="NAPA Xpress">NAPA Xpress</Variable>
+  <Variable
+    Name="Napa"
+    Comment=""
+    EvaluatedDefinition="NAPA">NAPA</Variable>
+  <Variable
+    Name="NDT"
+    Comment=""
+    EvaluatedDefinition="NAPA Delivery Tracker">NAPA Delivery Tracker</Variable>
+</CatapultVariableSet>

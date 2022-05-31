@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <p>You can post using <span class="ui">Edit &amp; post by check-in group</span>; however, to exclude purchase orders from interstore (transfer orders), clear  <span class="ui">Interstore receipts with DC&#160;shipment</span> before receiving or posting with this option. To clear, go to System management &gt; inventory management controls,&#160;and clear Include <span class="ui">interstore receipts with dc shipment</span>.</p>
+        <p>
+            <img src="../../Images/system-management/inv-controls-clear-interstore-stock-receipt.png" alt="Clear interstore receipts with dc shipment" class="small-screen" />
+        </p>
+    </body>
+</html>

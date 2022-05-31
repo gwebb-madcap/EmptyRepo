@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../TableStyles/blue-header.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p><span class="ui">Classification codes</span>
+        </p>
+        <p>The NAPA Classification system assists NAPA stores in determining what parts the store should stock, allowing the minimum possible investment in inventory, while still having the right part at the right time.</p>
+        <p><span class="italics">Base classifications</span>
+        </p>
+        <p>The base stocking class for a product line and group code is based on the number of registered vehicles in a stores trading area.  Classification codes D, C, B, and A are the base stocking classifications based on the number of  vehicle registrations.</p>
+        <table class="TableStyle-blue-header" style="mc-table-style: url('../TableStyles/blue-header.css');width: 100%;" cellspacing="0">
+            <col class="TableStyle-blue-header-Column-Column1" style="width: 29px;" />
+            <col class="TableStyle-blue-header-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-blue-header-Head-Header1">
+                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                        <p class="table-header-white">Classification</p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                        <p class="table-header-white">Total vehicle registrations</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">D</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p class="table-text">Up to 6,500</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">C</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                        <p class="table-text">6,501 to 15,000</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">B</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p class="table-text">15,001 to 40,000</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                        <p class="table-text">A</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                        <p class="table-text">40,001 and up</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Each store should stock, as a minimum, every item within its base classification (D, C, B, A, or any combination). For example, a larger store (A class) should stock not only A class parts, but also B, C, and D parts. A smaller store (C class) should stock both C and D class parts.</p>
+        <p><span class="italics">Additional classifications</span>
+        </p>
+        <table class="TableStyle-blue-header" style="mc-table-style: url('../TableStyles/blue-header.css');width: 100%;" cellspacing="0">
+            <col class="TableStyle-blue-header-Column-Column1" style="width: 162px;" />
+            <col class="TableStyle-blue-header-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-blue-header-Head-Header1">
+                    <th class="TableStyle-blue-header-HeadE-Column1-Header1">
+                        <p class="table-header-white">Classification</p>
+                    </th>
+                    <th class="TableStyle-blue-header-HeadD-Column2-Header1">
+                        <p class="table-header-white">Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">X</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p>Items with an X in front of a D, C, B, A, or W are optional stocking items. The X class is assigned to the following:</p>
+                        <ul>
+                            <li>
+                                <p>Dealer assortments and items that  require special sales emphasis</p>
+                            </li>
+                            <li>
+                                <p>Items representing a duplication in product because of packaging or a lower priced consumer line</p>
+                            </li>
+                            <li>
+                                <p>Items with heavy regional demand, such as engine heaters or snowmobile parts</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">H</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                        <p>Items with an H in front of a D, C, B, A, or W are used for high performance vehicles, such as race cars.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">M</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p>Items that are mostly sold at stores that operate a machine shop. These items can also be purchased and later taken to a machinist.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">T</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                        <p class="table-text">Items with an T in front of a D, C, B, A, or W have farm, tractor, or agricultural uses.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">S</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p>Special order items that the stores do not stock, but support through pricing. These items may be optionally stocked by the distribution centers. Items that fall into this classification can be heavy duty, industrial, off-the-road equipment parts, highly specialized, and regional.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">W</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                        <p>Items that are slow moving and only stocked in the warehouse or distribution center.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">WW</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p>Later model parts that have the potential to receive a higher class sometime in the future. The WW class is given to the fastest moving  "W" class part numbers for each distribution center.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body2">
+                        <p class="table-text">O</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body2">
+                        <p>Items that are being discontinued and will be classified as obsolete. After an item is classified as O, it is not included in subsequent classifications; it may be superseded by a new part.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body1">
+                    <td class="TableStyle-blue-header-BodyE-Column1-Body1">
+                        <p class="table-text">NL</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyD-Column2-Body1">
+                        <p>A Not Listed classification is assigned to items that cannot be assigned a classification. These parts are no longer in the system and cannot be returned.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-blue-header-Body-Body2">
+                    <td class="TableStyle-blue-header-BodyB-Column1-Body2">
+                        <p class="table-text">Z</p>
+                    </td>
+                    <td class="TableStyle-blue-header-BodyA-Column2-Body2">
+                        <p>Part numbers that do not represent inventory but are used for billing purposes only. For example, a part number assigned to this class may be used to bill a customer for resurfacing a brake rotor. No matter how many times the part is billed, the quantity on hand does not change.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
